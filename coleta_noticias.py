@@ -1,4 +1,4 @@
-# Versão: v.4.7.0 (17062026-1255)
+# Versão: v.4.7.1 (17062026-1315)
 # Arquivo: coleta_noticias.py
 
 import os
@@ -368,3 +368,100 @@ def gerar_pdf(dados_json):
         pdf.set_font("helvetica", 'B', 14)
         pdf.cell(0, 10, text=limpar_texto("2. PLANO DE GESTAO E PRIORIDADES"), new_x="LMARGIN", new_y="NEXT", align='L')
         pdf.ln(5)
+        
+        # Prioridades
+        prioridades = gestao.get("prioridades", {})
+        pdf.set_font("helvetica", 'B', 12)
+        pdf.cell(0, 8, text=limpar_texto("Matriz de Prioridades:"), new_x="LMARGIN", new_y="NEXT", align='L')
+        pdf.set_font("helvetica", '', 10)
+        for p_alta in prioridades.get("alta", []):
+            pdf.multi_cell(0, 6, text=limpar_texto(f"- ALTA: {p_alta}"))
+        for p_media in prioridades.get("media", []):
+            pdf.multi_cell(0, 6, text=limpar_texto(f"- MEDIA: {p_media}"))
+        for p_baixa in prioridades.get("baixa", []):
+            pdf.multi_cell(0, 6, text=limpar_texto(f"- BAIXA: {p_baixa}"))
+        
+        pdf.ln(5)
+        
+        # Ações Práticas
+        pdf.set_font("helvetica", 'B', 12)
+        pdf.cell(0, 8, text=limpar_texto("Acoes Estrategicas Requeridas:"), new_x="LMARGIN", new_y="NEXT", align='L')
+        pdf.set_font("helvetica", '', 10)
+        for acao in gestao.get("acoes", []):
+            pdf.multi_cell(0, 6, text=limpar_texto(f"-> Acao: {acao.get('acao', '')}"))
+            pdf.multi_cell(0, 6, text=limpar_texto(f"   Responsavel: {acao.get('responsavel', '')} | Prazo: {acao.get('prazo', '')}"))
+            pdf.ln(2)
+
+    nome_arquivo = f"Relatorio_{datetime.now().strftime('%d%m%Y-%H%M')}.pdf"
+    pdf.output(nome_arquivo)
+    logging.info(f"PDF gerado com sucesso: {nome_arquivo}")
+    return nome_arquivo
+
+def enviar_email(caminho_pdf):
+    logging.info("Iniciando rotina de envio de e-mail (Hostinger SMTP)...")
+    smtp_user = os.environ.get("EMAIL_USER")
+    smtp_pass = os.environ.get("EMAIL_PASS")
+    destinatarios = os.environ.get("EMAIL_TO")
+    
+    if not smtp_user or not smtp_pass or not destinatarios:
+        logging.warning("Credenciais de e-mail não configuradas. Pulando envio de e-mail.")
+        return
+
+    msg = EmailMessage()
+    msg['Subject'] = f"Relatório Estratégico AME-AMAZÔNIA - {datetime.now().strftime('%d/%m/%Y')}"
+    msg['From'] = smtp_user
+    msg['To'] = destinatarios
+    msg.set_content(
+        "Prezados Diretores e Membros do Conselho,\n\n"
+        "Segue em anexo o Relatório de Inteligência consolidado de hoje.\n"
+        "O documento contém a raspagem completa de editais e oportunidades cruzadas com nosso "
+        "Estatuto Social, além da matriz de ações para a Diretoria Executiva.\n\n"
+        "Atenciosamente,\nCérebro de IA - AME-AMAZÔNIA"
+    )
+
+    with open(caminho_pdf, 'rb') as f:
+        msg.add_attachment(f.read(), maintype='application', subtype='pdf', filename=os.path.basename(caminho_pdf))
+
+    try:
+        with smtplib.SMTP_SSL('smtp.hostinger.com', 465) as smtp:
+            smtp.login(smtp_user, smtp_pass)
+            smtp.send_message(msg)
+        logging.info("E-mail disparado com sucesso para a diretoria.")
+    except Exception as e:
+        logging.error(f"Erro ao tentar enviar e-mail: {e}")
+
+def main():
+    try:
+        dados = buscar_dados()
+        if not dados:
+            logging.warning("Fim: Nenhuma notícia capturada no momento.")
+            return
+
+        resultado_ia = processar_com_gemini(dados)
+        
+        # Limpeza robusta e cega para o GitHub: usando código do caractere em vez de digitá-lo
+        marcador = chr(96) * 3
+        texto_limpo = resultado_ia.replace(f"{marcador}json", "").replace(marcador, "").strip()
+        
+        boletim_obj = json.loads(texto_limpo)
+        
+        # Correção do horário de Manaus (UTC-4)
+        boletim_obj["data"] = (datetime.now() - timedelta(hours=4)).strftime("%d/%m/%Y - %H:%M")
+        
+        # Salvamento na raiz
+        caminho_arquivo = os.path.join(os.getcwd(), 'boletim.json')
+        with open(caminho_arquivo, 'w', encoding='utf-8') as f:
+            json.dump(boletim_obj, f, ensure_ascii=False, indent=2)
+            
+        logging.info(f"Processo concluído com êxito! 'boletim.json' atualizado em: {caminho_arquivo}")
+        
+        # Nova Rotina de Governança
+        caminho_pdf = gerar_pdf(boletim_obj)
+        enviar_email(caminho_pdf)
+
+    except Exception as e:
+        logging.error(f"Erro fatal não tratado: {e}")
+        logging.error(traceback.format_exc())
+
+if __name__ == "__main__":
+    main()
