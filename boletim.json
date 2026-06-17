@@ -1,80 +1,55 @@
 {
-  "data": "17/06/2026 - 03:07",
+  "data": "17/06/2026 - 03:28",
   "cards": [
     {
-      "categoria": "Tecnologia",
-      "icone": "📻",
+      "categoria": "Parcerias",
+      "icone": "🎙️",
       "cor": "#68BB8A",
       "orgao": "Empresa Brasil de Comunicação (EBC)",
-      "titulo": "EBC Lança Novos Portais Digitais para Rádios Nacionais, Incluindo da Amazônia",
-      "resumo": "A EBC moderniza a presença digital das rádios Nacional e MEC, com novos portais e player integrado. Rádios da Amazônia terão maior alcance e acessibilidade digital, abrindo portas para comunicação com comunidades remotas.",
-      "aplicabilidade": "A AME-AMAZÔNIA pode buscar parcerias com a Rádio Nacional da Amazônia para divulgar projetos de inclusão produtiva, empreendedorismo verde e educação para comunidades ribeirinhas e jovens, utilizando as novas plataformas digitais.",
+      "titulo": "Novos Portais da Rádio Nacional e MEC: Oportunidade de Parceria com Rádio Nacional da Amazônia",
+      "resumo": "EBC lança novos sites para Rádio Nacional e MEC, incluindo a Rádio Nacional da Amazônia. Plataformas modernizadas oferecem maior acessibilidade e canais como WhatsApp, ideais para divulgar iniciativas da AME-AMAZÔNIA na Região Norte.",
+      "aplicabilidade": "Explorar parcerias com a Rádio Nacional da Amazônia para divulgação de projetos de multiempreendedorismo, inclusão produtiva, empreendedorismo verde e educação para comunidades ribeirinhas e jovens na Região Norte, utilizando os novos canais digitais e WhatsApp.",
       "link": "https://agenciabrasil.ebc.com.br/cultura/noticia/2026-06/ebc-lanca-novos-sites-das-radios-nacional-e-mec-nesta-quarta-feira"
     },
     {
-      "categoria": "Parcerias",
+      "categoria": "Editais",
       "icone": "🌳",
       "cor": "#2E7D22",
       "orgao": "Fundo Amazônia",
-      "titulo": "Fundo Amazônia: Potenciais Oportunidades de Financiamento para Projetos Sustentáveis",
-      "resumo": "O Fundo Amazônia, focado na conservação e uso sustentável da Amazônia, apresenta seus números e eixos de atuação. Representa uma fonte crucial de recursos para projetos sociais e ambientais na Região Norte.",
-      "aplicabilidade": "A AME-AMAZÔNIA deve monitorar ativamente editais e chamadas públicas do Fundo Amazônia, buscando alinhar seus projetos de empreendedorismo verde, inclusão produtiva e meio ambiente com os critérios do fundo para captação de recursos.",
-      "link": "https://www.fundoamazonia.gov.br"
-    },
-    {
-      "categoria": "Parcerias",
-      "icone": "🗺️",
-      "cor": "#2E7D22",
-      "orgao": "Fundo Amazônia",
-      "titulo": "Eixos de Atuação do Fundo Amazônia: Guia para Alinhamento Estratégico de Projetos",
-      "resumo": "Detalhamento dos eixos de atuação do Fundo Amazônia, que incluem gestão florestal, atividades econômicas sustentáveis, zoneamento ecológico-econômico e monitoramento ambiental. Essencial para o desenvolvimento de propostas.",
-      "aplicabilidade": "A AME-AMAZÔNIA deve estudar os eixos de atuação do Fundo Amazônia para adaptar ou desenvolver projetos que se encaixem perfeitamente nos critérios de financiamento, focando em comunidades ribeirinhas e empreendedores rurais.",
-      "link": "https://www.fundoamazonia.gov.br"
-    },
-    {
-      "categoria": "Parcerias",
-      "icone": "✨",
-      "cor": "#2E7D22",
-      "orgao": "Fundo Amazônia",
-      "titulo": "Projetos em Destaque do Fundo Amazônia: Inspiração e Benchmarking para a AME-AMAZÔNIA",
-      "resumo": "Visão dos projetos já apoiados pelo Fundo Amazônia, servindo como referência para a elaboração de novas propostas e identificação de potenciais parceiros e boas práticas. Modelos de sucesso para replicação.",
-      "aplicabilidade": "A AME-AMAZÔNIA pode analisar os projetos em destaque para identificar metodologias, parceiros e abordagens bem-sucedidas que possam ser replicadas ou adaptadas em Manaus/AM e Região Norte, fortalecendo suas propostas futuras.",
+      "titulo": "Fundo Amazônia: Potencial de Financiamento para Projetos Sustentáveis na Região Norte",
+      "resumo": "O Fundo Amazônia apresenta números, eixos de atuação e projetos em destaque, indicando uma fonte crucial de financiamento para iniciativas focadas em meio ambiente, desenvolvimento sustentável e comunidades da Amazônia.",
+      "aplicabilidade": "Analisar os eixos de atuação e projetos em destaque do Fundo Amazônia para alinhar e desenvolver propostas de projetos em multiempreendedorismo, empreendedorismo verde, inclusão produtiva e assistência social para comunidades vulneráveis e ribeirinhas.",
       "link": "https://www.fundoamazonia.gov.br"
     }
   ],
   "gestao": {
     "prioridades": {
       "alta": [
-        "Monitorar editais e chamadas públicas do Fundo Amazônia",
-        "Analisar eixos de atuação do Fundo Amazônia para alinhamento de projetos"
+        "Contato inicial com Rádio Nacional da Amazônia para explorar parcerias de comunicação.",
+        "Análise aprofundada do site do Fundo Amazônia para identificar editais abertos e requisitos."
       ],
       "media": [
-        "Explorar parceria com Rádio Nacional da Amazônia para divulgação de projetos",
-        "Estudar projetos em destaque do Fundo Amazônia para benchmarking"
+        "Mapeamento de projetos da AME-AMAZÔNIA alinhados aos eixos do Fundo Amazônia.",
+        "Desenvolvimento de um plano de comunicação para os novos canais da Rádio Nacional."
       ],
       "baixa": [
-        "Desenvolver plano de comunicação digital para rádios locais"
+        "Benchmarking com projetos em destaque do Fundo Amazônia para melhores práticas."
       ]
     },
     "acoes": [
       {
-        "acao": "Pesquisar editais e chamadas públicas abertas do Fundo Amazônia.",
-        "responsavel": "Diretor(a) de RIG",
-        "prazo": "5 dias"
-      },
-      {
-        "acao": "Analisar detalhadamente os eixos de atuação e critérios de elegibilidade do Fundo Amazônia.",
-        "responsavel": "Diretor(a) Executivo(a)",
+        "acao": "Contatar a gerência da Rádio Nacional da Amazônia para apresentar a AME-AMAZÔNIA e explorar oportunidades de parceria para divulgação de projetos.",
+        "responsavel": "Diretor(a) de Comunicação",
         "prazo": "7 dias"
       },
       {
-        "acao": "Contatar a EBC/Rádio Nacional da Amazônia para explorar oportunidades de parceria e divulgação.",
-        "responsavel": "Diretor(a) de Comunicação",
-        "prazo": "10 dias"
+        "acao": "Realizar levantamento detalhado dos eixos de atuação e requisitos de projetos do Fundo Amazônia.",
+        "responsavel": "Diretor(a) Executivo(a)",
+        "prazo": "5 dias"
       },
       {
-        "acao": "Compilar exemplos de projetos bem-sucedidos do Fundo Amazônia para benchmarking e aprendizado.",
-        "responsavel": "Diretor(a) Executivo(a)",
+        "acao": "Identificar projetos da AME-AMAZÔNIA com potencial de alinhamento aos critérios do Fundo Amazônia para futura elaboração de propostas.",
+        "responsavel": "Diretor(a) Presidente",
         "prazo": "10 dias"
       }
     ]
