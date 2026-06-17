@@ -1,4 +1,4 @@
-# Versão: v.4.7.1 (17062026-1315)
+# Versão: v.4.8.0 (17062026-1725)
 # Arquivo: coleta_noticias.py
 
 import os
@@ -27,13 +27,16 @@ logging.basicConfig(
 GEMINI_API_KEY = os.environ.get("GEMINI_API_KEY")
 
 def limpar_texto(texto):
-    """Garante que o texto não quebre a geração do PDF (Sanitização e Quebra de Linha de Segurança)"""
+    """Garante que o texto não quebre a geração do PDF (Sanitização Agressiva e Quebra de Linha de Segurança)"""
     if not texto: return ""
-    # 1. Remove caracteres incompatíveis com a fonte Helvetica padrão do PDF
-    texto_limpo = str(texto).encode('latin-1', 'ignore').decode('latin-1')
-    # 2. Força a quebra de blocos contínuos (como URLs longas) para não estourar a margem do FPDF
-    linhas = textwrap.wrap(texto_limpo, width=90, break_long_words=True)
-    return "\n".join(linhas)
+    texto = str(texto)
+    # 1. Converte aspas inteligentes e travessões da web para o padrão ASCII puro suportado pelo PDF
+    texto = texto.replace('\u2013', '-').replace('\u2014', '-').replace('\u201c', '"').replace('\u201d', '"').replace('\u2018', "'").replace('\u2019', "'")
+    # 2. Converte para Latin-1 ignorando/substituindo caracteres não suportados (como emojis ou símbolos esquisitos)
+    texto_limpo = texto.encode('latin-1', 'replace').decode('latin-1')
+    # 3. Força a quebra de blocos contínuos (como URLs longas escondidas) usando espaços para o FPDF poder quebrar a linha
+    linhas = textwrap.wrap(texto_limpo, width=85, break_long_words=True)
+    return " ".join(linhas)
 
 def buscar_dados():
     logging.info("Iniciando coleta massiva estruturada de dados...")
@@ -334,31 +337,46 @@ Dados Brutos Coletados Hoje:
 def gerar_pdf(dados_json):
     logging.info("Gerando PDF estruturado completo...")
     pdf = FPDF()
+    # Ativa quebra de página automática para garantir que não ultrapasse o limite inferior da folha
+    pdf.set_auto_page_break(auto=True, margin=15)
     pdf.add_page()
     
-    # Cabeçalho
+    # Cabeçalho - Usando sempre set_x(10) para resetar a âncora lateral do FPDF2
     pdf.set_font("helvetica", 'B', 16)
+    pdf.set_x(10)
     pdf.cell(0, 10, text=limpar_texto("RELATORIO DE INTELIGENCIA - AME-AMAZONIA"), new_x="LMARGIN", new_y="NEXT", align='C')
     pdf.set_font("helvetica", '', 10)
+    pdf.set_x(10)
     pdf.cell(0, 10, text=limpar_texto(f"Data de Processamento: {dados_json.get('data', '')}"), new_x="LMARGIN", new_y="NEXT", align='C')
     pdf.ln(5)
 
     # Seção 1: Oportunidades (Cards completos)
     pdf.set_font("helvetica", 'B', 14)
+    pdf.set_x(10)
     pdf.cell(0, 10, text=limpar_texto("1. OPORTUNIDADES E EDITAIS"), new_x="LMARGIN", new_y="NEXT", align='L')
     pdf.ln(2)
     
     for card in dados_json.get("cards", []):
         pdf.set_font("helvetica", 'B', 11)
-        pdf.multi_cell(0, 8, text=limpar_texto(f"[{card.get('categoria', 'Geral')}] Orgao: {card.get('orgao', 'N/A')}"))
+        pdf.set_x(10)
+        pdf.multi_cell(0, 8, text=limpar_texto(f"[{card.get('categoria', 'Geral')}] Orgao: {card.get('orgao', 'N/A')}"), new_x="LMARGIN", new_y="NEXT")
+        
         pdf.set_font("helvetica", 'B', 10)
-        pdf.multi_cell(0, 6, text=limpar_texto(f"Titulo: {card.get('titulo', '')}"))
+        pdf.set_x(10)
+        pdf.multi_cell(0, 6, text=limpar_texto(f"Titulo: {card.get('titulo', '')}"), new_x="LMARGIN", new_y="NEXT")
+        
         pdf.set_font("helvetica", '', 10)
-        pdf.multi_cell(0, 6, text=limpar_texto(f"Resumo: {card.get('resumo', '')}"))
+        pdf.set_x(10)
+        pdf.multi_cell(0, 6, text=limpar_texto(f"Resumo: {card.get('resumo', '')}"), new_x="LMARGIN", new_y="NEXT")
+        
         pdf.set_font("helvetica", 'I', 10)
-        pdf.multi_cell(0, 6, text=limpar_texto(f"Aplicabilidade: {card.get('aplicabilidade', '')}"))
+        pdf.set_x(10)
+        pdf.multi_cell(0, 6, text=limpar_texto(f"Aplicabilidade: {card.get('aplicabilidade', '')}"), new_x="LMARGIN", new_y="NEXT")
+        
         pdf.set_font("helvetica", 'U', 10)
-        pdf.multi_cell(0, 6, text=limpar_texto(f"Link Oficial: {card.get('link', '')}"))
+        pdf.set_x(10)
+        pdf.multi_cell(0, 6, text=limpar_texto(f"Link Oficial: {card.get('link', '')}"), new_x="LMARGIN", new_y="NEXT")
+        
         pdf.ln(5)
 
     # Seção 2: Gestão Estatutária
@@ -366,30 +384,40 @@ def gerar_pdf(dados_json):
     if gestao:
         pdf.add_page()
         pdf.set_font("helvetica", 'B', 14)
+        pdf.set_x(10)
         pdf.cell(0, 10, text=limpar_texto("2. PLANO DE GESTAO E PRIORIDADES"), new_x="LMARGIN", new_y="NEXT", align='L')
         pdf.ln(5)
         
         # Prioridades
         prioridades = gestao.get("prioridades", {})
         pdf.set_font("helvetica", 'B', 12)
+        pdf.set_x(10)
         pdf.cell(0, 8, text=limpar_texto("Matriz de Prioridades:"), new_x="LMARGIN", new_y="NEXT", align='L')
         pdf.set_font("helvetica", '', 10)
+        
         for p_alta in prioridades.get("alta", []):
-            pdf.multi_cell(0, 6, text=limpar_texto(f"- ALTA: {p_alta}"))
+            pdf.set_x(10)
+            pdf.multi_cell(0, 6, text=limpar_texto(f"- ALTA: {p_alta}"), new_x="LMARGIN", new_y="NEXT")
         for p_media in prioridades.get("media", []):
-            pdf.multi_cell(0, 6, text=limpar_texto(f"- MEDIA: {p_media}"))
+            pdf.set_x(10)
+            pdf.multi_cell(0, 6, text=limpar_texto(f"- MEDIA: {p_media}"), new_x="LMARGIN", new_y="NEXT")
         for p_baixa in prioridades.get("baixa", []):
-            pdf.multi_cell(0, 6, text=limpar_texto(f"- BAIXA: {p_baixa}"))
+            pdf.set_x(10)
+            pdf.multi_cell(0, 6, text=limpar_texto(f"- BAIXA: {p_baixa}"), new_x="LMARGIN", new_y="NEXT")
         
         pdf.ln(5)
         
         # Ações Práticas
         pdf.set_font("helvetica", 'B', 12)
+        pdf.set_x(10)
         pdf.cell(0, 8, text=limpar_texto("Acoes Estrategicas Requeridas:"), new_x="LMARGIN", new_y="NEXT", align='L')
         pdf.set_font("helvetica", '', 10)
+        
         for acao in gestao.get("acoes", []):
-            pdf.multi_cell(0, 6, text=limpar_texto(f"-> Acao: {acao.get('acao', '')}"))
-            pdf.multi_cell(0, 6, text=limpar_texto(f"   Responsavel: {acao.get('responsavel', '')} | Prazo: {acao.get('prazo', '')}"))
+            pdf.set_x(10)
+            pdf.multi_cell(0, 6, text=limpar_texto(f"-> Acao: {acao.get('acao', '')}"), new_x="LMARGIN", new_y="NEXT")
+            pdf.set_x(10)
+            pdf.multi_cell(0, 6, text=limpar_texto(f"   Responsavel: {acao.get('responsavel', '')} | Prazo: {acao.get('prazo', '')}"), new_x="LMARGIN", new_y="NEXT")
             pdf.ln(2)
 
     nome_arquivo = f"Relatorio_{datetime.now().strftime('%d%m%Y-%H%M')}.pdf"
