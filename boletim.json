@@ -1,17 +1,57 @@
 {
-  "data": "17/06/2026 - 00:27",
+  "data": "17/06/2026 - 00:46",
   "cards": [
     {
-      "titulo": "Haaland brilha e Noruega goleia Iraque em seu retorno à Copa do Mundo",
-      "link": "https://agenciabrasil.ebc.com.br/esportes/noticia/2026-06/haaland-brilha-e-noruega-goleia-iraque-em-seu-retorno-copa-do-mundo"
+      "categoria": "Parcerias",
+      "icone": "📻",
+      "cor": "#2E7D22",
+      "orgao": "Empresa Brasil de Comunicação (EBC)",
+      "titulo": "EBC Lança Novos Portais Digitais para Rádios Nacional e MEC, Incluindo Rádio Nacional da Amazônia",
+      "resumo": "A EBC moderniza a presença digital das Rádios Nacional e MEC, com novos sites, podcasts e canais de WhatsApp. A Rádio Nacional da Amazônia, que atende a Região Norte, faz parte desta iniciativa, ampliando o alcance digital.",
+      "aplicabilidade": "A AME-AMAZÔNIA pode explorar parcerias com a Rádio Nacional da Amazônia para disseminar projetos de educação, empreendedorismo verde e inclusão produtiva para comunidades ribeirinhas e jovens na Região Norte, utilizando os novos canais digitais.",
+      "link": "https://agenciabrasil.ebc.com.br/cultura/noticia/2026-06/ebc-lanca-novos-sites-das-radios-nacional-e-mec-nesta-quarta-feira"
     },
     {
-      "titulo": "Noruega goleia Iraque em retorno à Copa; Haaland marcou dois gols",
-      "link": "https://agenciabrasil.ebc.com.br/esportes/noticia/2026-06/noruega-goleia-iraque-na-estreia-na-copa-haaland-marcou-dois-gols"
-    },
-    {
-      "titulo": "Mega-Sena acumula e prêmio principal vai para R$ 36 milhões",
-      "link": "https://agenciabrasil.ebc.com.br/geral/noticia/2026-06/mega-sena-acumula-e-premio-principal-vai-para-r-36-milhoes"
+      "categoria": "Editais",
+      "icone": "🌳",
+      "cor": "#68BB8A",
+      "orgao": "Fundo Amazônia",
+      "titulo": "Fundo Amazônia: Relevância Contínua para Projetos de Meio Ambiente e Desenvolvimento Sustentável",
+      "resumo": "O Fundo Amazônia continua sendo uma fonte vital de apoio para iniciativas na região, com foco em eixos de atuação alinhados com a proteção ambiental, desenvolvimento sustentável e inclusão produtiva, conforme indicado em suas páginas.",
+      "aplicabilidade": "Monitorar ativamente os editais e chamadas públicas do Fundo Amazônia, buscando alinhamento para projetos de empreendedorismo verde, inclusão produtiva e assistência social para comunidades ribeirinhas e empreendedores rurais na Região Norte.",
+      "link": "https://www.fundoamazonia.gov.br"
     }
-  ]
+  ],
+  "gestao": {
+    "prioridades": {
+      "alta": [
+        "Analisar oportunidades de parceria com a EBC/Rádio Nacional da Amazônia para divulgação de projetos e conteúdos educativos.",
+        "Mapear editais e chamadas abertas do Fundo Amazônia alinhados aos eixos de atuação da AME-AMAZÔNIA."
+      ],
+      "media": [
+        "Desenvolver proposta de conteúdo para Rádio Nacional da Amazônia (ex: série sobre empreendedorismo verde ou jovem aprendiz).",
+        "Preparar documentação e projetos para futuras chamadas do Fundo Amazônia, com base nos eixos de atuação."
+      ],
+      "baixa": [
+        "Estudar projetos em destaque do Fundo Amazônia para benchmarking e identificação de boas práticas."
+      ]
+    },
+    "acoes": [
+      {
+        "acao": "Contatar a EBC/Rádio Nacional da Amazônia para explorar possibilidades de parceria e divulgação de conteúdo.",
+        "responsavel": "Diretor(a) de Comunicação",
+        "prazo": "7 dias"
+      },
+      {
+        "acao": "Realizar levantamento detalhado dos editais e linhas de financiamento atuais do Fundo Amazônia.",
+        "responsavel": "Diretor(a) de RIG",
+        "prazo": "5 dias"
+      },
+      {
+        "acao": "Elaborar um plano de comunicação inicial com ideias de conteúdo para os novos portais da EBC, focado no público-alvo da AME-AMAZÔNIA.",
+        "responsavel": "Diretor(a) de Comunicação",
+        "prazo": "10 dias"
+      }
+    ]
+  }
 }
