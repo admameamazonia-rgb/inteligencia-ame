@@ -1,4 +1,4 @@
-# Versão: v.4.3.2 (17062026-1215)
+# Versão: v.4.5.0 (17062026-1245)
 # Arquivo: coleta_noticias.py
 
 import os
@@ -24,6 +24,12 @@ logging.basicConfig(
 
 # Chave da API
 GEMINI_API_KEY = os.environ.get("GEMINI_API_KEY")
+
+def limpar_texto(texto):
+    """Garante que o texto não quebre a geração do PDF (Sanitização de Caracteres)"""
+    if not texto: return ""
+    # Converte para Latin-1 ignorando/substituindo caracteres não suportados pela fonte Helvetica do PDF
+    return str(texto).encode('latin-1', 'replace').decode('latin-1')
 
 def buscar_dados():
     logging.info("Iniciando coleta massiva estruturada de dados...")
@@ -326,29 +332,29 @@ def gerar_pdf(dados_json):
     pdf = FPDF()
     pdf.add_page()
     
-    # Cabeçalho
+    # Cabeçalho - Corrigido com text e new_x/new_y para FPDF2, aplicando limpar_texto
     pdf.set_font("helvetica", 'B', 16)
-    pdf.cell(0, 10, txt="RELATORIO DE INTELIGENCIA - AME-AMAZONIA", ln=True, align='C')
+    pdf.cell(0, 10, text=limpar_texto("RELATORIO DE INTELIGENCIA - AME-AMAZONIA"), new_x="LMARGIN", new_y="NEXT", align='C')
     pdf.set_font("helvetica", '', 10)
-    pdf.cell(0, 10, txt=f"Data de Processamento: {dados_json.get('data', '')}", ln=True, align='C')
+    pdf.cell(0, 10, text=limpar_texto(f"Data de Processamento: {dados_json.get('data', '')}"), new_x="LMARGIN", new_y="NEXT", align='C')
     pdf.ln(5)
 
     # Seção 1: Oportunidades (Cards completos)
     pdf.set_font("helvetica", 'B', 14)
-    pdf.cell(0, 10, txt="1. OPORTUNIDADES E EDITAIS", ln=True, align='L')
+    pdf.cell(0, 10, text=limpar_texto("1. OPORTUNIDADES E EDITAIS"), new_x="LMARGIN", new_y="NEXT", align='L')
     pdf.ln(2)
     
     for card in dados_json.get("cards", []):
         pdf.set_font("helvetica", 'B', 11)
-        pdf.multi_cell(0, 8, txt=f"[{card.get('categoria', 'Geral')}] Orgao: {card.get('orgao', 'N/A')}")
+        pdf.multi_cell(0, 8, text=limpar_texto(f"[{card.get('categoria', 'Geral')}] Orgao: {card.get('orgao', 'N/A')}"))
         pdf.set_font("helvetica", 'B', 10)
-        pdf.multi_cell(0, 6, txt=f"Titulo: {card.get('titulo', '')}")
+        pdf.multi_cell(0, 6, text=limpar_texto(f"Titulo: {card.get('titulo', '')}"))
         pdf.set_font("helvetica", '', 10)
-        pdf.multi_cell(0, 6, txt=f"Resumo: {card.get('resumo', '')}")
+        pdf.multi_cell(0, 6, text=limpar_texto(f"Resumo: {card.get('resumo', '')}"))
         pdf.set_font("helvetica", 'I', 10)
-        pdf.multi_cell(0, 6, txt=f"Aplicabilidade: {card.get('aplicabilidade', '')}")
+        pdf.multi_cell(0, 6, text=limpar_texto(f"Aplicabilidade: {card.get('aplicabilidade', '')}"))
         pdf.set_font("helvetica", 'U', 10)
-        pdf.multi_cell(0, 6, txt=f"Link Oficial: {card.get('link', '')}")
+        pdf.multi_cell(0, 6, text=limpar_texto(f"Link Oficial: {card.get('link', '')}"))
         pdf.ln(5)
 
     # Seção 2: Gestão Estatutária
@@ -356,30 +362,30 @@ def gerar_pdf(dados_json):
     if gestao:
         pdf.add_page()
         pdf.set_font("helvetica", 'B', 14)
-        pdf.cell(0, 10, txt="2. PLANO DE GESTAO E PRIORIDADES", ln=True, align='L')
+        pdf.cell(0, 10, text=limpar_texto("2. PLANO DE GESTAO E PRIORIDADES"), new_x="LMARGIN", new_y="NEXT", align='L')
         pdf.ln(5)
         
         # Prioridades
         prioridades = gestao.get("prioridades", {})
         pdf.set_font("helvetica", 'B', 12)
-        pdf.cell(0, 8, txt="Matriz de Prioridades:", ln=True, align='L')
+        pdf.cell(0, 8, text=limpar_texto("Matriz de Prioridades:"), new_x="LMARGIN", new_y="NEXT", align='L')
         pdf.set_font("helvetica", '', 10)
         for p_alta in prioridades.get("alta", []):
-            pdf.multi_cell(0, 6, txt=f"- ALTA: {p_alta}")
+            pdf.multi_cell(0, 6, text=limpar_texto(f"- ALTA: {p_alta}"))
         for p_media in prioridades.get("media", []):
-            pdf.multi_cell(0, 6, txt=f"- MEDIA: {p_media}")
+            pdf.multi_cell(0, 6, text=limpar_texto(f"- MEDIA: {p_media}"))
         for p_baixa in prioridades.get("baixa", []):
-            pdf.multi_cell(0, 6, txt=f"- BAIXA: {p_baixa}")
+            pdf.multi_cell(0, 6, text=limpar_texto(f"- BAIXA: {p_baixa}"))
         
         pdf.ln(5)
         
         # Ações Práticas
         pdf.set_font("helvetica", 'B', 12)
-        pdf.cell(0, 8, txt="Acoes Estrategicas Requeridas:", ln=True, align='L')
+        pdf.cell(0, 8, text=limpar_texto("Acoes Estrategicas Requeridas:"), new_x="LMARGIN", new_y="NEXT", align='L')
         pdf.set_font("helvetica", '', 10)
         for acao in gestao.get("acoes", []):
-            pdf.multi_cell(0, 6, txt=f"-> Acao: {acao.get('acao', '')}")
-            pdf.multi_cell(0, 6, txt=f"   Responsavel: {acao.get('responsavel', '')} | Prazo: {acao.get('prazo', '')}")
+            pdf.multi_cell(0, 6, text=limpar_texto(f"-> Acao: {acao.get('acao', '')}"))
+            pdf.multi_cell(0, 6, text=limpar_texto(f"   Responsavel: {acao.get('responsavel', '')} | Prazo: {acao.get('prazo', '')}"))
             pdf.ln(2)
 
     nome_arquivo = f"Relatorio_{datetime.now().strftime('%d%m%Y-%H%M')}.pdf"
@@ -430,7 +436,8 @@ def main():
         resultado_ia = processar_com_gemini(dados)
         
         # Limpeza robusta à prova de erros de sintaxe (usando aspas simples)
-        texto_limpo = resultado_ia.replace('```json', '').replace('```', '').strip()
+        texto_limpo = resultado_ia.replace('```json', '').replace('
+```', '').strip()
         boletim_obj = json.loads(texto_limpo)
         
         # Correção do horário de Manaus (UTC-4)
