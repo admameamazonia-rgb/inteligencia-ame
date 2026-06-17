@@ -1,4 +1,4 @@
-# Versão: v.3.2.0 (16062026-2325)
+# Versão: v.3.3.0 (17062026-1131)
 # Arquivo: coleta_noticias.py
 
 import os
@@ -29,7 +29,7 @@ def buscar_dados():
     
     # 1. Fonte: Diário Oficial da União (Governo) via RSS
     try:
-        logging.info("[1/6] Acessando Diário Oficial da União (RSS)...")
+        logging.info("[1/10] Acessando Diário Oficial da União (RSS)...")
         dou_feed = feedparser.parse("https://www.in.gov.br/rss/api/feed")
         for entry in dou_feed.entries[:5]:
             noticias.append({
@@ -43,7 +43,7 @@ def buscar_dados():
 
     # 2. Fonte: Agência Brasil (Contexto Nacional e Cidadania) via RSS
     try:
-        logging.info("[2/6] Acessando Agência Brasil (RSS)...")
+        logging.info("[2/10] Acessando Agência Brasil (RSS)...")
         agencia_brasil = feedparser.parse("https://agenciabrasil.ebc.com.br/rss/ultimasnoticias/feed.xml")
         for entry in agencia_brasil.entries[:5]:
              noticias.append({
@@ -57,7 +57,7 @@ def buscar_dados():
 
     # 3. Fonte: Fundo Amazônia / BNDES via Web Scraping
     try:
-        logging.info("[3/6] Acessando Fundo Amazônia (Web Scraping)...")
+        logging.info("[3/10] Acessando Fundo Amazônia (Web Scraping)...")
         response = requests.get("https://www.fundoamazonia.gov.br/pt/home/", headers=headers, timeout=10)
         response.raise_for_status()
         soup = BeautifulSoup(response.text, 'html.parser')
@@ -82,7 +82,7 @@ def buscar_dados():
 
     # 4. Fonte: FAPEAM (Fundação de Amparo à Pesquisa do Estado do Amazonas) via Web Scraping
     try:
-        logging.info("[4/6] Acessando FAPEAM - Editais Regionais (Web Scraping)...")
+        logging.info("[4/10] Acessando FAPEAM - Editais Regionais (Web Scraping)...")
         response = requests.get("https://www.fapeam.am.gov.br/", headers=headers, timeout=10)
         response.raise_for_status()
         soup = BeautifulSoup(response.text, 'html.parser')
@@ -107,7 +107,7 @@ def buscar_dados():
 
     # 5. Fonte: GIFE (Terceiro Setor e Filantropia Privada) via Web Scraping
     try:
-        logging.info("[5/6] Acessando Rede GIFE - Terceiro Setor (Web Scraping)...")
+        logging.info("[5/10] Acessando Rede GIFE - Terceiro Setor (Web Scraping)...")
         response = requests.get("https://gife.org.br/", headers=headers, timeout=10)
         response.raise_for_status()
         soup = BeautifulSoup(response.text, 'html.parser')
@@ -132,7 +132,7 @@ def buscar_dados():
 
     # 6. Fonte: MDS (Ministério do Desenvolvimento e Assistência Social) via RSS
     try:
-        logging.info("[6/6] Acessando MDS (RSS)...")
+        logging.info("[6/10] Acessando MDS (RSS)...")
         mds_feed = feedparser.parse("https://www.gov.br/mds/pt-br/noticias/feed")
         for entry in mds_feed.entries[:4]:
              noticias.append({
@@ -143,6 +143,104 @@ def buscar_dados():
             })
     except Exception as e:
         logging.error(f"Erro ao processar feed do MDS: {e}")
+
+    # 7. Fonte: SEJUSC (Avisos e Editais) via Web Scraping
+    try:
+        logging.info("[7/10] Acessando SEJUSC (Web Scraping)...")
+        response = requests.get("https://www.sejusc.am.gov.br/avisos-chamados-editais-e-outros/", headers=headers, timeout=10)
+        response.raise_for_status()
+        soup = BeautifulSoup(response.text, 'html.parser')
+        
+        destaques = soup.find_all(['h2', 'h3', 'h4'])
+        count = 0
+        for item in destaques:
+            if count >= 3: break
+            titulo = item.get_text(strip=True)
+            link_tag = item.find('a')
+            if titulo and link_tag and 'href' in link_tag.attrs:
+                link_final = link_tag['href'] if link_tag['href'].startswith("http") else f"https://www.sejusc.am.gov.br{link_tag['href']}"
+                noticias.append({
+                    "fonte": "SEJUSC",
+                    "titulo": titulo,
+                    "resumo": "Processado via Web Scraping de editais e avisos da SEJUSC.",
+                    "link": link_final
+                })
+                count += 1
+    except Exception as e:
+        logging.error(f"Erro ao processar SEJUSC: {e}")
+
+    # 8. Fonte: CIEE (Oportunidades e Programas) via Web Scraping
+    try:
+        logging.info("[8/10] Acessando CIEE (Web Scraping)...")
+        response = requests.get("https://portal.ciee.org.br/", headers=headers, timeout=10)
+        response.raise_for_status()
+        soup = BeautifulSoup(response.text, 'html.parser')
+        
+        destaques = soup.find_all(['h2', 'h3'])
+        count = 0
+        for item in destaques:
+            if count >= 3: break
+            titulo = item.get_text(strip=True)
+            link_tag = item.find('a')
+            if titulo and link_tag and 'href' in link_tag.attrs:
+                link_final = link_tag['href'] if link_tag['href'].startswith("http") else f"https://portal.ciee.org.br{link_tag['href']}"
+                noticias.append({
+                    "fonte": "CIEE",
+                    "titulo": titulo,
+                    "resumo": "Processado via Web Scraping do portal CIEE.",
+                    "link": link_final
+                })
+                count += 1
+    except Exception as e:
+        logging.error(f"Erro ao processar CIEE: {e}")
+
+    # 9. Fonte: SEMTEPI (Editais Qualifica) via Web Scraping
+    try:
+        logging.info("[9/10] Acessando SEMTEPI (Web Scraping)...")
+        response = requests.get("https://www.manaus.am.gov.br/semtepi/a-semtepi/editais/qualifica/", headers=headers, timeout=10)
+        response.raise_for_status()
+        soup = BeautifulSoup(response.text, 'html.parser')
+        
+        destaques = soup.find_all(['h2', 'h3', 'h4'])
+        count = 0
+        for item in destaques:
+            if count >= 3: break
+            titulo = item.get_text(strip=True)
+            link_tag = item.find('a')
+            if titulo and link_tag and 'href' in link_tag.attrs:
+                link_final = link_tag['href'] if link_tag['href'].startswith("http") else f"https://www.manaus.am.gov.br{link_tag['href']}"
+                noticias.append({
+                    "fonte": "SEMTEPI",
+                    "titulo": titulo,
+                    "resumo": "Processado via Web Scraping de editais da SEMTEPI.",
+                    "link": link_final
+                })
+                count += 1
+    except Exception as e:
+        logging.error(f"Erro ao processar SEMTEPI: {e}")
+
+    # 10. Fonte: Portal Marcos Santos (Notícia Específica Qualifica) via Web Scraping
+    try:
+        logging.info("[10/10] Acessando Portal Marcos Santos (Web Scraping)...")
+        response = requests.get("https://www.portalmarcossantos.com.br/2025/09/19/r-500-mil-para-a-sua-carreira-manaus-lanca-edital-qualifica/", headers=headers, timeout=10)
+        response.raise_for_status()
+        soup = BeautifulSoup(response.text, 'html.parser')
+        
+        destaques = soup.find_all(['h1', 'h2'])
+        count = 0
+        for item in destaques:
+            if count >= 1: break
+            titulo = item.get_text(strip=True)
+            if titulo:
+                noticias.append({
+                    "fonte": "Portal Marcos Santos",
+                    "titulo": titulo,
+                    "resumo": "Matéria específica sobre o edital Qualifica em Manaus.",
+                    "link": "https://www.portalmarcossantos.com.br/2025/09/19/r-500-mil-para-a-sua-carreira-manaus-lanca-edital-qualifica/"
+                })
+                count += 1
+    except Exception as e:
+        logging.error(f"Erro ao processar Portal Marcos Santos: {e}")
 
     return noticias
 
@@ -219,7 +317,8 @@ def main():
         resultado_ia = processar_com_gemini(dados)
         
         # Limpeza robusta para garantir JSON puro
-        texto_limpo = resultado_ia.replace("```json", "").replace("```", "").strip()
+        texto_limpo = resultado_ia.replace("```json", "").replace("
+```", "").strip()
         boletim_obj = json.loads(texto_limpo)
         
         # Correção do horário de Manaus (UTC-4)
