@@ -1,4 +1,4 @@
-# Versão: v.3.2.0 (17062026-0045)
+# Versão: v.3.2.0 (16062026-2325)
 # Arquivo: coleta_noticias.py
 
 import os
@@ -80,7 +80,7 @@ def buscar_dados():
     except Exception as e:
         logging.error(f"Erro ao processar Fundo Amazônia (Scraping): {e}")
 
-    # 4. Fonte: FAPEAM via Web Scraping
+    # 4. Fonte: FAPEAM (Fundação de Amparo à Pesquisa do Estado do Amazonas) via Web Scraping
     try:
         logging.info("[4/6] Acessando FAPEAM - Editais Regionais (Web Scraping)...")
         response = requests.get("https://www.fapeam.am.gov.br/", headers=headers, timeout=10)
@@ -105,7 +105,7 @@ def buscar_dados():
     except Exception as e:
         logging.error(f"Erro ao processar FAPEAM: {e}")
 
-    # 5. Fonte: GIFE via Web Scraping
+    # 5. Fonte: GIFE (Terceiro Setor e Filantropia Privada) via Web Scraping
     try:
         logging.info("[5/6] Acessando Rede GIFE - Terceiro Setor (Web Scraping)...")
         response = requests.get("https://gife.org.br/", headers=headers, timeout=10)
@@ -217,13 +217,15 @@ def main():
             return
 
         resultado_ia = processar_com_gemini(dados)
-        boletim_obj = json.loads(resultado_ia.replace("```json", "").replace("
-```", ""))
         
-        # Correção precisa do horário de Manaus (UTC-4)
+        # Limpeza robusta para garantir JSON puro
+        texto_limpo = resultado_ia.replace("```json", "").replace("```", "").strip()
+        boletim_obj = json.loads(texto_limpo)
+        
+        # Correção do horário de Manaus (UTC-4)
         boletim_obj["data"] = (datetime.now() - timedelta(hours=4)).strftime("%d/%m/%Y - %H:%M")
         
-        # Salvamento garantido na raiz
+        # Salvamento na raiz
         caminho_arquivo = os.path.join(os.getcwd(), 'boletim.json')
         with open(caminho_arquivo, 'w', encoding='utf-8') as f:
             json.dump(boletim_obj, f, ensure_ascii=False, indent=2)
