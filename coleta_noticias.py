@@ -1,4 +1,4 @@
-# Versão: v.4.5.0 (17062026-1245)
+# Versão: v.4.6.0 (17062026-1248)
 # Arquivo: coleta_noticias.py
 
 import os
@@ -435,9 +435,11 @@ def main():
 
         resultado_ia = processar_com_gemini(dados)
         
-        # Limpeza robusta à prova de erros de sintaxe (usando aspas simples)
-        texto_limpo = resultado_ia.replace('```json', '').replace('
-```', '').strip()
+        # Limpeza robusta e cega para o GitHub: usando código do caractere em vez de digitá-lo
+        # Isso impede 100% que o GitHub quebre a string ao colar
+        marcador = chr(96) * 3
+        texto_limpo = resultado_ia.replace(f"{marcador}json", "").replace(marcador, "").strip()
+        
         boletim_obj = json.loads(texto_limpo)
         
         # Correção do horário de Manaus (UTC-4)
