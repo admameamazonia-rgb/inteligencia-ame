@@ -12,28 +12,28 @@ jobs:
   coletar_noticias:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout do repositório
+      - name: Checkout
         uses: actions/checkout@v4
         with:
           persist-credentials: true
 
-      - name: Configurar Python
+      - name: Setup Python
         uses: actions/setup-python@v5
         with:
           python-version: '3.10'
 
-      - name: Instalar dependências
+      - name: Instalar libs
         run: pip install requests feedparser beautifulsoup4 google-genai
 
-      - name: Executar Coletor
+      - name: Rodar Robô
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
         run: python coleta_noticias.py
 
-      - name: Commit e Push
+      - name: Push para o Repositório
         run: |
           git config --global user.name 'github-actions[bot]'
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
           git add boletim.json
-          git commit -m "Atualizacao automatica: boletim.json" || exit 0
-          git push origin main --force
+          git commit -m "Atualizacao automatica: boletim.json"
+          git push origin main
