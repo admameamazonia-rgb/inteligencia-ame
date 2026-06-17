@@ -1,56 +1,107 @@
 {
-  "data": "17/06/2026 - 00:46",
+  "data": "17/06/2026 - 12:23",
   "cards": [
     {
-      "categoria": "Parcerias",
-      "icone": "📻",
+      "categoria": "Legislação",
+      "icone": "💰",
+      "cor": "#68BB8A",
+      "orgao": "Caixa Econômica Federal / Governo Federal",
+      "titulo": "Pagamento do Bolsa Família em Junho: Impacto na Região Norte e Amazonas",
+      "resumo": "A Caixa inicia o pagamento do Bolsa Família de junho, beneficiando 19,3 milhões de famílias. Municípios do Amazonas recebem antecipadamente devido a emergências climáticas, reforçando a importância do programa para populações vulneráveis na região.",
+      "aplicabilidade": "Monitorar o impacto do Bolsa Família em comunidades vulneráveis do Amazonas e Região Norte, especialmente ribeirinhas, para identificar lacunas ou complementar ações de assistência social e inclusão produtiva da AME-AMAZÔNIA.",
+      "link": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-06/caixa-comeca-pagar-bolsa-familia-de-junho"
+    },
+    {
+      "categoria": "Legislação",
+      "icone": "🎓",
       "cor": "#2E7D22",
-      "orgao": "Empresa Brasil de Comunicação (EBC)",
-      "titulo": "EBC Lança Novos Portais Digitais para Rádios Nacional e MEC, Incluindo Rádio Nacional da Amazônia",
-      "resumo": "A EBC moderniza a presença digital das Rádios Nacional e MEC, com novos sites, podcasts e canais de WhatsApp. A Rádio Nacional da Amazônia, que atende a Região Norte, faz parte desta iniciativa, ampliando o alcance digital.",
-      "aplicabilidade": "A AME-AMAZÔNIA pode explorar parcerias com a Rádio Nacional da Amazônia para disseminar projetos de educação, empreendedorismo verde e inclusão produtiva para comunidades ribeirinhas e jovens na Região Norte, utilizando os novos canais digitais.",
-      "link": "https://agenciabrasil.ebc.com.br/cultura/noticia/2026-06/ebc-lanca-novos-sites-das-radios-nacional-e-mec-nesta-quarta-feira"
+      "orgao": "Governo Federal (Ministérios do Esporte e Educação)",
+      "titulo": "Criação da Universidade Federal do Esporte (UFEsporte) com foco em Inclusão Social",
+      "resumo": "Projeto de lei para criar a UFEsporte em 2027 foi aprovado, visando ensino, pesquisa e inovação no esporte. A instituição focará na formação de gestores e profissionais, com ênfase em inclusão social, paradesporto e equidade de gênero/racial.",
+      "aplicabilidade": "Acompanhar a regulamentação da UFEsporte para identificar futuras oportunidades de parceria em projetos de educação e inclusão social através do esporte, especialmente para jovens em vulnerabilidade na Região Norte.",
+      "link": "https://agenciabrasil.ebc.com.br/esportes/noticia/2026-06/governo-quer-criar-universidade-federal-do-esporte-em-2027"
     },
     {
       "categoria": "Editais",
+      "icone": "📚",
+      "cor": "#2E7D22",
+      "orgao": "MEC / Inep",
+      "titulo": "Prazo Estendido para Inscrição no Enem 2026: Oportunidade para Jovens Vulneráveis",
+      "resumo": "O MEC e Inep estenderam o prazo para pagamento da taxa do Enem 2026 até 22 de junho. Isenções são concedidas a estudantes de escolas públicas, baixa renda e participantes do CadÚnico, beneficiando diretamente o público-alvo da AME-AMAZÔNIA.",
+      "aplicabilidade": "Divulgar amplamente o novo prazo e as condições de isenção para jovens em vulnerabilidade e comunidades ribeirinhas, incentivando a participação e o acesso à educação superior.",
+      "link": "https://agenciabrasil.ebc.com.br/educacao/noticia/2026-06/enem-2026-mec-amplia-prazo-para-pagar-taxa-de-inscricao-ate-dia-22"
+    },
+    {
+      "categoria": "Parcerias",
       "icone": "🌳",
-      "cor": "#68BB8A",
+      "cor": "#2E7D22",
       "orgao": "Fundo Amazônia",
-      "titulo": "Fundo Amazônia: Relevância Contínua para Projetos de Meio Ambiente e Desenvolvimento Sustentável",
-      "resumo": "O Fundo Amazônia continua sendo uma fonte vital de apoio para iniciativas na região, com foco em eixos de atuação alinhados com a proteção ambiental, desenvolvimento sustentável e inclusão produtiva, conforme indicado em suas páginas.",
-      "aplicabilidade": "Monitorar ativamente os editais e chamadas públicas do Fundo Amazônia, buscando alinhamento para projetos de empreendedorismo verde, inclusão produtiva e assistência social para comunidades ribeirinhas e empreendedores rurais na Região Norte.",
+      "titulo": "Fundo Amazônia: Eixos de Atuação, Projetos e Oportunidades de Financiamento",
+      "resumo": "Análise dos dados, eixos de atuação e projetos em destaque do Fundo Amazônia, principal mecanismo de captação de doações para redução do desmatamento e desenvolvimento sustentável na Amazônia, crucial para a AME-AMAZÔNIA.",
+      "aplicabilidade": "Manter-se atualizado sobre o Fundo Amazônia para identificar futuras chamadas de projetos, alinhar iniciativas de empreendedorismo verde e meio ambiente, e buscar parcerias estratégicas na Região Norte.",
       "link": "https://www.fundoamazonia.gov.br"
+    },
+    {
+      "categoria": "Legislação",
+      "icone": "⚖️",
+      "cor": "#68BB8A",
+      "orgao": "Senado Federal / CIEE",
+      "titulo": "Adiamento da Votação do Estatuto do Aprendiz no Senado: Impacto para Jovens",
+      "resumo": "O Senado adiou a votação do PL 6461/2019, o Estatuto do Aprendiz, gerando preocupação sobre o futuro do programa. Este atraso afeta milhares de jovens e a pauta de educação e inclusão produtiva.",
+      "aplicabilidade": "Acompanhar de perto o andamento do PL 6461/2019 no Senado, mobilizando-se, se necessário, para defender a pauta do Jovem Aprendiz e seus benefícios para a inclusão de jovens em vulnerabilidade.",
+      "link": "https://portal.ciee.org.br/universo-ciee/senado-adia-votacao-estatuto-do-aprendiz/"
+    },
+    {
+      "categoria": "Parcerias",
+      "icone": "📊",
+      "cor": "#68BB8A",
+      "orgao": "CIEE",
+      "titulo": "Relatório de Atividades 2025 do CIEE: Insights para Programas de Jovem Aprendiz",
+      "resumo": "O CIEE divulgou seu relatório de atividades de 2025, detalhando suas ações e resultados em programas de estágio e jovem aprendiz. Este documento é uma fonte valiosa para benchmarking e identificação de boas práticas.",
+      "aplicabilidade": "Analisar o relatório do CIEE para identificar modelos de sucesso, metodologias e potenciais áreas de colaboração em programas de educação e inclusão produtiva para jovens, alinhado ao foco da AME-AMAZÔNIA.",
+      "link": "https://portal.ciee.org.br/universo-ciee/confira-o-que-o-ciee-realizou-no-relatorio-de-atividades-de-2025/"
     }
   ],
   "gestao": {
     "prioridades": {
       "alta": [
-        "Analisar oportunidades de parceria com a EBC/Rádio Nacional da Amazônia para divulgação de projetos e conteúdos educativos.",
-        "Mapear editais e chamadas abertas do Fundo Amazônia alinhados aos eixos de atuação da AME-AMAZÔNIA."
+        "Divulgação do prazo do Enem para o público-alvo",
+        "Acompanhamento do Estatuto do Aprendiz",
+        "Análise do Fundo Amazônia para oportunidades"
       ],
       "media": [
-        "Desenvolver proposta de conteúdo para Rádio Nacional da Amazônia (ex: série sobre empreendedorismo verde ou jovem aprendiz).",
-        "Preparar documentação e projetos para futuras chamadas do Fundo Amazônia, com base nos eixos de atuação."
+        "Análise do relatório CIEE para benchmarking",
+        "Monitoramento do Bolsa Família e seu impacto"
       ],
       "baixa": [
-        "Estudar projetos em destaque do Fundo Amazônia para benchmarking e identificação de boas práticas."
+        "Acompanhamento da UFEsporte para futuras parcerias"
       ]
     },
     "acoes": [
       {
-        "acao": "Contatar a EBC/Rádio Nacional da Amazônia para explorar possibilidades de parceria e divulgação de conteúdo.",
+        "acao": "Divulgar amplamente o novo prazo de inscrição e as condições de isenção do Enem 2026 para jovens em vulnerabilidade e comunidades ribeirinhas.",
         "responsavel": "Diretor(a) de Comunicação",
+        "prazo": "3 dias"
+      },
+      {
+        "acao": "Elaborar um resumo executivo sobre os eixos de atuação e projetos em destaque do Fundo Amazônia, identificando potenciais alinhamentos com os projetos da AME-AMAZÔNIA.",
+        "responsavel": "Diretor(a) Executivo(a)",
         "prazo": "7 dias"
       },
       {
-        "acao": "Realizar levantamento detalhado dos editais e linhas de financiamento atuais do Fundo Amazônia.",
+        "acao": "Monitorar o andamento da votação do PL 6461/2019 (Estatuto do Aprendiz) no Senado e preparar uma nota técnica sobre os impactos para a AME-AMAZÔNIA.",
         "responsavel": "Diretor(a) de RIG",
         "prazo": "5 dias"
       },
       {
-        "acao": "Elaborar um plano de comunicação inicial com ideias de conteúdo para os novos portais da EBC, focado no público-alvo da AME-AMAZÔNIA.",
-        "responsavel": "Diretor(a) de Comunicação",
+        "acao": "Analisar o Relatório de Atividades 2025 do CIEE para identificar boas práticas e oportunidades de colaboração em programas de Jovem Aprendiz.",
+        "responsavel": "Diretor(a) Executivo(a)",
         "prazo": "10 dias"
+      },
+      {
+        "acao": "Mapear as comunidades ribeirinhas e indivíduos em vulnerabilidade no Amazonas que são beneficiados pelo Bolsa Família para entender o cenário de assistência social.",
+        "responsavel": "Diretor(a) Executivo(a)",
+        "prazo": "15 dias"
       }
     ]
   }
