@@ -1,0 +1,390 @@
+<!-- Versão: v.3.1.0 (16062026-2300) -->
+<!-- Arquivo: index.html -->
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AME-AMAZÔNIA | Portal de Inteligência</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <style>
+        :root {
+            --bg: #f1f5f9;
+            --card-bg: #FFFFFF;
+            --title: #2E7D22;
+            --highlight: #68BB8A;
+            --text-main: #111111;
+            --text-sec: #475569;
+            --border: #e2e8f0;
+        }
+        * { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Montserrat', sans-serif; }
+        body { background-color: var(--bg); color: var(--text-main); line-height: 1.5; padding-bottom: 60px; }
+        
+        /* Header Centralizado */
+        header { background-color: var(--card-bg); border-bottom: 2px solid var(--border); padding: 30px 20px; text-align: center; box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05); }
+        .logo-title { color: var(--title); font-weight: 800; font-size: 32px; letter-spacing: -0.5px; }
+        .logo-subtitle { color: var(--highlight); font-weight: 600; font-size: 14px; text-transform: uppercase; margin-top: 8px; letter-spacing: 1px; }
+        .last-update { font-size: 12px; font-weight: 700; color: var(--text-sec); margin-top: 15px; display: inline-block; background: var(--bg); padding: 6px 16px; border-radius: 20px; border: 1px solid var(--border); }
+
+        /* Container Principal */
+        .container { max-width: 1200px; margin: 0 auto; padding: 30px 20px; }
+
+        /* Alerta de Erro */
+        .error-alert { display: none; background-color: #fef2f2; border: 1px solid #f87171; color: #b91c1c; padding: 16px; border-radius: 8px; font-weight: 600; text-align: center; margin-bottom: 30px; box-shadow: 0 4px 6px -1px rgba(239, 68, 68, 0.1); }
+
+        /* Barra de Ferramentas */
+        .toolbar { display: flex; flex-wrap: wrap; gap: 15px; background: var(--card-bg); padding: 20px; border-radius: 12px; border: 1px solid var(--border); margin-bottom: 30px; align-items: center; justify-content: space-between; box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.05); }
+        .search-input { flex: 1; min-width: 250px; padding: 12px 16px; border: 1px solid var(--border); border-radius: 6px; font-size: 14px; font-weight: 500; outline: none; }
+        .search-input:focus { border-color: var(--highlight); box-shadow: 0 0 0 3px rgba(104, 187, 138, 0.2); }
+        .filter-group { display: flex; gap: 10px; flex-wrap: wrap; }
+        .filter-btn { padding: 8px 16px; border: 1px solid var(--border); background: var(--bg); color: var(--text-sec); border-radius: 20px; font-size: 13px; font-weight: 600; cursor: pointer; transition: all 0.2s; }
+        .filter-btn:hover, .filter-btn.active { background: var(--title); color: #fff; border-color: var(--title); }
+        .report-btn { background: var(--highlight); color: #fff; border: none; padding: 12px 20px; border-radius: 6px; font-weight: 700; cursor: pointer; transition: background 0.2s; }
+        .report-btn:hover { background: #559b72; }
+
+        /* Dash: Gráfico e Calendário */
+        .dash-grid { display: grid; grid-template-columns: 2fr 1fr; gap: 24px; margin-bottom: 40px; }
+        @media(max-width: 768px) { .dash-grid { grid-template-columns: 1fr; } }
+        .dash-card { background: var(--card-bg); border-radius: 12px; padding: 24px; border: 1px solid var(--border); box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.05); }
+        .dash-title { color: var(--title); font-size: 18px; font-weight: 700; margin-bottom: 20px; border-left: 4px solid var(--highlight); padding-left: 12px; }
+        .chart-container { position: relative; height: 250px; width: 100%; }
+        .calendar-list { list-style: none; }
+        .calendar-item { padding: 12px 0; border-bottom: 1px solid var(--border); font-size: 13px; display: flex; flex-direction: column; gap: 4px; }
+        .calendar-item:last-child { border-bottom: none; }
+        .cal-date { color: var(--highlight); font-weight: 800; font-size: 12px; }
+        .cal-desc { color: var(--text-main); font-weight: 600; }
+
+        /* Agrupamento e Cards de Oportunidades */
+        .group-title { background: var(--title); color: #fff; display: inline-block; padding: 6px 16px; border-radius: 6px; font-size: 14px; font-weight: 700; margin: 30px 0 20px 0; }
+        .cards-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 24px; margin-bottom: 40px; }
+        .card { background: var(--card-bg); padding: 24px; border-radius: 12px; border: 1px solid var(--border); display: flex; flex-direction: column; transition: transform 0.2s, box-shadow 0.2s; box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.05); }
+        .card:hover { transform: translateY(-3px); box-shadow: 0 10px 25px -5px rgba(46, 125, 34, 0.1); }
+        .card-org { font-size: 12px; font-weight: 800; color: var(--highlight); text-transform: uppercase; margin-bottom: 8px; }
+        .card-tit { font-size: 18px; font-weight: 700; color: var(--title); margin-bottom: 12px; line-height: 1.3; }
+        .card-res { font-size: 14px; color: var(--text-sec); margin-bottom: 16px; flex: 1; line-height: 1.6; }
+        .card-apl { background: #f8fafc; padding: 12px; border-radius: 8px; font-size: 12px; color: var(--text-sec); margin-bottom: 20px; border-left: 3px solid var(--highlight); font-weight: 500; }
+        .card-btn { text-align: center; display: block; background: var(--bg); color: var(--title); border: 2px solid var(--title); text-decoration: none; padding: 12px; border-radius: 6px; font-weight: 700; font-size: 13px; transition: all 0.2s; }
+        .card-btn:hover { background: var(--title); color: #fff; }
+
+        /* Painel de Gestão */
+        .gestion-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px; }
+        @media(max-width: 992px) { .gestion-grid { grid-template-columns: 1fr; } }
+        
+        .prio-list { list-style: none; display: flex; flex-direction: column; gap: 12px; }
+        .prio-card { padding: 12px; border-radius: 8px; font-size: 13px; font-weight: 600; background: var(--bg); display: flex; align-items: flex-start; gap: 10px; border-left: 4px solid #ccc; }
+        .prio-card.alta { border-color: #ef4444; }
+        .prio-card.media { border-color: #f59e0b; }
+        .prio-card.baixa { border-color: #10b981; }
+
+        .upload-card { border: 2px dashed var(--highlight); background-color: #f4fbf7; border-radius: 12px; padding: 30px 20px; text-align: center; cursor: pointer; transition: background 0.2s; display: flex; flex-direction: column; align-items: center; justify-content: center; height: 100%; min-height: 180px; }
+        .upload-card:hover { background-color: #e8f5ec; }
+        .upload-ico { font-size: 32px; margin-bottom: 15px; display: block; }
+        .upload-tit { color: var(--title); font-weight: 700; font-size: 15px; margin-bottom: 8px; }
+        .upload-txt { color: var(--text-sec); font-size: 12px; }
+
+        .table-wrap { overflow-x: auto; }
+        table { width: 100%; border-collapse: collapse; font-size: 13px; text-align: left; }
+        th { padding: 12px 10px; border-bottom: 2px solid var(--border); color: var(--text-sec); font-weight: 700; }
+        td { padding: 14px 10px; border-bottom: 1px solid var(--border); color: var(--text-main); font-weight: 600; }
+        .td-dir { color: var(--title); }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1 class="logo-title">AME-AMAZÔNIA</h1>
+        <p class="logo-subtitle">Monitoramento Estratégico, Editais e Gestão Institucional</p>
+        <span class="last-update" id="lbl-update">Última atualização: Carregando...</span>
+    </header>
+
+    <div class="container">
+        
+        <div id="error-box" class="error-alert">
+            O arquivo de dados não foi encontrado. O robô Python precisa ser executado.
+        </div>
+
+        <section id="app-content" style="display: none;">
+            
+            <div class="toolbar">
+                <input type="text" id="ipt-search" class="search-input" placeholder="Pesquisar oportunidade ou órgão...">
+                <div class="filter-group" id="filter-container">
+                    <button class="filter-btn active" data-filter="Todos">Todos</button>
+                    <button class="filter-btn" data-filter="Editais">Editais</button>
+                    <button class="filter-btn" data-filter="Legislação">Legislação</button>
+                    <button class="filter-btn" data-filter="Parcerias">Parcerias</button>
+                    <button class="filter-btn" data-filter="Tecnologia">Tecnologia</button>
+                </div>
+                <button class="report-btn" onclick="window.print()">Gerar Relatório</button>
+            </div>
+
+            <div class="dash-grid">
+                <div class="dash-card">
+                    <h3 class="dash-title">Oportunidades por Categoria</h3>
+                    <div class="chart-container">
+                        <canvas id="catChart"></canvas>
+                    </div>
+                </div>
+                <div class="dash-card">
+                    <h3 class="dash-title">Calendário de Prazos</h3>
+                    <ul class="calendar-list" id="calendar-ui">
+                        <!-- Renderizado via JS -->
+                    </ul>
+                </div>
+            </div>
+
+            <div id="cards-container">
+                <!-- Grupos e Cards gerados via JS -->
+            </div>
+
+            <div class="dash-card" style="margin-top: 40px;">
+                <h3 class="dash-title" style="margin-bottom: 30px;">Painel de Gestão Ocupacional</h3>
+                <div class="gestion-grid">
+                    
+                    <!-- Coluna A: Prioridades -->
+                    <div>
+                        <h4 style="font-size: 14px; font-weight: 700; color: var(--text-sec); margin-bottom: 15px; text-transform: uppercase;">Sistema de Prioridades</h4>
+                        <ul class="prio-list" id="prio-ui"></ul>
+                    </div>
+
+                    <!-- Coluna B: Upload -->
+                    <div>
+                        <div class="upload-card" onclick="alert('Integração com Google Drive (Webhooks) em desenvolvimento.')">
+                            <span class="upload-ico">📁</span>
+                            <p class="upload-tit">Documentação e Certidões</p>
+                            <p class="upload-txt">Clique ou arraste CNDs, LOAS e o Estatuto Social aqui.</p>
+                        </div>
+                    </div>
+
+                    <!-- Coluna C: Ações -->
+                    <div class="table-wrap">
+                        <h4 style="font-size: 14px; font-weight: 700; color: var(--text-sec); margin-bottom: 15px; text-transform: uppercase;">Próximas Entregas</h4>
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th>Ação</th>
+                                    <th>Diretoria Responsável</th>
+                                    <th>Prazo Final</th>
+                                </tr>
+                            </thead>
+                            <tbody id="acts-ui"></tbody>
+                        </table>
+                    </div>
+
+                </div>
+            </div>
+
+        </section>
+    </div>
+
+    <script>
+        let dbData = null;
+        let chartInstance = null;
+        let currentFilter = 'Todos';
+        let actSearchQuery = '';
+
+        document.addEventListener('DOMContentLoaded', initializeApplication);
+
+        async function initializeApplication() {
+            try {
+                const response = await fetch('boletim.json');
+                if (!response.ok) throw new Error('Falha ao localizar boletim.json');
+                dbData = await response.json();
+                
+                document.getElementById('error-box').style.display = 'none';
+                document.getElementById('app-content').style.display = 'block';
+                document.getElementById('lbl-update').innerText = `Última atualização: ${dbData.data || 'Indisponível'}`;
+
+                setupEventListeners();
+                renderDashboard();
+                
+            } catch (err) {
+                console.error('Falha na Inicialização:', err);
+                document.getElementById('error-box').style.display = 'block';
+                document.getElementById('app-content').style.display = 'none';
+            }
+        }
+
+        function setupEventListeners() {
+            document.getElementById('ipt-search').addEventListener('input', (e) => {
+                actSearchQuery = e.target.value.toLowerCase();
+                renderFilteredCards();
+            });
+
+            const filterBtns = document.querySelectorAll('.filter-btn');
+            filterBtns.forEach(b => {
+                b.addEventListener('click', (e) => {
+                    filterBtns.forEach(btn => btn.classList.remove('active'));
+                    e.target.classList.add('active');
+                    currentFilter = e.target.getAttribute('data-filter');
+                    renderFilteredCards();
+                });
+            });
+        }
+
+        function renderDashboard() {
+            generateChart();
+            generateCalendar();
+            renderFilteredCards();
+            generateManagementPanel();
+        }
+
+        function generateChart() {
+            const counts = {};
+            if(dbData.cards) {
+                dbData.cards.forEach(c => {
+                    // Trata string padronizada
+                    const cat = c.categoria ? c.categoria.trim() : 'Geral';
+                    counts[cat] = (counts[cat] || 0) + 1;
+                });
+            }
+
+            const ctx = document.getElementById('catChart').getContext('2d');
+            if(chartInstance) chartInstance.destroy();
+
+            chartInstance = new Chart(ctx, {
+                type: 'bar',
+                data: {
+                    labels: Object.keys(counts),
+                    datasets: [{
+                        label: 'Oportunidades Registradas',
+                        data: Object.values(counts),
+                        backgroundColor: '#68BB8A',
+                        borderRadius: 4,
+                        barThickness: 35
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    maintainAspectRatio: false,
+                    plugins: { legend: { display: false } },
+                    scales: {
+                        y: { beginAtZero: true, ticks: { precision: 0 } },
+                        x: { ticks: { font: { weight: 'bold', family: 'Montserrat' } } }
+                    }
+                }
+            });
+        }
+
+        function generateCalendar() {
+            const listUI = document.getElementById('calendar-ui');
+            listUI.innerHTML = '';
+            if(dbData.gestao && dbData.gestao.acoes) {
+                dbData.gestao.acoes.slice(0, 4).forEach(a => {
+                    listUI.innerHTML += `
+                        <li class="calendar-item">
+                            <span class="cal-date">PRAZO: ${a.prazo}</span>
+                            <span class="cal-desc">${a.acao}</span>
+                        </li>
+                    `;
+                });
+            }
+        }
+
+        function renderFilteredCards() {
+            let processedItems = dbData.cards || [];
+            
+            if(actSearchQuery) {
+                processedItems = processedItems.filter(c => 
+                    c.titulo.toLowerCase().includes(actSearchQuery) || 
+                    c.orgao.toLowerCase().includes(actSearchQuery) ||
+                    (c.resumo && c.resumo.toLowerCase().includes(actSearchQuery))
+                );
+            }
+
+            if(currentFilter !== 'Todos') {
+                processedItems = processedItems.filter(c => 
+                    c.categoria && 
+                    c.categoria.normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase() === 
+                    currentFilter.normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase()
+                );
+            }
+
+            const groupMapper = {};
+            processedItems.forEach(c => {
+                const groupName = c.categoria || 'Geral';
+                if(!groupMapper[groupName]) groupMapper[groupName] = [];
+                groupMapper[groupName].push(c);
+            });
+
+            const cardsWrap = document.getElementById('cards-container');
+            cardsWrap.innerHTML = '';
+
+            if(Object.keys(groupMapper).length === 0) {
+                cardsWrap.innerHTML = '<p style="color: var(--text-sec); font-weight: 500; font-size: 15px; padding: 20px 0;">O radar não localizou resultados correspondentes aos filtros de busca.</p>';
+                return;
+            }
+
+            for(const [category, itemArray] of Object.entries(groupMapper)) {
+                let sectionHTML = `<h4 class="group-title">${itemArray[0]?.icone || '📌'} ${category}</h4>`;
+                sectionHTML += `<div class="cards-grid">`;
+                
+                itemArray.forEach(c => {
+                    sectionHTML += `
+                        <div class="card">
+                            <span class="card-org">${c.orgao}</span>
+                            <h5 class="card-tit">${c.titulo}</h5>
+                            <p class="card-res">${c.resumo}</p>
+                            <div class="card-apl">
+                                <strong style="color:var(--title)">Aplicação (AME-AMAZÔNIA):</strong><br>
+                                ${c.aplicabilidade}
+                            </div>
+                            <a href="${c.link}" target="_blank" class="card-btn">Acessar Portal Oficial</a>
+                        </div>
+                    `;
+                });
+
+                sectionHTML += `</div>`;
+                cardsWrap.innerHTML += sectionHTML;
+            }
+        }
+
+        function generateManagementPanel() {
+            // Prioridades
+            const prioContainer = document.getElementById('prio-ui');
+            prioContainer.innerHTML = '';
+            
+            if(dbData.gestao && dbData.gestao.prioridades) {
+                const pLayer = [
+                    { key: 'alta', label: 'ALTA PRIORIDADE', classId: 'alta' },
+                    { key: 'media', label: 'MÉDIA', classId: 'media' },
+                    { key: 'baixa', label: 'BAIXA', classId: 'baixa' }
+                ];
+
+                pLayer.forEach(level => {
+                    const levelArray = dbData.gestao.prioridades[level.key];
+                    if(levelArray && Array.isArray(levelArray)) {
+                        levelArray.forEach(task => {
+                            prioContainer.innerHTML += `
+                                <li class="prio-card ${level.classId}">
+                                    <div>
+                                        <span style="display:block; font-size:10px; text-transform:uppercase; color:var(--text-sec); margin-bottom:3px; font-weight:800; letter-spacing:0.5px;">${level.label}</span>
+                                        ${task}
+                                    </div>
+                                </li>
+                            `;
+                        });
+                    }
+                });
+            }
+
+            // Ações Tabela
+            const actionContainer = document.getElementById('acts-ui');
+            actionContainer.innerHTML = '';
+            if(dbData.gestao && dbData.gestao.acoes) {
+                dbData.gestao.acoes.forEach(a => {
+                    actionContainer.innerHTML += `
+                        <tr>
+                            <td>${a.acao}</td>
+                            <td class="td-dir">${a.responsavel}</td>
+                            <td><span style="background:var(--bg); padding:6px 10px; border-radius:6px; font-size:12px; font-weight:700; color:var(--title); border: 1px solid var(--border);">${a.prazo}</span></td>
+                        </tr>
+                    `;
+                });
+            }
+        }
+    </script>
+</body>
+</html>
