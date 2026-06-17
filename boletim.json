@@ -1,34 +1,44 @@
 {
-  "data": "17/06/2026 - 13:16",
+  "data": "17/06/2026 - 13:28",
   "cards": [
     {
-      "categoria": "Legislação",
-      "icone": "💰",
+      "categoria": "Assistência Social",
+      "icone": "👨‍👩‍👧‍👦",
       "cor": "#2E7D22",
-      "orgao": "Caixa Econômica Federal / Governo Federal",
-      "titulo": "Início do Pagamento do Bolsa Família de Junho, com Antecipação para o Amazonas",
-      "resumo": "A Caixa inicia o pagamento do Bolsa Família de junho, beneficiando 19,3 milhões de famílias. Municípios do Amazonas e outros 7 estados recebem antecipadamente devido a emergências climáticas.",
-      "aplicabilidade": "Monitorar o impacto nas comunidades ribeirinhas e indivíduos em vulnerabilidade na Região Norte, especialmente no Amazonas, para identificar necessidades complementares de assistência social e inclusão produtiva.",
+      "orgao": "Caixa Econômica Federal",
+      "titulo": "Início do Pagamento do Bolsa Família de Junho, com Antecipação no Amazonas",
+      "resumo": "A Caixa inicia o pagamento do Bolsa Família de junho para 19,3 milhões de famílias. Beneficiários do Amazonas e outros 7 estados recebem antecipadamente devido a decretos de emergência climática. Valores podem ser movimentados via App Caixa Tem.",
+      "aplicabilidade": "Informar e orientar comunidades ribeirinhas e indivíduos em vulnerabilidade sobre o acesso ao benefício, especialmente no Amazonas, e sobre o uso do App Caixa Tem para facilitar o recebimento.",
       "link": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-06/caixa-comeca-pagar-bolsa-familia-de-junho"
     },
     {
       "categoria": "Educação",
-      "icone": "📚",
+      "icone": "🎓",
       "cor": "#68BB8A",
-      "orgao": "Ministério da Educação (MEC) / Inep",
-      "titulo": "Prazo de Pagamento da Taxa do Enem 2026 Ampliado até 22 de Junho",
-      "resumo": "O MEC e o Inep estenderam o prazo para pagamento da taxa de inscrição do Enem 2026 até 22 de junho. O valor é R$ 85, com opções de pagamento via Pix, cartão ou débito em conta.",
-      "aplicabilidade": "Divulgar a informação para jovens e comunidades em Manaus/AM e Região Norte, oferecendo suporte para inscrição e pagamento, especialmente para aqueles em vulnerabilidade que não são isentos.",
+      "orgao": "Governo Federal (Ministério do Esporte e Educação)",
+      "titulo": "Projeto de Lei para Criação da Universidade Federal do Esporte Aprovado",
+      "resumo": "O Senado aprovou o projeto que cria a UFEsporte, visando promover ensino, pesquisa e inovação na ciência do esporte a partir de 2027. A instituição focará na formação de profissionais e na inclusão social, equidade de gênero e étnico-racial no esporte.",
+      "aplicabilidade": "Monitorar a regulamentação para futuras parcerias em programas de inclusão social e educação para jovens, explorando oportunidades de formação e desenvolvimento em áreas alinhadas com o multiempreendedorismo e assistência social.",
+      "link": "https://agenciabrasil.ebc.com.br/esportes/noticia/2026-06/governo-quer-criar-universidade-federal-do-esporte-em-2027"
+    },
+    {
+      "categoria": "Educação",
+      "icone": "📚",
+      "cor": "#2E7D22",
+      "orgao": "MEC / Inep",
+      "titulo": "Prazo de Pagamento da Taxa de Inscrição do Enem 2026 Ampliado",
+      "resumo": "O MEC e o Inep estenderam o prazo para pagamento da taxa de inscrição do Enem 2026 até 22 de junho. O valor é R$ 85, e a GRU pode ser paga via Pix, cartão de crédito ou débito. Isenções são válidas para perfis específicos, incluindo estudantes do Pé-de-Meia.",
+      "aplicabilidade": "Divulgar a informação para jovens do público-alvo, especialmente aqueles em vulnerabilidade, e oferecer suporte na geração da GRU ou orientação sobre as opções de pagamento e critérios de isenção.",
       "link": "https://agenciabrasil.ebc.com.br/educacao/noticia/2026-06/enem-2026-mec-amplia-prazo-para-pagar-taxa-de-inscricao-ate-dia-22"
     },
     {
       "categoria": "Educação",
-      "icone": "🧑‍🏫",
+      "icone": "👩‍🏫",
       "cor": "#68BB8A",
-      "orgao": "Ministério da Educação (MEC) / Inep",
-      "titulo": "Último Dia para Redes de Ensino Aderirem à Prova Nacional Docente (PND) 2026",
-      "resumo": "Gestores de educação têm até hoje (17/06) para aderir à PND 2026, que seleciona professores da educação básica. A prova, em 20 de setembro, visa qualificar o ingresso na carreira do magistério.",
-      "aplicabilidade": "Informar secretarias de educação e instituições parceiras na Região Norte sobre a oportunidade de adesão para qualificação de docentes, alinhando com o foco em Educação.",
+      "orgao": "MEC / Inep",
+      "titulo": "Prazo Final para Adesão à Prova Nacional Docente (PND) 2026",
+      "resumo": "Redes de ensino têm até 17 de junho para aderir à PND 2026, que seleciona professores da educação básica. A prova, marcada para 20 de setembro, visa qualificar o ingresso na carreira do magistério e fortalecer a formação docente no país.",
+      "aplicabilidade": "Monitorar a implementação da PND e seus impactos na qualidade da educação na Região Norte, buscando oportunidades de diálogo com gestores educacionais para alinhar programas de apoio a jovens e comunidades.",
       "link": "https://agenciabrasil.ebc.com.br/educacao/noticia/2026-06/pnd-2026-gestores-de-educacao-tem-ate-esta-quarta-para-aderir-prova"
     },
     {
@@ -37,74 +47,70 @@
       "cor": "#2E7D22",
       "orgao": "Fundo Amazônia",
       "titulo": "Oportunidades de Financiamento e Parceria com o Fundo Amazônia",
-      "resumo": "O Fundo Amazônia é uma fonte crucial de apoio a projetos de meio ambiente e desenvolvimento sustentável na Região Norte. Seus eixos de atuação e projetos em destaque oferecem insights para novas iniciativas.",
-      "aplicabilidade": "Analisar os eixos de atuação e projetos financiados para identificar sinergias e desenvolver propostas alinhadas com Meio Ambiente, Empreendedorismo Verde e Inclusão Produtiva.",
+      "resumo": "O Fundo Amazônia é uma fonte estratégica de recursos para projetos de combate ao desmatamento e desenvolvimento sustentável na Amazônia. Seus eixos de atuação e projetos em destaque oferecem insights para futuras propostas e colaborações.",
+      "aplicabilidade": "Analisar os eixos de atuação e projetos financiados para identificar sinergias com o multiempreendedorismo, empreendedorismo verde e inclusão produtiva, preparando propostas para editais futuros ou parcerias estratégicas.",
       "link": "https://www.fundoamazonia.gov.br"
     },
     {
       "categoria": "Legislação",
       "icone": "⚖️",
-      "cor": "#2E7D22",
+      "cor": "#68BB8A",
       "orgao": "Senado Federal / CIEE",
-      "titulo": "Adiamento da Votação do Estatuto do Aprendiz Prejudica Jovens",
-      "resumo": "O Senado adiou a votação do PL 6461/2019, o Estatuto do Aprendiz, impactando milhares de jovens. A legislação é fundamental para aprimorar e expandir as oportunidades de jovem aprendiz.",
-      "aplicabilidade": "Monitorar o andamento do PL e engajar-se em articulações para acelerar a votação, defendendo os interesses dos jovens aprendizes da Região Norte e fortalecendo o foco em Educação (Jovem Aprendiz).",
+      "titulo": "Adiamento da Votação do Estatuto do Aprendiz no Senado",
+      "resumo": "A votação do PL 6461/2019, o Estatuto do Aprendiz, foi adiada no Senado, gerando preocupação sobre o impacto em milhares de jovens. A legislação é crucial para aprimorar e expandir os programas de jovem aprendiz no Brasil.",
+      "aplicabilidade": "Acompanhar de perto o trâmite legislativo, engajar-se em articulações com parlamentares da Região Norte e parceiros para defender a aprovação do estatuto, e informar o público-alvo sobre os desdobramentos.",
       "link": "https://portal.ciee.org.br/universo-ciee/senado-adia-votacao-estatuto-do-aprendiz/"
     },
     {
       "categoria": "Parcerias",
       "icone": "🤝",
-      "cor": "#68BB8A",
+      "cor": "#2E7D22",
       "orgao": "CIEE",
       "titulo": "Análise do Relatório de Atividades 2025 do CIEE",
-      "resumo": "O CIEE divulgou seu relatório de atividades de 2025, detalhando suas ações e resultados. A análise pode revelar oportunidades de colaboração e melhores práticas para programas de jovem aprendiz.",
-      "aplicabilidade": "Estudar o relatório para identificar modelos de sucesso, lacunas e potenciais parcerias estratégicas com o CIEE para expandir programas de Jovem Aprendiz na Região Norte.",
+      "resumo": "O CIEE divulgou seu relatório de atividades de 2025, detalhando suas ações e resultados em programas de estágio e jovem aprendiz. Este documento é uma fonte valiosa para entender as melhores práticas e potenciais áreas de colaboração.",
+      "aplicabilidade": "Estudar o relatório para identificar modelos de sucesso e oportunidades de parceria com o CIEE ou replicar estratégias eficazes em programas de Educação (Jovem Aprendiz) para jovens em Manaus/AM e Região Norte.",
       "link": "https://portal.ciee.org.br/universo-ciee/confira-o-que-o-ciee-realizou-no-relatorio-de-atividades-de-2025/"
     }
   ],
   "gestao": {
     "prioridades": {
       "alta": [
-        "Monitorar o andamento do PL do Estatuto do Aprendiz e preparar posicionamento.",
-        "Divulgar amplamente o prazo estendido do ENEM para jovens da região.",
-        "Analisar eixos e projetos do Fundo Amazônia para identificar editais abertos ou futuras chamadas."
+        "Divulgar ampliação do prazo do ENEM para jovens e oferecer suporte.",
+        "Monitorar o pagamento do Bolsa Família no AM e orientar beneficiários.",
+        "Acompanhar o Estatuto do Aprendiz e articular apoio legislativo."
       ],
       "media": [
-        "Avaliar o impacto do Bolsa Família no Amazonas e identificar necessidades de apoio.",
-        "Contatar secretarias de educação na Região Norte sobre a PND 2026."
+        "Analisar eixos do Fundo Amazônia para futuras propostas de projetos.",
+        "Estudar o relatório do CIEE para identificar parcerias e melhores práticas."
       ],
       "baixa": [
-        "Estudar o relatório de atividades do CIEE para futuras estratégias e parcerias."
+        "Monitorar a criação da UFEsporte para futuras colaborações em inclusão social.",
+        "Acompanhar impactos da PND na qualidade da educação da Região Norte."
       ]
     },
     "acoes": [
       {
-        "acao": "Elaborar comunicado interno e externo sobre o novo prazo do ENEM 2026.",
+        "acao": "Criar campanha de comunicação interna e externa sobre o novo prazo de pagamento do ENEM 2026, com foco em jovens do público-alvo.",
         "responsavel": "Diretor(a) de Comunicação",
-        "prazo": "1 dia"
-      },
-      {
-        "acao": "Mapear secretarias de educação na Região Norte para informar sobre a PND 2026.",
-        "responsavel": "Diretor(a) Executivo(a)",
         "prazo": "2 dias"
       },
       {
-        "acao": "Reunir equipe de RIG para analisar o site do Fundo Amazônia e identificar editais e oportunidades.",
-        "responsavel": "Diretor(a) de RIG",
+        "acao": "Elaborar material informativo sobre o pagamento do Bolsa Família e antecipação no AM, e distribuir nas comunidades atendidas.",
+        "responsavel": "Diretor(a) Executivo(a)",
         "prazo": "3 dias"
       },
       {
-        "acao": "Preparar nota técnica sobre o impacto do adiamento do Estatuto do Aprendiz e possíveis ações de advocacy.",
-        "responsavel": "Diretor(a) Presidente",
+        "acao": "Contatar parlamentares da bancada do Amazonas para entender o status do PL 6461/2019 e reforçar a importância da votação.",
+        "responsavel": "Diretor(a) de RIG",
         "prazo": "5 dias"
       },
       {
-        "acao": "Coletar dados sobre beneficiários do Bolsa Família no Amazonas para entender necessidades.",
-        "responsavel": "Diretor(a) Executivo(a)",
+        "acao": "Realizar reunião interna para mapear sinergias entre os eixos de atuação do Fundo Amazônia e os projetos da AME-AMAZÔNIA.",
+        "responsavel": "Diretor(a) Presidente",
         "prazo": "7 dias"
       },
       {
-        "acao": "Analisar o relatório do CIEE para identificar sinergias e potenciais projetos de Jovem Aprendiz.",
+        "acao": "Designar equipe para analisar o Relatório de Atividades 2025 do CIEE e identificar potenciais parcerias ou modelos de programas.",
         "responsavel": "Diretor(a) Executivo(a)",
         "prazo": "10 dias"
       }
