@@ -1,107 +1,128 @@
 {
-  "data": "17/06/2026 - 12:23",
+  "data": "17/06/2026 - 12:50",
   "cards": [
+    {
+      "categoria": "Legislação",
+      "icone": "🎓",
+      "cor": "#2E7D22",
+      "orgao": "Governo Federal (Ministério do Esporte e da Educação)",
+      "titulo": "Criação da Universidade Federal do Esporte (UFEsporte) em 2027",
+      "resumo": "Projeto de lei aprovado pelo Senado visa criar a UFEsporte para ensino, pesquisa e inovação no esporte, com foco em formação de gestores, técnicos e inclusão social, paradesporto e equidade.",
+      "aplicabilidade": "Monitorar a regulamentação para identificar futuras oportunidades de programas de qualificação profissional e inclusão social através do esporte para jovens e comunidades vulneráveis na Região Norte. Potencial para influenciar políticas locais e parcerias.",
+      "link": "https://agenciabrasil.ebc.com.br/esportes/noticia/2026-06/governo-quer-criar-universidade-federal-do-esporte-em-2027"
+    },
     {
       "categoria": "Legislação",
       "icone": "💰",
       "cor": "#68BB8A",
       "orgao": "Caixa Econômica Federal / Governo Federal",
-      "titulo": "Pagamento do Bolsa Família em Junho: Impacto na Região Norte e Amazonas",
-      "resumo": "A Caixa inicia o pagamento do Bolsa Família de junho, beneficiando 19,3 milhões de famílias. Municípios do Amazonas recebem antecipadamente devido a emergências climáticas, reforçando a importância do programa para populações vulneráveis na região.",
-      "aplicabilidade": "Monitorar o impacto do Bolsa Família em comunidades vulneráveis do Amazonas e Região Norte, especialmente ribeirinhas, para identificar lacunas ou complementar ações de assistência social e inclusão produtiva da AME-AMAZÔNIA.",
+      "titulo": "Início do Pagamento do Bolsa Família de Junho, com atenção ao Amazonas",
+      "resumo": "Caixa inicia pagamento do Bolsa Família para 19,3 milhões de famílias. Beneficiários do Amazonas e outros 7 estados recebem antecipadamente devido a decretos de emergência climática.",
+      "aplicabilidade": "Monitorar o impacto do programa na renda das famílias vulneráveis, especialmente no Amazonas, para planejar ações complementares de inclusão produtiva e empreendedorismo que possam potencializar o uso desses recursos.",
       "link": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-06/caixa-comeca-pagar-bolsa-familia-de-junho"
-    },
-    {
-      "categoria": "Legislação",
-      "icone": "🎓",
-      "cor": "#2E7D22",
-      "orgao": "Governo Federal (Ministérios do Esporte e Educação)",
-      "titulo": "Criação da Universidade Federal do Esporte (UFEsporte) com foco em Inclusão Social",
-      "resumo": "Projeto de lei para criar a UFEsporte em 2027 foi aprovado, visando ensino, pesquisa e inovação no esporte. A instituição focará na formação de gestores e profissionais, com ênfase em inclusão social, paradesporto e equidade de gênero/racial.",
-      "aplicabilidade": "Acompanhar a regulamentação da UFEsporte para identificar futuras oportunidades de parceria em projetos de educação e inclusão social através do esporte, especialmente para jovens em vulnerabilidade na Região Norte.",
-      "link": "https://agenciabrasil.ebc.com.br/esportes/noticia/2026-06/governo-quer-criar-universidade-federal-do-esporte-em-2027"
     },
     {
       "categoria": "Editais",
       "icone": "📚",
       "cor": "#2E7D22",
       "orgao": "MEC / Inep",
-      "titulo": "Prazo Estendido para Inscrição no Enem 2026: Oportunidade para Jovens Vulneráveis",
-      "resumo": "O MEC e Inep estenderam o prazo para pagamento da taxa do Enem 2026 até 22 de junho. Isenções são concedidas a estudantes de escolas públicas, baixa renda e participantes do CadÚnico, beneficiando diretamente o público-alvo da AME-AMAZÔNIA.",
-      "aplicabilidade": "Divulgar amplamente o novo prazo e as condições de isenção para jovens em vulnerabilidade e comunidades ribeirinhas, incentivando a participação e o acesso à educação superior.",
+      "titulo": "Prazo Estendido para Pagamento da Taxa de Inscrição do Enem 2026",
+      "resumo": "MEC e Inep estendem o prazo para pagamento da taxa do Enem 2026 até 22 de junho. Isenções para estudantes de baixa renda e do programa Pé-de-Meia são destacadas, beneficiando o público-alvo da AME-AMAZÔNIA.",
+      "aplicabilidade": "Divulgar amplamente esta informação entre os jovens da AME-AMAZÔNIA e comunidades atendidas, oferecendo suporte para o processo de inscrição e pagamento, especialmente para aqueles que não são isentos.",
       "link": "https://agenciabrasil.ebc.com.br/educacao/noticia/2026-06/enem-2026-mec-amplia-prazo-para-pagar-taxa-de-inscricao-ate-dia-22"
+    },
+    {
+      "categoria": "Legislação",
+      "icone": "🧑‍🏫",
+      "cor": "#68BB8A",
+      "orgao": "MEC / Inep",
+      "titulo": "Prazo Final para Redes de Ensino Aderirem à Prova Nacional Docente (PND) 2026",
+      "resumo": "Gestores de educação têm até 17 de junho para aderir à PND 2026, que visa qualificar a seleção de professores da educação básica. A prova será em 20 de setembro, fortalecendo a qualidade do ensino público.",
+      "aplicabilidade": "Acompanhar a adesão das redes de ensino da Região Norte e Manaus à PND. Utilizar essa informação para dialogar com autoridades locais sobre a importância da qualificação docente e como isso impacta a educação dos jovens atendidos pela AME-AMAZÔNIA.",
+      "link": "https://agenciabrasil.ebc.com.br/educacao/noticia/2026-06/pnd-2026-gestores-de-educacao-tem-ate-esta-quarta-para-aderir-prova"
     },
     {
       "categoria": "Parcerias",
       "icone": "🌳",
       "cor": "#2E7D22",
       "orgao": "Fundo Amazônia",
-      "titulo": "Fundo Amazônia: Eixos de Atuação, Projetos e Oportunidades de Financiamento",
-      "resumo": "Análise dos dados, eixos de atuação e projetos em destaque do Fundo Amazônia, principal mecanismo de captação de doações para redução do desmatamento e desenvolvimento sustentável na Amazônia, crucial para a AME-AMAZÔNIA.",
-      "aplicabilidade": "Manter-se atualizado sobre o Fundo Amazônia para identificar futuras chamadas de projetos, alinhar iniciativas de empreendedorismo verde e meio ambiente, e buscar parcerias estratégicas na Região Norte.",
+      "titulo": "Fundo Amazônia: Potencial Parceiro para Projetos na Região Norte",
+      "resumo": "O Fundo Amazônia é uma fonte crucial de financiamento para iniciativas de desenvolvimento sustentável, meio ambiente e comunidades na Região Norte, alinhado aos eixos de atuação da AME-AMAZÔNIA.",
+      "aplicabilidade": "Manter monitoramento contínuo das chamadas públicas, editais e linhas de financiamento do Fundo Amazônia para submissão de projetos focados em empreendedorismo verde, inclusão produtiva e comunidades ribeirinhas.",
       "link": "https://www.fundoamazonia.gov.br"
     },
     {
       "categoria": "Legislação",
-      "icone": "⚖️",
+      "icone": "🧑‍🎓",
       "cor": "#68BB8A",
       "orgao": "Senado Federal / CIEE",
-      "titulo": "Adiamento da Votação do Estatuto do Aprendiz no Senado: Impacto para Jovens",
-      "resumo": "O Senado adiou a votação do PL 6461/2019, o Estatuto do Aprendiz, gerando preocupação sobre o futuro do programa. Este atraso afeta milhares de jovens e a pauta de educação e inclusão produtiva.",
-      "aplicabilidade": "Acompanhar de perto o andamento do PL 6461/2019 no Senado, mobilizando-se, se necessário, para defender a pauta do Jovem Aprendiz e seus benefícios para a inclusão de jovens em vulnerabilidade.",
+      "titulo": "Adiamento da Votação do Estatuto do Aprendiz no Senado",
+      "resumo": "O Senado adiou a votação do PL 6461/2019, o Estatuto do Aprendiz, impactando milhares de jovens. A legislação é crucial para aprimorar e expandir o programa Jovem Aprendiz no Brasil.",
+      "aplicabilidade": "Acompanhar de perto a tramitação do PL, engajar-se em ações de advocacy para a retomada da votação e análise do impacto do adiamento nos programas de Jovem Aprendiz da AME-AMAZÔNIA.",
       "link": "https://portal.ciee.org.br/universo-ciee/senado-adia-votacao-estatuto-do-aprendiz/"
     },
     {
       "categoria": "Parcerias",
-      "icone": "📊",
-      "cor": "#68BB8A",
+      "icone": "🤝",
+      "cor": "#2E7D22",
       "orgao": "CIEE",
-      "titulo": "Relatório de Atividades 2025 do CIEE: Insights para Programas de Jovem Aprendiz",
-      "resumo": "O CIEE divulgou seu relatório de atividades de 2025, detalhando suas ações e resultados em programas de estágio e jovem aprendiz. Este documento é uma fonte valiosa para benchmarking e identificação de boas práticas.",
-      "aplicabilidade": "Analisar o relatório do CIEE para identificar modelos de sucesso, metodologias e potenciais áreas de colaboração em programas de educação e inclusão produtiva para jovens, alinhado ao foco da AME-AMAZÔNIA.",
+      "titulo": "Relatório de Atividades 2025 do CIEE: Insights para Jovem Aprendiz",
+      "resumo": "O CIEE divulgou seu relatório de atividades de 2025, oferecendo uma visão abrangente de suas ações e resultados no programa Jovem Aprendiz e outras iniciativas de inclusão.",
+      "aplicabilidade": "Analisar o relatório do CIEE para identificar modelos de sucesso, tendências e potenciais parcerias que possam fortalecer os programas de Educação (Jovem Aprendiz) e inclusão produtiva da AME-AMAZÔNIA.",
       "link": "https://portal.ciee.org.br/universo-ciee/confira-o-que-o-ciee-realizou-no-relatorio-de-atividades-de-2025/"
     }
   ],
   "gestao": {
     "prioridades": {
       "alta": [
-        "Divulgação do prazo do Enem para o público-alvo",
-        "Acompanhamento do Estatuto do Aprendiz",
-        "Análise do Fundo Amazônia para oportunidades"
+        "Acompanhar tramitação do PL do Estatuto do Aprendiz",
+        "Lançar campanha de divulgação e suporte para o ENEM 2026",
+        "Monitorar ativamente editais e chamadas do Fundo Amazônia"
       ],
       "media": [
-        "Análise do relatório CIEE para benchmarking",
-        "Monitoramento do Bolsa Família e seu impacto"
+        "Analisar o Relatório de Atividades 2025 do CIEE",
+        "Acompanhar a regulamentação da Universidade Federal do Esporte"
       ],
       "baixa": [
-        "Acompanhamento da UFEsporte para futuras parcerias"
+        "Dialogar com redes de ensino sobre adesão à PND 2026",
+        "Analisar o impacto do Bolsa Família no Amazonas"
       ]
     },
     "acoes": [
       {
-        "acao": "Divulgar amplamente o novo prazo de inscrição e as condições de isenção do Enem 2026 para jovens em vulnerabilidade e comunidades ribeirinhas.",
-        "responsavel": "Diretor(a) de Comunicação",
-        "prazo": "3 dias"
+        "acao": "Monitorar o status do PL 6461/2019 no Senado e identificar oportunidades de advocacy.",
+        "responsavel": "Diretor(a) de RIG",
+        "prazo": "Contínuo, com atualização semanal"
       },
       {
-        "acao": "Elaborar um resumo executivo sobre os eixos de atuação e projetos em destaque do Fundo Amazônia, identificando potenciais alinhamentos com os projetos da AME-AMAZÔNIA.",
+        "acao": "Criar e executar campanha informativa sobre o prazo estendido do ENEM e oferecer suporte para inscrição/pagamento aos jovens do público-alvo.",
+        "responsavel": "Diretor(a) de Comunicação, Diretor(a) Executivo(a)",
+        "prazo": "Imediato, até 21 de junho"
+      },
+      {
+        "acao": "Realizar varredura diária/semanal no portal do Fundo Amazônia para identificar novos editais, chamadas públicas ou linhas de financiamento.",
+        "responsavel": "Diretor(a) Executivo(a), Diretor(a) de RIG",
+        "prazo": "Contínuo"
+      },
+      {
+        "acao": "Analisar o Relatório de Atividades 2025 do CIEE para extrair insights e identificar potenciais sinergias ou melhores práticas para os programas de Jovem Aprendiz.",
         "responsavel": "Diretor(a) Executivo(a)",
         "prazo": "7 dias"
       },
       {
-        "acao": "Monitorar o andamento da votação do PL 6461/2019 (Estatuto do Aprendiz) no Senado e preparar uma nota técnica sobre os impactos para a AME-AMAZÔNIA.",
+        "acao": "Monitorar a sanção presidencial e os próximos passos para a regulamentação da Universidade Federal do Esporte, buscando oportunidades futuras.",
         "responsavel": "Diretor(a) de RIG",
-        "prazo": "5 dias"
+        "prazo": "Contínuo, com atualização mensal"
       },
       {
-        "acao": "Analisar o Relatório de Atividades 2025 do CIEE para identificar boas práticas e oportunidades de colaboração em programas de Jovem Aprendiz.",
-        "responsavel": "Diretor(a) Executivo(a)",
-        "prazo": "10 dias"
-      },
-      {
-        "acao": "Mapear as comunidades ribeirinhas e indivíduos em vulnerabilidade no Amazonas que são beneficiados pelo Bolsa Família para entender o cenário de assistência social.",
-        "responsavel": "Diretor(a) Executivo(a)",
+        "acao": "Iniciar diálogo com secretarias de educação de Manaus/AM e Região Norte sobre a adesão à PND para qualificação docente.",
+        "responsavel": "Diretor(a) de RIG",
         "prazo": "15 dias"
+      },
+      {
+        "acao": "Analisar dados e relatórios sobre o impacto do Bolsa Família, especialmente no Amazonas, para informar o planejamento de programas de inclusão produtiva.",
+        "responsavel": "Diretor(a) Executivo(a)",
+        "prazo": "30 dias"
       }
     ]
   }
