@@ -1,16 +1,16 @@
-# Versão: v.3.1.0 (16062026-2300)
-# Arquivo: .github/workflows/coletor.yml
 name: Coletor AME-AMAZONIA
 
 on:
   schedule:
-    - cron: '0 12 * * 1' # Toda segunda-feira às 12:00 UTC
-  workflow_dispatch: # Permite execução manual no GitHub Actions
+    - cron: '0 12 * * 1'
+  workflow_dispatch:
+
+permissions:
+  contents: write
 
 jobs:
   coletar_noticias:
     runs-on: ubuntu-latest
-    
     steps:
       - name: Checkout do repositório
         uses: actions/checkout@v4
@@ -33,4 +33,4 @@ jobs:
           git config --global user.name 'github-actions[bot]'
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
           git add boletim.json
-          git diff --quiet && git diff --staged --quiet || (git commit -m "Automated update: boletim.json [skip ci]" && git push)
+          git diff --quiet && git diff --staged --quiet || (git commit -m "Automated update: boletim.json" && git push)
