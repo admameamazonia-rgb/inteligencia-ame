@@ -1,5 +1,6 @@
-# Versão: v.3.1.0 (16062026-2300)
+# Versão: v.3.2.0 (16062026-2325)
 # Arquivo: coleta_noticias.py
+
 import os
 import json
 import logging
@@ -22,12 +23,13 @@ logging.basicConfig(
 GEMINI_API_KEY = os.environ.get("GEMINI_API_KEY")
 
 def buscar_dados():
-    logging.info("Iniciando coleta estruturada de dados...")
+    logging.info("Iniciando coleta massiva estruturada de dados...")
     noticias = []
+    headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36'}
     
     # 1. Fonte: Diário Oficial da União (Governo) via RSS
     try:
-        logging.info("[1/3] Acessando Diário Oficial da União (RSS)...")
+        logging.info("[1/6] Acessando Diário Oficial da União (RSS)...")
         dou_feed = feedparser.parse("https://www.in.gov.br/rss/api/feed")
         for entry in dou_feed.entries[:5]:
             noticias.append({
@@ -41,7 +43,7 @@ def buscar_dados():
 
     # 2. Fonte: Agência Brasil (Contexto Nacional e Cidadania) via RSS
     try:
-        logging.info("[2/3] Acessando Agência Brasil (RSS)...")
+        logging.info("[2/6] Acessando Agência Brasil (RSS)...")
         agencia_brasil = feedparser.parse("https://agenciabrasil.ebc.com.br/rss/ultimasnoticias/feed.xml")
         for entry in agencia_brasil.entries[:5]:
              noticias.append({
@@ -55,8 +57,7 @@ def buscar_dados():
 
     # 3. Fonte: Fundo Amazônia / BNDES via Web Scraping
     try:
-        logging.info("[3/3] Acessando Fundo Amazônia (Web Scraping)...")
-        headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36'}
+        logging.info("[3/6] Acessando Fundo Amazônia (Web Scraping)...")
         response = requests.get("https://www.fundoamazonia.gov.br/pt/home/", headers=headers, timeout=10)
         response.raise_for_status()
         soup = BeautifulSoup(response.text, 'html.parser')
@@ -79,6 +80,70 @@ def buscar_dados():
     except Exception as e:
         logging.error(f"Erro ao processar Fundo Amazônia (Scraping): {e}")
 
+    # 4. Fonte: FAPEAM (Fundação de Amparo à Pesquisa do Estado do Amazonas) via Web Scraping
+    try:
+        logging.info("[4/6] Acessando FAPEAM - Editais Regionais (Web Scraping)...")
+        response = requests.get("https://www.fapeam.am.gov.br/", headers=headers, timeout=10)
+        response.raise_for_status()
+        soup = BeautifulSoup(response.text, 'html.parser')
+        
+        destaques = soup.find_all(['h2', 'h3'])
+        count = 0
+        for item in destaques:
+            if count >= 3: break
+            titulo = item.get_text(strip=True)
+            link_tag = item.find('a')
+            if titulo and link_tag and 'href' in link_tag.attrs:
+                link_final = link_tag['href'] if link_tag['href'].startswith("http") else f"https://www.fapeam.am.gov.br{link_tag['href']}"
+                noticias.append({
+                    "fonte": "FAPEAM",
+                    "titulo": titulo,
+                    "resumo": "Processado via Web Scraping de chamadas e editais da FAPEAM.",
+                    "link": link_final
+                })
+                count += 1
+    except Exception as e:
+        logging.error(f"Erro ao processar FAPEAM: {e}")
+
+    # 5. Fonte: GIFE (Terceiro Setor e Filantropia Privada) via Web Scraping
+    try:
+        logging.info("[5/6] Acessando Rede GIFE - Terceiro Setor (Web Scraping)...")
+        response = requests.get("https://gife.org.br/", headers=headers, timeout=10)
+        response.raise_for_status()
+        soup = BeautifulSoup(response.text, 'html.parser')
+        
+        destaques = soup.find_all(['h2', 'h3'])
+        count = 0
+        for item in destaques:
+            if count >= 3: break
+            titulo = item.get_text(strip=True)
+            link_tag = item.find('a')
+            if titulo and link_tag and 'href' in link_tag.attrs:
+                link_final = link_tag['href'] if link_tag['href'].startswith("http") else f"https://gife.org.br{link_tag['href']}"
+                noticias.append({
+                    "fonte": "GIFE",
+                    "titulo": titulo,
+                    "resumo": "Processado via Web Scraping de editais e publicações GIFE.",
+                    "link": link_final
+                })
+                count += 1
+    except Exception as e:
+        logging.error(f"Erro ao processar GIFE: {e}")
+
+    # 6. Fonte: MDS (Ministério do Desenvolvimento e Assistência Social) via RSS
+    try:
+        logging.info("[6/6] Acessando MDS (RSS)...")
+        mds_feed = feedparser.parse("https://www.gov.br/mds/pt-br/noticias/feed")
+        for entry in mds_feed.entries[:4]:
+             noticias.append({
+                "fonte": "MDS - Gov.br",
+                "titulo": entry.title,
+                "resumo": entry.summary,
+                "link": entry.link
+            })
+    except Exception as e:
+        logging.error(f"Erro ao processar feed do MDS: {e}")
+
     return noticias
 
 def processar_com_gemini(dados_brutos):
@@ -96,7 +161,7 @@ Contexto Institucional da AME-AMAZÔNIA:
 - Local: Manaus/AM e Região Norte.
 - Estrutura: Diretor(a) Presidente, Diretor(a) Executivo(a), Diretor(a) Financeiro(a), Diretor(a) de Comunicação, Diretor(a) de RIG e Conselho Fiscal.
 
-Analise os dados brutos e extraia SOMENTE as oportunidades cruzadas com nosso foco social e ambiental.
+Analise os dados brutos de todas as fontes coletadas (Gov, Fundo Amazônia, FAPEAM, GIFE, etc) e extraia SOMENTE as oportunidades de alto valor cruzadas com nosso foco.
 Gere a resposta estritamente no formato JSON abaixo, sem blocos de código "markdown" encapsulando e sem textos auxiliares.
 
 Formato do Output JSON Exigido:
