@@ -1,3 +1,4 @@
+# Versão: v.4.2.0 (17062026-1140)
 name: Coletor AME-AMAZONIA
 
 on:
@@ -23,11 +24,14 @@ jobs:
           python-version: '3.10'
 
       - name: Instalar libs
-        run: pip install requests feedparser beautifulsoup4 google-genai
+        run: pip install requests feedparser beautifulsoup4 google-genai fpdf2
 
       - name: Rodar Robô
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          EMAIL_USER: ${{ secrets.EMAIL_USER }}
+          EMAIL_PASS: ${{ secrets.EMAIL_PASS }}
+          EMAIL_TO: ${{ secrets.EMAIL_TO }}
         run: python coleta_noticias.py
 
       - name: Push para o Repositório
