@@ -1,9 +1,9 @@
-# Versão: v.4.2.1 (17062026-1155)
+# Versão: v.4.2.1 (22062026-1030)
 name: Coletor AME-AMAZONIA
 
 on:
   schedule:
-    - cron: '0 12 * * 1'
+    - cron: '*/5 * * * *'
   workflow_dispatch:
 
 permissions:
