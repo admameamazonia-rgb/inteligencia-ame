@@ -1,75 +1,214 @@
 {
-  "data": "29/06/2026 - 11:37",
+  "data": "29/06/2026 - 12:27",
   "cards": [
     {
-      "categoria": "Educação",
-      "icone": "🎓",
+      "categoria": "Legislação",
+      "icone": "💰",
       "cor": "#2E7D22",
-      "orgao": "Ministério da Defesa / Forças Armadas",
-      "titulo": "Oportunidades de Capacitação para Jovens no Serviço Militar",
-      "resumo": "Prazo final para alistamento militar. O programa Soldado-Cidadão oferece cursos de capacitação profissional, ampliando a inserção de jovens em vulnerabilidade no mercado de trabalho. Relevante para jovens e inclusão produtiva.",
-      "aplicabilidade": "A AME-AMAZÔNIA pode divulgar essas oportunidades para seu público-alvo (jovens em vulnerabilidade, comunidades ribeirinhas) e explorar parcerias com as Forças Armadas na Região Norte para programas de capacitação e inclusão produtiva.",
-      "link": "https://agenciabrasil.ebc.com.br/geral/noticia/2026-06/termina-nesta-terca-feira-prazo-para-alistamento-militar"
+      "orgao": "Governo Federal",
+      "titulo": "Novas Linhas de Crédito Desenrola para Informais e Empreendedores",
+      "resumo": "Governo lança crédito com juros baixos (até 1,99% a.m.) para trabalhadores informais adimplentes (até R$15 mil) e linha especial para egressos do Fies que desejam empreender (até R$180 mil). Visa prevenir inadimplência e estimular o empreendedorismo.",
+      "aplicabilidade": "A AME-AMAZÔNIA pode divulgar e orientar seu público-alvo (indivíduos em vulnerabilidade, jovens, empreendedores rurais e informais) sobre as novas linhas de crédito do Desenrola Adimplentes e Fies Empreendedor, facilitando o acesso a capital para iniciar ou expandir negócios e promover inclusão produtiva.",
+      "link": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-06/desenrola-lanca-modalidades-de-credito-para-estimular-bons-pagadores"
+    },
+    {
+      "categoria": "Legislação",
+      "icone": "📚",
+      "cor": "#68BB8A",
+      "orgao": "Ministério da Educação (MEC)",
+      "titulo": "Programa Pé-de-Meia 2026: Incentivo à Permanência Escolar para Jovens",
+      "resumo": "Início do pagamento da 4ª parcela do Pé-de-Meia, programa que oferece até R$9,2 mil para jovens de baixa renda (14-24 anos) do ensino médio ou EJA, com frequência mínima de 80%, visando combater a evasão escolar.",
+      "aplicabilidade": "A AME-AMAZÔNIA pode divulgar o programa Pé-de-Meia para jovens em vulnerabilidade e suas famílias, especialmente em comunidades ribeirinhas, incentivando a permanência escolar e a conclusão do ensino médio, alinhando-se ao foco em Educação e Jovens Aprendizes.",
+      "link": "https://agenciabrasil.ebc.com.br/educacao/noticia/2026-06/pe-de-meia-2026-pagamento-da-quarta-parcela-comeca-nesta-segunda"
     },
     {
       "categoria": "Parcerias",
       "icone": "🌳",
-      "cor": "#68BB8A",
+      "cor": "#2E7D22",
       "orgao": "Fundo Amazônia",
-      "titulo": "Fundo Amazônia: Eixos de Atuação e Potencial de Financiamento",
-      "resumo": "Análise dos eixos de atuação e projetos de sucesso do Fundo Amazônia revela forte alinhamento com Meio Ambiente, Empreendedorismo Verde e Inclusão Produtiva, indicando alto potencial para captação de recursos na Região Norte.",
-      "aplicabilidade": "A AME-AMAZÔNIA deve aprofundar a análise dos eixos e projetos para desenvolver propostas alinhadas e buscar contato para futuras parcerias e financiamento de iniciativas para comunidades ribeirinhas e empreendedores rurais.",
+      "titulo": "Oportunidades de Financiamento e Parceria com o Fundo Amazônia",
+      "resumo": "O Fundo Amazônia, principal mecanismo de captação de doações para prevenção e combate ao desmatamento, apresenta seus eixos de atuação e projetos. Grande potencial para iniciativas de meio ambiente e desenvolvimento sustentável na região.",
+      "aplicabilidade": "A AME-AMAZÔNIA deve monitorar ativamente os editais e chamadas públicas do Fundo Amazônia, buscando alinhar projetos de empreendedorismo verde, inclusão produtiva e apoio a comunidades ribeirinhas com os eixos de atuação do Fundo.",
       "link": "https://www.fundoamazonia.gov.br"
+    },
+    {
+      "categoria": "Parcerias",
+      "icone": "✍️",
+      "cor": "#68BB8A",
+      "orgao": "CIEE",
+      "titulo": "Prêmio CIEE de Jornalismo: Visibilidade para Educação e Empregabilidade",
+      "resumo": "O CIEE lança prêmio para reportagens que valorizem a educação e empregabilidade. Oportunidade para AME-AMAZÔNIA divulgar suas iniciativas e projetos na área de Jovem Aprendiz e inclusão produtiva.",
+      "aplicabilidade": "A Diretoria de Comunicação da AME-AMAZÔNIA pode identificar e incentivar jornalistas parceiros ou da própria equipe a produzir reportagens sobre os impactos dos programas da AME-AMAZÔNIA, especialmente os de Jovem Aprendiz e empreendedorismo, para submeter ao prêmio.",
+      "link": "https://portal.ciee.org.br/universo-ciee/premio-ciee-de-jornalismo-inscricoes-abertas/"
     },
     {
       "categoria": "Parcerias",
       "icone": "🤝",
       "cor": "#2E7D22",
-      "orgao": "CIEE",
-      "titulo": "CIEE: Inteligência Estratégica para Parcerias em Educação e Empregabilidade",
-      "resumo": "O relatório de atividades 2025 do CIEE e o lançamento de seu Prêmio de Jornalismo demonstram o foco contínuo da instituição em educação e empregabilidade, oferecendo insights para potenciais colaborações e visibilidade.",
-      "aplicabilidade": "A AME-AMAZÔNIA pode usar o relatório para identificar sinergias e abordar o CIEE para desenvolver programas conjuntos de Jovem Aprendiz e capacitação. O prêmio de jornalismo é uma oportunidade para dar visibilidade aos projetos da AME-AMAZÔNIA.",
-      "link": "https://portal.ciee.org.br/universo-ciee/confira-o-que-o-ciee-realizou-no-relatorio-de-atividades-de-2025/"
+      "orgao": "Sebrae AM",
+      "titulo": "Sebrae AM Oferece Consultorias para Empreendedores na Região",
+      "resumo": "O Sebrae Amazonas disponibiliza serviços de consultoria para empreendedores, abrangendo diversas áreas de gestão e desenvolvimento de negócios. Potencial para fortalecer iniciativas de multiempreendedorismo e empreendedorismo rural.",
+      "aplicabilidade": "A AME-AMAZÔNIA pode estabelecer contato com o Sebrae AM para explorar parcerias em capacitação e consultoria para os empreendedores assistidos pela organização, especialmente os rurais e em vulnerabilidade, visando o desenvolvimento de seus negócios.",
+      "link": "https://am.loja.sebrae.com.br/"
+    },
+    {
+      "categoria": "Parcerias",
+      "icone": "💡",
+      "cor": "#68BB8A",
+      "orgao": "SUFRAMA",
+      "titulo": "SUFRAMA: Potenciais Parcerias e Capacitação para a Região Norte",
+      "resumo": "A SUFRAMA disponibiliza informações sobre a Zona Franca de Manaus e materiais de eventos gratuitos, indicando potencial para parcerias em desenvolvimento regional, tecnologia e capacitação para empreendedores na Região Norte.",
+      "aplicabilidade": "A AME-AMAZÔNIA pode explorar a SUFRAMA para identificar programas de incentivo à tecnologia e inovação que possam beneficiar empreendedores locais e projetos de inclusão produtiva, além de participar de eventos de capacitação.",
+      "link": "https://www.gov.br/suframa/pt-br/centrais-de-conteudo/seminarios-e-apresentacoes"
+    },
+    {
+      "categoria": "Parcerias",
+      "icone": "🎓",
+      "cor": "#2E7D22",
+      "orgao": "IEL Amazonas (via FIEAM)",
+      "titulo": "IEL Amazonas Expande Qualificação Profissional na Zona Leste de Manaus",
+      "resumo": "O IEL Amazonas está ampliando o acesso a programas de qualificação profissional na Zona Leste de Manaus, uma iniciativa crucial para jovens e indivíduos em vulnerabilidade que buscam inserção no mercado de trabalho.",
+      "aplicabilidade": "A AME-AMAZÔNIA deve buscar uma parceria com o IEL Amazonas para encaminhar jovens e adultos de seu público-alvo para os cursos de qualificação, fortalecendo a empregabilidade e a inclusão produtiva na região.",
+      "link": "https://fieam.org.br/iel-amazonas-amplia-acesso-a-qualificacao-na-zona-leste-de-manaus/"
+    },
+    {
+      "categoria": "Parcerias",
+      "icone": "🎓",
+      "cor": "#2E7D22",
+      "orgao": "IEL Amazonas",
+      "titulo": "IEL Amazonas: Oportunidades de Cursos para Desenvolvimento de Carreira",
+      "resumo": "O IEL Amazonas oferece diversos cursos para qualificação profissional e desenvolvimento de carreira, sendo uma fonte direta de capacitação para o público da AME-AMAZÔNIA em Manaus e região.",
+      "aplicabilidade": "A AME-AMAZÔNIA pode mapear os cursos oferecidos pelo IEL Amazonas e criar um fluxo de encaminhamento para seus beneficiários, especialmente jovens e empreendedores que buscam aprimoramento e novas habilidades.",
+      "link": "https://www.iel-am.org.br/"
+    },
+    {
+      "categoria": "Parcerias",
+      "icone": "🌿",
+      "cor": "#2E7D22",
+      "orgao": "Fundação Amazônia Sustentável (FAS)",
+      "titulo": "FAS Amazônia: Potencial Parceiro para Projetos Sustentáveis",
+      "resumo": "A Fundação Amazônia Sustentável (FAS) atua com foco em desenvolvimento sustentável, conservação e melhoria da qualidade de vida de comunidades amazônicas. Grande alinhamento com os objetivos da AME-AMAZÔNIA.",
+      "aplicabilidade": "A AME-AMAZÔNIA deve explorar a possibilidade de parcerias com a FAS Amazônia para desenvolver projetos conjuntos em comunidades ribeirinhas, empreendedorismo verde e inclusão produtiva, aproveitando a expertise e o alcance da fundação.",
+      "link": "https://fas-amazonia.org/"
+    },
+    {
+      "categoria": "Editais",
+      "icone": "🏦",
+      "cor": "#2E7D22",
+      "orgao": "Fundação Banco do Brasil",
+      "titulo": "Fundação BB: Oportunidades para Projetos de Tecnologias Sociais",
+      "resumo": "A Fundação Banco do Brasil é uma importante fonte de apoio para projetos sociais, com destaque para o fomento a tecnologias sociais. Potencial para parcerias e editais em diversas áreas de atuação da AME-AMAZÔNIA.",
+      "aplicabilidade": "A AME-AMAZÔNIA deve monitorar os editais da Fundação BB e buscar desenvolver projetos que se encaixem nos eixos de tecnologias sociais, inclusão produtiva e empreendedorismo, especialmente aqueles com impacto em comunidades vulneráveis.",
+      "link": "https://fbb.org.br/"
+    },
+    {
+      "categoria": "Parcerias",
+      "icone": "🚀",
+      "cor": "#68BB8A",
+      "orgao": "Instituto Localiza",
+      "titulo": "Instituto Localiza: Iniciativas de Apoio à Juventude",
+      "resumo": "O Instituto Localiza, com seu programa 'Juventude em Movimento', foca no desenvolvimento e empoderamento de jovens. Representa uma potencial parceria para programas de educação e empregabilidade para o público jovem da AME-AMAZÔNIA.",
+      "aplicabilidade": "A AME-AMAZÔNIA pode contatar o Instituto Localiza para explorar sinergias e desenvolver projetos conjuntos ou buscar apoio para iniciativas voltadas à educação, capacitação e inserção de jovens no mercado de trabalho, incluindo o programa Jovem Aprendiz.",
+      "link": "https://www.institutolocaliza.org/"
+    },
+    {
+      "categoria": "Parcerias",
+      "icone": "🏗️",
+      "cor": "#68BB8A",
+      "orgao": "Instituto MRV",
+      "titulo": "Instituto MRV: Foco em Carreira e Empregabilidade para Jovens",
+      "resumo": "O Instituto MRV promove ações de desenvolvimento de carreira e empregabilidade para jovens, indicando um alinhamento com os objetivos da AME-AMAZÔNIA de capacitação e inclusão de jovens no mercado de trabalho.",
+      "aplicabilidade": "A AME-AMAZÔNIA pode buscar contato com o Instituto MRV para explorar parcerias em programas de capacitação, mentoria e inserção de jovens no mercado de trabalho, complementando as ações de Jovem Aprendiz.",
+      "link": "https://institutomrv.com.br/"
+    },
+    {
+      "categoria": "Editais",
+      "icone": "🔍",
+      "cor": "#68BB8A",
+      "orgao": "Prosas",
+      "titulo": "Plataforma Prosas: Central de Editais para Projetos Sociais",
+      "resumo": "O Prosas é uma plataforma consolidada para busca e divulgação de editais e oportunidades de financiamento para projetos sociais. Essencial para a AME-AMAZÔNIA monitorar novas chamadas.",
+      "aplicabilidade": "A AME-AMAZÔNIA deve manter o monitoramento constante da plataforma Prosas para identificar novos editais e chamadas públicas que se alinhem com seus eixos de atuação, garantindo acesso a oportunidades de financiamento.",
+      "link": "https://produtos.prosas.com.br/editais"
+    },
+    {
+      "categoria": "Editais",
+      "icone": "🗺️",
+      "cor": "#68BB8A",
+      "orgao": "IPEA (Mapa das OSC)",
+      "titulo": "Mapa das OSC (IPEA): Fonte de Editais e Dados para o Terceiro Setor",
+      "resumo": "O Mapa das OSC do IPEA oferece um portal com editais e dados relevantes para organizações da sociedade civil. Ferramenta útil para identificar oportunidades e entender o cenário do terceiro setor.",
+      "aplicabilidade": "A AME-AMAZÔNIA deve utilizar o Mapa das OSC para pesquisar editais, identificar potenciais parceiros e acessar dados que possam embasar a elaboração de projetos e a busca por financiamento.",
+      "link": "https://mapaosc.ipea.gov.br/editais"
+    },
+    {
+      "categoria": "Tecnologia",
+      "icone": "📝",
+      "cor": "#2E7D22",
+      "orgao": "Capta Oportunidades",
+      "titulo": "Guia Capta para Elaboração de Projetos Socioambientais Comunitários",
+      "resumo": "A Capta oferece um guia prático para elaboração de pequenos projetos socioambientais para organizações de base comunitária, além de listar oportunidades e editais abertos. Recurso valioso para a AME-AMAZÔNIA.",
+      "aplicabilidade": "A AME-AMAZÔNIA pode utilizar o guia da Capta para capacitar sua equipe na elaboração de projetos socioambientais e comunitários, aprimorando a qualidade das propostas e aumentando as chances de captação de recursos.",
+      "link": "https://capta.org.br/fontes-de-financiamento/oportunidades/"
     }
   ],
   "gestao": {
     "prioridades": {
       "alta": [
-        "Analisar o 'Projeto Soldado-Cidadão' para identificar pontos de contato e sinergias com programas de jovens da AME-AMAZÔNIA.",
-        "Mapear os eixos de atuação e projetos do Fundo Amazônia para identificar oportunidades de alinhamento e elaborar pré-propostas."
+        "Mapear e divulgar as novas linhas de crédito do Desenrola e Fies Empreendedor para o público-alvo.",
+        "Promover o programa Pé-de-Meia entre jovens em vulnerabilidade e comunidades ribeirinhas.",
+        "Iniciar contato com IEL Amazonas para parceria em qualificação profissional.",
+        "Monitorar ativamente editais do Fundo Amazônia e Fundação Banco do Brasil."
       ],
       "media": [
-        "Estudar o Relatório de Atividades 2025 do CIEE para identificar áreas de interesse mútuo e preparar uma abordagem para parceria."
+        "Explorar parcerias com Sebrae AM, SUFRAMA, FAS, Instituto Localiza e Instituto MRV.",
+        "Capacitar a equipe na elaboração de projetos socioambientais utilizando o guia da Capta.",
+        "Avaliar a possibilidade de submeter reportagens ao Prêmio CIEE de Jornalismo."
       ],
       "baixa": [
-        "Avaliar a possibilidade de submeter histórias de sucesso da AME-AMAZÔNIA para o Prêmio CIEE de Jornalismo."
+        "Desenvolver um plano de uso contínuo das plataformas Prosas e Mapa OSC IPEA para prospecção de editais."
       ]
     },
     "acoes": [
       {
-        "acao": "Pesquisar detalhes do 'Projeto Soldado-Cidadão' e contatos das Forças Armadas na Região Norte para potenciais parcerias.",
+        "acao": "Elaborar material informativo simplificado sobre as linhas de crédito Desenrola e Fies Empreendedor e iniciar campanha de divulgação interna e externa.",
+        "responsavel": "Diretor(a) de Comunicação, Diretor(a) Executivo(a)",
+        "prazo": "7 dias"
+      },
+      {
+        "acao": "Criar campanha de conscientização sobre o programa Pé-de-Meia, focando em jovens e famílias de comunidades ribeirinhas e em vulnerabilidade.",
+        "responsavel": "Diretor(a) de Comunicação, Diretor(a) Executivo(a)",
+        "prazo": "7 dias"
+      },
+      {
+        "acao": "Agendar reunião com representantes do IEL Amazonas para discutir possibilidades de parceria em qualificação profissional.",
+        "responsavel": "Diretor(a) Executivo(a), Diretor(a) de RIG",
+        "prazo": "10 dias"
+      },
+      {
+        "acao": "Designar equipe para monitoramento semanal dos portais do Fundo Amazônia e Fundação Banco do Brasil em busca de editais.",
         "responsavel": "Diretor(a) de RIG",
         "prazo": "5 dias"
       },
       {
-        "acao": "Elaborar um resumo executivo dos eixos e projetos do Fundo Amazônia com foco em aplicabilidade para a AME-AMAZÔNIA.",
-        "responsavel": "Diretor(a) Executivo(a)",
-        "prazo": "7 dias"
+        "acao": "Iniciar prospecção e contato com Sebrae AM, SUFRAMA, FAS, Instituto Localiza e Instituto MRV para apresentar a AME-AMAZÔNIA e explorar potenciais parcerias.",
+        "responsavel": "Diretor(a) de RIG, Diretor(a) Executivo(a)",
+        "prazo": "15 dias"
       },
       {
-        "acao": "Agendar reunião interna com a diretoria para discutir estratégias de captação de recursos junto ao Fundo Amazônia.",
-        "responsavel": "Diretor(a) Presidente",
+        "acao": "Adquirir e distribuir o 'Guia Capta para Elaboração de Projetos Socioambientais Comunitários' e agendar workshop interno para capacitação da equipe de projetos.",
+        "responsavel": "Diretor(a) Executivo(a)",
         "prazo": "10 dias"
       },
       {
-        "acao": "Analisar o Relatório de Atividades 2025 do CIEE e identificar potenciais pontos de colaboração para programas de Jovem Aprendiz.",
+        "acao": "Avaliar projetos e histórias de sucesso da AME-AMAZÔNIA para identificar potenciais temas para reportagens e contatar jornalistas parceiros para submissão ao Prêmio CIEE.",
         "responsavel": "Diretor(a) de Comunicação",
-        "prazo": "7 dias"
+        "prazo": "20 dias"
       },
       {
-        "acao": "Preparar um plano de comunicação para divulgar as oportunidades do Soldado-Cidadão para o público-alvo da AME-AMAZÔNIA.",
-        "responsavel": "Diretor(a) de Comunicação",
-        "prazo": "5 dias"
+        "acao": "Integrar o monitoramento das plataformas Prosas e Mapa OSC IPEA ao fluxo de trabalho da equipe de captação de recursos.",
+        "responsavel": "Diretor(a) de RIG",
+        "prazo": "7 dias"
       }
     ]
   }
