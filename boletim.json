@@ -1,197 +1,145 @@
 {
-  "data": "06/07/2026 - 11:18",
+  "data": "13/07/2026 - 10:18",
   "cards": [
     {
-      "categoria": "Editais",
-      "icone": "🎓",
-      "cor": "#2E7D22",
-      "orgao": "Ministério da Educação (MEC)",
-      "titulo": "Prouni 2026: Bolsas de Estudo para Ensino Superior",
-      "resumo": "Inscrições abertas para bolsas integrais e parciais do Prouni 2026. Oportunidade para jovens em vulnerabilidade social acessarem o ensino superior, com critérios de renda e desempenho no Enem.",
-      "aplicabilidade": "A AME-AMAZÔNIA pode divulgar amplamente esta oportunidade para seu público-alvo de jovens, especialmente aqueles em vulnerabilidade e comunidades ribeirinhas, incentivando a participação e oferecendo suporte na inscrição.",
-      "link": "https://agenciabrasil.ebc.com.br/educacao/noticia/2026-07/prouni-2026-inscricao-gratuita-para-o-2o-semestre-comeca-nesta-terca"
+      "categoria": "Assistência Social",
+      "icone": "👩‍🍼",
+      "cor": "#68BB8A",
+      "orgao": "UNICEF / Agência Brasil",
+      "titulo": "Estudo UNICEF: Fatores Sociais e Estruturais Influenciam Cesarianas",
+      "resumo": "Pesquisa do UNICEF revela que fatores psicológicos, sociais e estruturais, não apenas a escolha individual, levam a altas taxas de cesariana no Brasil, com impacto em comunidades vulneráveis e ribeirinhas.",
+      "aplicabilidade": "A AME-AMAZÔNIA pode usar esses dados para desenvolver projetos de assistência social e saúde materna para mulheres em vulnerabilidade e comunidades ribeirinhas, focando em educação sobre parto e direitos reprodutivos.",
+      "link": "https://agenciabrasil.ebc.com.br/saude/noticia/2026-07/fatores-sociais-e-estruturais-empurram-mulheres-para-cesarea"
     },
     {
-      "categoria": "Tecnologia",
+      "categoria": "Editais",
       "icone": "🌳",
-      "cor": "#68BB8A",
-      "orgao": "Copernicus (Observatório Europeu)",
-      "titulo": "Emissões por Incêndios Globais em Baixa Recorde, mas Alerta para El Niño na Amazônia",
-      "resumo": "Observatório Copernicus registra menor emissão global de gases por incêndios em 24 anos. Contudo, alerta para o risco de aumento na Amazônia devido ao El Niño, exigindo atenção e prevenção.",
-      "aplicabilidade": "A AME-AMAZÔNIA pode usar esses dados para fortalecer projetos de prevenção e combate a incêndios, monitoramento ambiental e educação sobre os impactos do El Niño, alinhando-se ao foco em Meio Ambiente e Empreendedorismo Verde.",
-      "link": "https://agenciabrasil.ebc.com.br/meio-ambiente/noticia/2026-07/copernicus-emissao-global-de-gases-por-incendios-e-menor-em-24-anos"
-    },
-    {
-      "categoria": "Editais",
-      "icone": "💰",
       "cor": "#2E7D22",
-      "orgao": "Ministério da Educação (MEC)",
-      "titulo": "Programa Pé-de-Meia 2026: Incentivo para Permanência de Jovens no Ensino Médio",
-      "resumo": "Pagamento da 4ª parcela do Pé-de-Meia, programa que incentiva jovens de baixa renda a permanecerem no ensino médio. Foco em frequência escolar e inclusão via CadÚnico, com valores que podem chegar a R$ 9,2 mil.",
-      "aplicabilidade": "A AME-AMAZÔNIA pode atuar na divulgação e orientação sobre o programa para jovens e famílias em vulnerabilidade, especialmente em comunidades ribeirinhas, garantindo que o público-alvo tenha acesso e compreenda os requisitos para se beneficiar.",
-      "link": "https://agenciabrasil.ebc.com.br/educacao/noticia/2026-07/pe-de-meia-2026-nascidos-em-novembro-e-dezembro-recebem-4a-parcela"
-    },
-    {
-      "categoria": "Parcerias",
-      "icone": "🤝",
-      "cor": "#68BB8A",
-      "orgao": "Fundo Amazônia (BNDES)",
-      "titulo": "Fundo Amazônia: Potencial de Parceria para Projetos Ambientais e de Desenvolvimento Sustentável",
-      "resumo": "O Fundo Amazônia, gerido pelo BNDES, é uma fonte crucial de financiamento para iniciativas de combate ao desmatamento e desenvolvimento sustentável na Amazônia. Seus eixos de atuação se alinham com o foco da AME-AMAZÔNIA.",
-      "aplicabilidade": "A AME-AMAZÔNIA deve monitorar ativamente os editais e chamadas do Fundo Amazônia, buscando alinhar seus projetos de Meio Ambiente e Empreendedorismo Verde com os eixos de atuação do Fundo para captação de recursos.",
+      "orgao": "Fundo Amazônia",
+      "titulo": "Oportunidades de Financiamento e Parceria com o Fundo Amazônia",
+      "resumo": "O Fundo Amazônia é uma fonte crucial de financiamento para projetos de meio ambiente e desenvolvimento sustentável na região. Conhecer seus eixos e projetos em destaque é vital para alinhamento estratégico.",
+      "aplicabilidade": "A AME-AMAZÔNIA deve analisar os eixos de atuação e projetos em destaque do Fundo Amazônia para identificar sinergias e preparar propostas alinhadas com seus objetivos de Meio Ambiente e Empreendedorismo Verde.",
       "link": "https://www.fundoamazonia.gov.br"
     },
     {
       "categoria": "Parcerias",
-      "icone": "📈",
-      "cor": "#2E7D22",
+      "icone": "🧑‍🎓",
+      "cor": "#1E88E5",
       "orgao": "CIEE",
-      "titulo": "Desafios do Primeiro Emprego Jovem: Oportunidades para Inclusão Produtiva",
-      "resumo": "Apesar da queda no desemprego jovem, a permanência no primeiro emprego é um novo desafio. Este cenário abre espaço para programas de qualificação e apoio à empregabilidade focados na retenção e desenvolvimento de jovens.",
-      "aplicabilidade": "A AME-AMAZÔNIA pode desenvolver ou adaptar programas de Jovem Aprendiz e multiempreendedorismo que não apenas insiram jovens no mercado, mas também os preparem para a permanência e progressão, em parceria com o CIEE.",
-      "link": "https://portal.ciee.org.br/universo-ciee/raio-x-do-trabalho-desemprego-jovem/"
+      "titulo": "CIEE Reforça Foco em Educação e Empregabilidade Jovem",
+      "resumo": "O CIEE continua ativo na promoção de educação e empregabilidade para jovens, oferecendo oportunidades de estágio e aprendizagem. É um parceiro estratégico para programas de Jovem Aprendiz.",
+      "aplicabilidade": "A AME-AMAZÔNIA pode buscar parcerias com o CIEE para expandir seus programas de Jovem Aprendiz e inclusão produtiva para jovens em Manaus e Região Norte.",
+      "link": "https://portal.ciee.org.br/universo-ciee/volte-das-ferias-com-seu-trampo-garantido/"
     },
     {
       "categoria": "Parcerias",
       "icone": "💡",
-      "cor": "#2E7D22",
+      "cor": "#FFB300",
       "orgao": "Sebrae AM",
-      "titulo": "Sebrae AM Oferece Consultorias para Empreendedores Locais",
-      "resumo": "O Sebrae Amazonas disponibiliza serviços de consultoria para apoiar o desenvolvimento de pequenos negócios e empreendedores. Uma oportunidade valiosa para capacitação e estruturação de iniciativas de multiempreendedorismo e empreendedorismo verde.",
-      "aplicabilidade": "A AME-AMAZÔNIA pode estabelecer uma parceria formal com o Sebrae AM para oferecer consultorias especializadas aos seus públicos-alvo (empreendedores rurais, jovens empreendedores), fortalecendo suas iniciativas de multiempreendedorismo e empreendedorismo verde.",
+      "titulo": "Sebrae AM Oferece Consultoria para Multiempreendedorismo",
+      "resumo": "O Sebrae Amazonas disponibiliza serviços de consultoria essenciais para o desenvolvimento de pequenos negócios e empreendedores, um recurso valioso para o público-alvo da AME-AMAZÔNIA.",
+      "aplicabilidade": "A AME-AMAZÔNIA pode estabelecer contato com o Sebrae AM para oferecer suporte e capacitação aos empreendedores rurais e indivíduos em vulnerabilidade, fomentando o multiempreendedorismo e empreendedorismo verde.",
       "link": "https://am.loja.sebrae.com.br/"
     },
     {
-      "categoria": "Legislação",
-      "icone": "🏭",
-      "cor": "#68BB8A",
-      "orgao": "FIEAM / CODAM",
-      "titulo": "CODAM Aprova Recorde de Investimentos Industriais no Amazonas",
-      "resumo": "A 320ª reunião do CODAM aprovou um volume recorde de investimentos industriais no Amazonas, sinalizando um crescimento econômico e potencial para geração de empregos e oportunidades de inclusão produtiva na região.",
-      "aplicabilidade": "A AME-AMAZÔNIA pode explorar as novas demandas de mão de obra geradas por esses investimentos, desenvolvendo programas de capacitação e Jovem Aprendiz alinhados às necessidades do setor industrial, facilitando a inclusão produtiva.",
-      "link": "https://fieam.org.br/320a-reuniao-do-codam-aprova-recorde-de-investimentos-industriais-no-amazonas/"
-    },
-    {
-      "categoria": "Parcerias",
+      "categoria": "Educação",
       "icone": "📚",
-      "cor": "#2E7D22",
+      "cor": "#00ACC1",
       "orgao": "IEL AM",
-      "titulo": "IEL AM Oferece Cursos para Desenvolvimento de Carreira e Mercado de Trabalho",
-      "resumo": "O Instituto Euvaldo Lodi (IEL AM) disponibiliza cursos focados no desenvolvimento de carreira e inserção no mercado de trabalho. Uma excelente oportunidade para qualificação profissional de jovens e adultos.",
-      "aplicabilidade": "A AME-AMAZÔNIA pode firmar parceria com o IEL AM para direcionar seu público-alvo (jovens, indivíduos em vulnerabilidade) para cursos relevantes, complementando seus programas de educação e inclusão produtiva.",
+      "titulo": "IEL AM: Cursos para Desenvolvimento de Carreira e Empregabilidade",
+      "resumo": "O Instituto Euvaldo Lodi (IEL AM) oferece cursos para impulsionar carreiras e destacar profissionais no mercado de trabalho, alinhado à educação e inclusão produtiva de jovens.",
+      "aplicabilidade": "A AME-AMAZÔNIA pode explorar parcerias com o IEL AM para oferecer cursos e capacitações profissionalizantes aos jovens e indivíduos em vulnerabilidade, visando sua inclusão produtiva.",
       "link": "https://www.iel-am.org.br/"
     },
     {
       "categoria": "Parcerias",
-      "icone": "🌿",
-      "cor": "#68BB8A",
+      "icone": "🤝",
+      "cor": "#4CAF50",
       "orgao": "Fundação Amazônia Sustentável (FAS)",
-      "titulo": "Fundação Amazônia Sustentável (FAS): Potencial de Colaboração para o Desenvolvimento Regional",
-      "resumo": "A FAS Amazônia atua com foco em desenvolvimento sustentável, conservação e melhoria da qualidade de vida de comunidades amazônicas. Seus eixos de atuação são altamente alinhados com os objetivos da AME-AMAZÔNIA.",
-      "aplicabilidade": "A AME-AMAZÔNIA deve buscar contato com a FAS para explorar oportunidades de parceria em projetos de Meio Ambiente, Empreendedorismo Verde e apoio a comunidades ribeirinhas e empreendedores rurais na Região Norte.",
+      "titulo": "FAS Amazônia: Potencial Parceiro para Projetos Sustentáveis",
+      "resumo": "A Fundação Amazônia Sustentável (FAS) é uma organização chave na região, com eixos de atuação que se alinham com Meio Ambiente, Empreendedorismo Verde e Inclusão Produtiva para comunidades.",
+      "aplicabilidade": "A AME-AMAZÔNIA deve mapear os projetos e eixos da FAS para identificar oportunidades de colaboração em iniciativas de desenvolvimento sustentável e apoio a comunidades ribeirinhas.",
       "link": "https://fas-amazonia.org/"
     },
     {
-      "categoria": "Parcerias",
-      "icone": "🌍",
-      "cor": "#2E7D22",
-      "orgao": "Fundação Banco do Brasil (FBB)",
-      "titulo": "Fundação Banco do Brasil: Oportunidades em Tecnologias Sociais e Desenvolvimento Sustentável",
-      "resumo": "A Fundação BB é uma importante financiadora de projetos que promovem tecnologias sociais e o desenvolvimento sustentável. Seus programas podem apoiar iniciativas da AME-AMAZÔNIA em inclusão produtiva e empreendedorismo verde.",
-      "aplicabilidade": "A AME-AMAZÔNIA deve monitorar os editais da FBB e desenvolver projetos que incorporem tecnologias sociais para atender seu público-alvo, buscando financiamento e parcerias estratégicas.",
+      "categoria": "Editais",
+      "icone": "💰",
+      "cor": "#004D40",
+      "orgao": "Fundação Banco do Brasil",
+      "titulo": "FBB: Oportunidades em Tecnologias Sociais e Projetos",
+      "resumo": "A Fundação Banco do Brasil é uma importante fonte de apoio para projetos sociais, com foco em tecnologias sociais. Essencial para iniciativas de inclusão produtiva e tecnologia.",
+      "aplicabilidade": "A AME-AMAZÔNIA deve monitorar os editais da FBB, especialmente aqueles focados em tecnologias sociais, para submeter projetos que beneficiem comunidades vulneráveis e promovam a inclusão tecnológica.",
       "link": "https://fbb.org.br/"
     },
     {
       "categoria": "Parcerias",
-      "icone": "🧑‍🎓",
-      "cor": "#2E7D22",
+      "icone": "🚀",
+      "cor": "#FF7043",
       "orgao": "Instituto MRV",
-      "titulo": "Instituto MRV Foca em Carreira e Empregabilidade para Jovens",
-      "resumo": "O Instituto MRV promove encontros e iniciativas focadas em carreira e empregabilidade para jovens, demonstrando um alinhamento com os objetivos da AME-AMAZÔNIA de inclusão produtiva e educação para o público jovem.",
-      "aplicabilidade": "A AME-AMAZÔNIA pode buscar o Instituto MRV para parcerias em programas de capacitação e inserção de jovens no mercado de trabalho, aproveitando a expertise e o foco da instituição.",
+      "titulo": "Instituto MRV Fomenta Carreira e Empregabilidade Jovem",
+      "resumo": "O Instituto MRV promove encontros e iniciativas focadas em carreira e empregabilidade para jovens, alinhando-se com os objetivos da AME-AMAZÔNIA de educação e inclusão produtiva.",
+      "aplicabilidade": "A AME-AMAZÔNIA pode buscar contato com o Instituto MRV para explorar parcerias em programas de capacitação e inserção de jovens no mercado de trabalho na Região Norte.",
       "link": "https://institutomrv.com.br/"
     },
     {
-      "categoria": "Tecnologia",
+      "categoria": "Editais",
       "icone": "🔍",
-      "cor": "#68BB8A",
-      "orgao": "Prosas Editais",
-      "titulo": "Plataforma Prosas: Central de Editais para Organizações Sociais",
-      "resumo": "O Prosas é uma plataforma especializada na divulgação de editais e oportunidades de financiamento para organizações sociais. É uma ferramenta essencial para a AME-AMAZÔNIA identificar novas chamadas e parceiros.",
-      "aplicabilidade": "A AME-AMAZÔNIA deve utilizar a plataforma Prosas como ferramenta de monitoramento contínuo para identificar editais e chamadas públicas alinhadas aos seus focos, otimizando a captação de recursos.",
+      "cor": "#8D6E63",
+      "orgao": "Prosas Editais / Mapa OSC IPEA",
+      "titulo": "Central de Editais: Prosas e Mapa OSC IPEA para Oportunidades",
+      "resumo": "Plataformas essenciais para monitorar editais e oportunidades de financiamento para organizações da sociedade civil, cobrindo diversas áreas de atuação.",
+      "aplicabilidade": "A equipe de RIG da AME-AMAZÔNIA deve realizar monitoramento contínuo nessas plataformas para identificar novos editais e chamadas que se alinhem com os focos da organização.",
       "link": "https://produtos.prosas.com.br/editais"
     },
     {
-      "categoria": "Tecnologia",
-      "icone": "🗺️",
-      "cor": "#68BB8A",
-      "orgao": "IPEA (Mapa das OSC)",
-      "titulo": "Mapa das OSC (IPEA): Fonte de Dados e Editais para o Terceiro Setor",
-      "resumo": "O Mapa das OSC do IPEA oferece dados e informações sobre organizações da sociedade civil, incluindo uma seção de editais. É uma ferramenta valiosa para pesquisa e identificação de oportunidades de financiamento.",
-      "aplicabilidade": "A AME-AMAZÔNIA pode consultar o Mapa das OSC para identificar editais, conhecer outras organizações com focos similares para potenciais parcerias e acessar dados relevantes para o planejamento estratégico.",
-      "link": "https://mapaosc.ipea.gov.br/editais"
-    },
-    {
-      "categoria": "Tecnologia",
-      "icone": "📖",
-      "cor": "#2E7D22",
-      "orgao": "Capta Oportunidades",
-      "titulo": "Guia para Elaboração de Projetos Socioambientais Comunitários",
-      "resumo": "Guia prático para organizações de base comunitária elaborarem pequenos projetos socioambientais. Recurso valioso para capacitar comunidades ribeirinhas e empreendedores rurais na Região Norte.",
-      "aplicabilidade": "A AME-AMAZÔNIA pode utilizar e divulgar este guia para capacitar seu público-alvo na elaboração de projetos, fortalecendo a capacidade local e facilitando o acesso a financiamentos para iniciativas de empreendedorismo verde.",
-      "link": "https://capta.org.br/fontes-de-financiamento/oportunidades/"
-    },
-    {
       "categoria": "Editais",
-      "icone": "🌳",
-      "cor": "#68BB8A",
-      "orgao": "Projeto Floresta+ Amazônia (via Capta Oportunidades)",
-      "titulo": "Chamada Pública 01/2026 – Projeto Floresta+ Amazônia",
-      "resumo": "Edital focado em projetos para a Amazônia, com potencial de financiamento para iniciativas de conservação, desenvolvimento sustentável e empreendedorismo verde em comunidades locais.",
-      "aplicabilidade": "A AME-AMAZÔNIA deve analisar detalhadamente esta chamada pública e preparar uma proposta alinhada aos seus projetos de Meio Ambiente, Empreendedorismo Verde e apoio a comunidades ribeirinhas na Região Norte.",
-      "link": "https://capta.org.br/oportunidades/chamada-publica-01-2026-projeto-floresta-amazonia/"
+      "icone": "🌍",
+      "cor": "#388E3C",
+      "orgao": "Capta Oportunidades",
+      "titulo": "Capta: Guia e Chamada para Projetos Socioambientais Comunitários",
+      "resumo": "A Capta oferece um guia para elaboração de projetos socioambientais e uma chamada simplificada de apoio direto a iniciativas de base comunitária, ideal para o público da AME-AMAZÔNIA.",
+      "aplicabilidade": "A AME-AMAZÔNIA deve utilizar o guia para capacitar suas equipes e comunidades parceiras na elaboração de projetos e submeter propostas para a Chamada Simplificada, focando em comunidades ribeirinhas.",
+      "link": "https://capta.org.br/oportunidades/chamada-simplificada-apoio-direto-a-iniciativas-comunitarias/"
     }
   ],
   "gestao": {
     "prioridades": {
       "alta": [
-        "Análise e elaboração de proposta para a Chamada Pública Floresta+ Amazônia.",
-        "Divulgação e suporte para inscrições no Prouni 2026.",
-        "Divulgação e orientação sobre o programa Pé-de-Meia 2026."
+        "Mapear editais da FBB, Prosas, Mapa OSC IPEA e Capta Oportunidades",
+        "Analisar eixos de atuação do Fundo Amazônia e FAS Amazônia",
+        "Desenvolver projetos de assistência social baseados no estudo UNICEF"
       ],
       "media": [
-        "Início de prospecção e contato com Fundo Amazônia, FAS, FBB, Instituto MRV, Sebrae AM, IEL AM e CIEE para parcerias.",
-        "Planejamento para uso do Guia de Projetos Socioambientais em capacitações.",
-        "Análise de oportunidades geradas pelos investimentos do CODAM."
+        "Estabelecer contato para parcerias com CIEE, IEL AM, Sebrae AM e Instituto MRV",
+        "Elaborar proposta para a Chamada Simplificada da Capta Oportunidades"
       ],
       "baixa": [
-        "Monitoramento contínuo de editais nas plataformas Prosas e Mapa OSC IPEA.",
-        "Incorporar alerta do Copernicus sobre El Niño no planejamento ambiental."
+        "Acompanhar notícias legislativas e econômicas relevantes para a ZFM"
       ]
     },
     "acoes": [
       {
-        "acao": "Analisar edital da Chamada Pública 01/2026 – Projeto Floresta+ Amazônia e iniciar elaboração de proposta.",
+        "acao": "Analisar detalhadamente os eixos de atuação e projetos em destaque do Fundo Amazônia e FAS Amazônia para identificar sinergias.",
+        "responsavel": "Diretor(a) Executivo(a), Diretor(a) de RIG",
+        "prazo": "7 dias"
+      },
+      {
+        "acao": "Mapear editais abertos na Fundação Banco do Brasil, Prosas e Mapa OSC IPEA, com foco em tecnologias sociais e comunidades.",
         "responsavel": "Diretor(a) de RIG",
         "prazo": "5 dias"
       },
       {
-        "acao": "Criar campanha de comunicação para divulgar Prouni 2026 e Pé-de-Meia 2026 ao público-alvo.",
-        "responsavel": "Diretor(a) de Comunicação",
-        "prazo": "3 dias"
-      },
-      {
-        "acao": "Agendar reuniões exploratórias com Fundo Amazônia, FAS, FBB, Instituto MRV, Sebrae AM, IEL AM e CIEE para identificar sinergias e oportunidades de parceria.",
-        "responsavel": "Diretor(a) Executivo(a)",
-        "prazo": "15 dias"
-      },
-      {
-        "acao": "Desenvolver plano de capacitação interna e para comunidades utilizando o Guia de Elaboração de Projetos Socioambientais Comunitários.",
-        "responsavel": "Diretor(a) Executivo(a)",
+        "acao": "Elaborar proposta para a 'Chamada Simplificada – Apoio Direto a Iniciativas Comunitárias' da Capta Oportunidades, focando em comunidades ribeirinhas.",
+        "responsavel": "Diretor(a) Executivo(a), Diretor(a) de RIG",
         "prazo": "10 dias"
       },
       {
-        "acao": "Mapear demandas de Jovem Aprendiz e inclusão produtiva decorrentes dos investimentos aprovados pelo CODAM.",
+        "acao": "Agendar reuniões com representantes do CIEE, IEL AM, Sebrae AM e Instituto MRV para explorar parcerias em programas de educação e empregabilidade para jovens.",
+        "responsavel": "Diretor(a) de Comunicação, Diretor(a) Executivo(a)",
+        "prazo": "15 dias"
+      },
+      {
+        "acao": "Desenvolver um plano de ação para projetos de assistência social e saúde materna, utilizando dados do estudo UNICEF sobre cesarianas, com foco em comunidades vulneráveis.",
         "responsavel": "Diretor(a) Executivo(a)",
         "prazo": "20 dias"
       }
