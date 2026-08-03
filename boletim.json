@@ -1,117 +1,174 @@
 {
-  "data": "27/07/2026 - 10:16",
+  "data": "03/08/2026 - 10:23",
   "cards": [
     {
-      "categoria": "Editais",
-      "icone": "📝",
-      "cor": "#2E7D22",
-      "orgao": "BNDES via Capta Oportunidades",
-      "titulo": "Edital BNDES Periferias Fortes – Norte",
-      "resumo": "Oportunidade de financiamento para projetos que fortalecem comunidades em vulnerabilidade na Região Norte, alinhado com inclusão produtiva e assistência social. Foco em desenvolvimento local e empreendedorismo.",
-      "aplicabilidade": "A AME-AMAZÔNIA pode submeter projetos focados em multiempreendedorismo, inclusão produtiva e assistência social para jovens e comunidades ribeirinhas em Manaus/AM e Região Norte.",
-      "link": "https://capta.org.br/oportunidades/edital-bndes-periferias-fortes-norte/"
+      "categoria": "Educação",
+      "icone": "🎓",
+      "cor": "#D84315",
+      "orgao": "Inep / Agência Brasil",
+      "titulo": "Cartilha de Redação do Encceja 2026: Apoio à Educação de Jovens e Adultos",
+      "resumo": "O Inep disponibilizou a cartilha de redação do Encceja 2026, detalhando as competências avaliadas e critérios de correção. Recurso essencial para jovens e adultos que buscam certificação do ensino básico.",
+      "aplicabilidade": "A AME-AMAZÔNIA pode divulgar a cartilha e oferecer apoio ou orientação para jovens e adultos de seu público-alvo na preparação para o Encceja, promovendo a inclusão educacional.",
+      "link": "https://agenciabrasil.ebc.com.br/educacao/noticia/2026-08/encceja-2026-alunos-ja-podem-consultar-cartilha-de-redacao"
     },
     {
       "categoria": "Parcerias",
       "icone": "🤝",
-      "cor": "#68BB8A",
+      "cor": "#1E88E5",
       "orgao": "Fundo Amazônia",
-      "titulo": "Fundo Amazônia: Fonte Estratégica de Financiamento",
-      "resumo": "Principal mecanismo de financiamento para projetos de conservação e uso sustentável da Amazônia. Abrange meio ambiente, empreendedorismo verde e apoio a comunidades tradicionais.",
-      "aplicabilidade": "Monitorar ativamente os editais e chamadas do Fundo Amazônia para projetos alinhados com meio ambiente, empreendedorismo verde e inclusão produtiva para comunidades ribeirinhas.",
+      "titulo": "Fundo Amazônia: Potencial de Financiamento para Projetos Socioambientais",
+      "resumo": "Fonte estratégica de recursos para iniciativas de conservação e desenvolvimento sustentável na Região Norte. Seus eixos de atuação se alinham com empreendedorismo verde, comunidades ribeirinhas e meio ambiente.",
+      "aplicabilidade": "A AME-AMAZÔNIA deve monitorar ativamente os editais e chamadas, buscando alinhar seus projetos de empreendedorismo verde, inclusão produtiva e apoio a comunidades ribeirinhas para captação de recursos.",
       "link": "https://www.fundoamazonia.gov.br"
     },
     {
+      "categoria": "Comunicação",
+      "icone": "📣",
+      "cor": "#8E24AA",
+      "orgao": "CIEE",
+      "titulo": "Prêmio CIEE de Jornalismo: Visibilidade para Educação e Empregabilidade",
+      "resumo": "O CIEE lançou seu prêmio de jornalismo, incentivando a cobertura de temas como educação e empregabilidade. Oportunidade para dar visibilidade a iniciativas e histórias de sucesso da AME-AMAZÔNIA.",
+      "aplicabilidade": "Incentivar jornalistas locais a produzir reportagens sobre os programas da AME-AMAZÔNIA (Jovem Aprendiz, multiempreendedorismo) para participação no prêmio e ampliação da visibilidade institucional.",
+      "link": "https://portal.ciee.org.br/universo-ciee/premio-ciee-de-jornalismo-inscricoes-abertas/"
+    },
+    {
       "categoria": "Parcerias",
       "icone": "🤝",
-      "cor": "#68BB8A",
-      "orgao": "FAS Amazônia",
-      "titulo": "FAS Amazônia: Parceria para Desenvolvimento Sustentável",
-      "resumo": "Fundação com forte atuação na Amazônia, focada em desenvolvimento sustentável, educação, empreendedorismo e conservação. Grande potencial de sinergia com os eixos da AME-AMAZÔNIA.",
-      "aplicabilidade": "Explorar parcerias estratégicas e oportunidades de co-criação de projetos com a FAS Amazônia, especialmente em educação, empreendedorismo verde e apoio a comunidades ribeirinhas.",
+      "cor": "#1E88E5",
+      "orgao": "CIEE",
+      "titulo": "CIEE: Oportunidades de Empregabilidade e Aprendizagem para Jovens",
+      "resumo": "O CIEE é um canal ativo para conectar jovens a vagas de estágio e aprendizagem, essencial para a inclusão produtiva e desenvolvimento profissional do público jovem em vulnerabilidade.",
+      "aplicabilidade": "Fortalecer a parceria com o CIEE, direcionando jovens do público-alvo da AME-AMAZÔNIA e explorando a criação de programas de Jovem Aprendiz específicos para a Região Norte.",
+      "link": "https://portal.ciee.org.br/universo-ciee/volte-das-ferias-com-seu-trampo-garantido/"
+    },
+    {
+      "categoria": "Parcerias",
+      "icone": "🤝",
+      "cor": "#1E88E5",
+      "orgao": "Sebrae Amazonas",
+      "titulo": "Sebrae AM: Consultorias para Impulsionar Empreendedorismo na Amazônia",
+      "resumo": "O Sebrae Amazonas oferece consultorias que podem impulsionar o multiempreendedorismo e o empreendedorismo verde. Essencial para o desenvolvimento de negócios sustentáveis e inclusivos na região.",
+      "aplicabilidade": "Estabelecer parceria estratégica com o Sebrae AM para oferecer consultorias gratuitas ou subsidiadas aos empreendedores rurais e indivíduos em vulnerabilidade apoiados pela AME-AMAZÔNIA.",
+      "link": "https://am.loja.sebrae.com.br/"
+    },
+    {
+      "categoria": "Educação",
+      "icone": "🎓",
+      "cor": "#D84315",
+      "orgao": "FIEAM / SENAI-AM / Cigás",
+      "titulo": "Qualificação Profissional em Gás Natural: Modelo para Inclusão Produtiva",
+      "resumo": "SENAI-AM e Cigás qualificam profissionais para a cadeia do gás natural. Este modelo de parceria entre indústria e educação pode ser replicado para outras áreas de interesse da AME-AMAZÔNIA.",
+      "aplicabilidade": "Estudar este modelo de qualificação setorial para desenvolver programas similares em empreendedorismo verde ou multiempreendedorismo, buscando parcerias com indústrias e instituições técnicas.",
+      "link": "https://fieam.org.br/senai-am-e-cigas-qualificam-profissionais-para-fortalecer-a-cadeia-do-gas-natural-no-amazonas/"
+    },
+    {
+      "categoria": "Educação",
+      "icone": "🎓",
+      "cor": "#D84315",
+      "orgao": "IEL Amazonas",
+      "titulo": "IEL AM: Cursos e Capacitação para o Mercado de Trabalho na Região",
+      "resumo": "O IEL Amazonas oferece cursos e programas para investir na carreira e se destacar no mercado de trabalho. Fonte valiosa para a capacitação e inclusão produtiva de jovens e adultos.",
+      "aplicabilidade": "Firmar convênios com o IEL AM para facilitar o acesso de seu público-alvo a cursos de capacitação profissional, especialmente em habilidades para multiempreendedorismo e empreendedorismo verde.",
+      "link": "https://www.iel-am.org.br/"
+    },
+    {
+      "categoria": "Parcerias",
+      "icone": "🤝",
+      "cor": "#1E88E5",
+      "orgao": "Fundação Amazônia Sustentável (FAS)",
+      "titulo": "FAS Amazônia: Aliado Estratégico para Projetos de Sustentabilidade e Comunidades",
+      "resumo": "Organização chave na região, focada em desenvolvimento sustentável, conservação e apoio a comunidades. Seus eixos de atuação se alinham diretamente com a missão da AME-AMAZÔNIA.",
+      "aplicabilidade": "Buscar aproximação com a FAS para identificar oportunidades de colaboração em projetos de empreendedorismo verde, inclusão produtiva para ribeirinhos e iniciativas de educação ambiental.",
       "link": "https://fas-amazonia.org/"
     },
     {
-      "categoria": "Editais",
-      "icone": "📝",
-      "cor": "#2E7D22",
-      "orgao": "Fundação Banco do Brasil",
-      "titulo": "FBB: Apoio a Tecnologias Sociais e Inclusão",
-      "resumo": "A Fundação BB é uma importante financiadora de projetos sociais, com foco em tecnologias sociais que promovem inclusão produtiva, educação e desenvolvimento sustentável.",
-      "aplicabilidade": "Acompanhar os editais da FBB para submissão de projetos que utilizem tecnologia para inclusão produtiva e assistência social, beneficiando jovens e comunidades vulneráveis.",
+      "categoria": "Parcerias",
+      "icone": "🤝",
+      "cor": "#1E88E5",
+      "orgao": "Fundação Banco do Brasil (FBB)",
+      "titulo": "FBB: Apoio a Projetos com Tecnologias Sociais e Inclusão Produtiva",
+      "resumo": "Importante financiadora de projetos sociais, com destaque para o apoio a tecnologias sociais. Alinha-se com a busca por soluções inovadoras para inclusão produtiva e assistência social.",
+      "aplicabilidade": "Mapear editais e programas da FBB, especialmente em tecnologias sociais, para submeter projetos que promovam multiempreendedorismo e inclusão de comunidades vulneráveis.",
       "link": "https://fbb.org.br/"
     },
     {
       "categoria": "Parcerias",
       "icone": "🤝",
-      "cor": "#68BB8A",
-      "orgao": "Sebrae AM",
-      "titulo": "Sebrae AM: Consultoria para Empreendedores",
-      "resumo": "O Sebrae oferece serviços de consultoria e capacitação para micro e pequenos empreendedores, essencial para o fomento do multiempreendedorismo e empreendedorismo rural.",
-      "aplicabilidade": "Estabelecer contato para parcerias em programas de capacitação e consultoria, direcionando empreendedores rurais e indivíduos em vulnerabilidade para os serviços do Sebrae.",
-      "link": "https://am.loja.sebrae.com.br/"
+      "cor": "#1E88E5",
+      "orgao": "Instituto Localiza",
+      "titulo": "Instituto Localiza: Programas de Desenvolvimento e Inclusão para a Juventude",
+      "resumo": "O Instituto Localiza foca em programas de 'Juventude em Movimento', visando o desenvolvimento e a inclusão de jovens. Potencial parceria para iniciativas de educação, capacitação e empregabilidade.",
+      "aplicabilidade": "Contatar o Instituto Localiza para explorar parcerias em programas de capacitação e empregabilidade para jovens em vulnerabilidade na Região Norte, alinhando-se aos objetivos da AME-AMAZÔNIA.",
+      "link": "https://www.institutolocaliza.org/"
     },
     {
-      "categoria": "Parcerias",
-      "icone": "🤝",
+      "categoria": "Legislação",
+      "icone": "📚",
       "cor": "#68BB8A",
-      "orgao": "FIEAM / SESI",
-      "titulo": "SESI Barco-Escola Samaúma: Educação Ribeirinha",
-      "resumo": "O SESI comemora 80 anos e destaca a atuação do Barco-Escola Samaúma, indicando foco em educação e inclusão para comunidades distantes, como as ribeirinhas.",
-      "aplicabilidade": "Propor parceria com FIEAM/SESI para expandir programas de educação (Jovem Aprendiz) e inclusão produtiva para comunidades ribeirinhas na Região Norte, utilizando a estrutura do Barco-Escola.",
-      "link": "https://fieam.org.br/sesi-comemora-80-anos-com-liderancas-da-industria-no-barco-escola-samauma/"
-    },
-    {
-      "categoria": "Tecnologia",
-      "icone": "💡",
-      "cor": "#007BFF",
-      "orgao": "Governo Federal / China",
-      "titulo": "Acordo Mercosul-China: Cooperação em Alta Tecnologia",
-      "resumo": "Conversa entre presidentes Lula e Xi Jinping destaca ampliação da cooperação em inteligência artificial, satélites e beneficiamento de minerais críticos. Sinaliza tendências futuras.",
-      "aplicabilidade": "Monitorar desdobramentos para identificar futuras oportunidades de projetos em tecnologia e inovação que possam beneficiar o multiempreendedorismo e a inclusão produtiva na Amazônia.",
-      "link": "https://agenciabrasil.ebc.com.br/internacional/noticia/2026-07/acordo-mecosul-china-e-tratado-em-conversa-entre-lula-e-xi-jinpping"
+      "orgao": "Capta Oportunidades",
+      "titulo": "Guia para Elaboração de Projetos Socioambientais Comunitários",
+      "resumo": "Guia prático para organizações de base comunitária elaborarem pequenos projetos socioambientais. Recurso valioso para capacitar comunidades ribeirinhas e empreendedores rurais.",
+      "aplicabilidade": "Utilizar e disseminar este guia entre as comunidades e empreendedores apoiados, capacitando-os na elaboração de projetos de empreendedorismo verde e meio ambiente, fortalecendo a autonomia local.",
+      "link": "https://capta.org.br/fontes-de-financiamento/oportunidades/"
     }
   ],
   "gestao": {
     "prioridades": {
       "alta": [
-        "Analisar e preparar proposta para o Edital BNDES Periferias Fortes – Norte.",
-        "Mapear contatos estratégicos no Fundo Amazônia e FAS Amazônia para futuras parcerias."
+        "Aproximação com Fundo Amazônia e FAS para captação de recursos e parcerias estratégicas.",
+        "Mapeamento de editais da FBB com foco em tecnologias sociais e inclusão produtiva.",
+        "Fortalecimento de parcerias com CIEE, Sebrae AM e IEL AM para educação e inclusão produtiva."
       ],
       "media": [
-        "Explorar oportunidades de parceria com Sebrae AM e FIEAM/SESI para programas de capacitação e educação.",
-        "Monitorar editais da Fundação Banco do Brasil com foco em tecnologias sociais."
+        "Estudo do modelo de qualificação SENAI-AM/Cigás para replicabilidade em outros setores.",
+        "Contato com Instituto Localiza para programas de desenvolvimento e inclusão da juventude.",
+        "Divulgação da cartilha Encceja e oferta de apoio educacional para jovens e adultos."
       ],
       "baixa": [
-        "Acompanhar desdobramentos do acordo Mercosul-China para identificar tendências em tecnologia e inovação.",
-        "Revisar o 'Guia de Elaboração de Pequenos Projetos Socioambientais' da Capta para aprimorar propostas futuras."
+        "Incentivo à participação no Prêmio CIEE de Jornalismo para visibilidade institucional.",
+        "Integração e disseminação do Guia de Projetos Socioambientais Comunitários."
       ]
     },
     "acoes": [
       {
-        "acao": "Designar equipe para análise detalhada do Edital BNDES Periferias Fortes – Norte e iniciar elaboração de pré-projeto.",
+        "acao": "Agendar reuniões com representantes do Fundo Amazônia e FAS para apresentar a AME-AMAZÔNIA e explorar oportunidades de parceria e financiamento.",
+        "responsavel": "Diretor(a) Presidente",
+        "prazo": "15 dias"
+      },
+      {
+        "acao": "Mapear editais abertos e futuros da Fundação Banco do Brasil com foco em tecnologias sociais e inclusão produtiva, preparando potenciais submissões.",
+        "responsavel": "Diretor(a) de RIG",
+        "prazo": "10 dias"
+      },
+      {
+        "acao": "Contatar CIEE, Sebrae AM e IEL AM para formalizar ou fortalecer convênios e discutir programas conjuntos de capacitação e empregabilidade para o público-alvo.",
         "responsavel": "Diretor(a) Executivo(a)",
+        "prazo": "20 dias"
+      },
+      {
+        "acao": "Elaborar plano de comunicação para divulgar a cartilha Encceja e estruturar um programa de apoio ou orientação educacional à comunidade.",
+        "responsavel": "Diretor(a) de Comunicação",
         "prazo": "7 dias"
       },
       {
-        "acao": "Agendar reunião com representantes do Fundo Amazônia e FAS Amazônia para apresentar a AME-AMAZÔNIA e explorar sinergias.",
+        "acao": "Analisar o modelo de qualificação SENAI-AM/Cigás e identificar setores potenciais para replicação de programas de inclusão produtiva na Região Norte.",
+        "responsavel": "Diretor(a) Executivo(a)",
+        "prazo": "30 dias"
+      },
+      {
+        "acao": "Contatar o Instituto Localiza para apresentar a AME-AMAZÔNIA e discutir possíveis colaborações em programas de capacitação e empregabilidade para jovens.",
         "responsavel": "Diretor(a) de RIG",
         "prazo": "15 dias"
       },
       {
-        "acao": "Contatar Sebrae AM e FIEAM/SESI para discutir possibilidades de parceria em programas de capacitação e educação para jovens e comunidades ribeirinhas.",
+        "acao": "Desenvolver estratégia para incentivar jornalistas locais a cobrir os projetos da AME-AMAZÔNIA, visando a participação no Prêmio CIEE de Jornalismo.",
         "responsavel": "Diretor(a) de Comunicação",
         "prazo": "10 dias"
       },
       {
-        "acao": "Criar alerta de monitoramento para novos editais da Fundação Banco do Brasil e do Instituto Localiza.",
-        "responsavel": "Diretor(a) de RIG",
-        "prazo": "5 dias"
-      },
-      {
-        "acao": "Distribuir o 'Guia de Elaboração de Pequenos Projetos Socioambientais' da Capta para a equipe de projetos e realizar workshop interno.",
+        "acao": "Integrar o 'Guia para Elaboração de Projetos Socioambientais Comunitários' nos materiais de capacitação para comunidades ribeirinhas e empreendedores rurais.",
         "responsavel": "Diretor(a) Executivo(a)",
-        "prazo": "20 dias"
+        "prazo": "25 dias"
       }
     ]
   }
