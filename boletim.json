@@ -1,155 +1,159 @@
 {
-  "data": "31/08/2026 - 14:33",
+  "data": "14/09/2026 - 13:50",
   "cards": [
     {
-      "categoria": "Tecnologia",
-      "icone": "🔒",
-      "cor": "#2E7D22",
-      "orgao": "Cetic.br / Agência Brasil",
-      "titulo": "Pesquisa Alerta para Vulnerabilidade Digital e Educação em Cibersegurança",
-      "resumo": "Estudo revela que 32% dos usuários de internet sofreram tentativas de golpe, com maior impacto em pessoas de baixa escolaridade. Destaca a urgência de desenvolver habilidades digitais para proteção de dados e uso seguro da tecnologia.",
-      "aplicabilidade": "A AME-AMAZÔNIA pode criar e implementar programas de educação digital e cibersegurança para jovens aprendizes, comunidades ribeirinhas e empreendedores rurais, focando na proteção contra golpes e uso consciente da IA.",
-      "link": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/quase-um-terco-dos-usuarios-de-internet-relatam-tentativas-de-golpe"
-    },
-    {
-      "categoria": "Editais",
-      "icone": "🌳",
-      "cor": "#68BB8A",
-      "orgao": "Fundo Amazônia",
-      "titulo": "Monitoramento de Oportunidades no Fundo Amazônia",
-      "resumo": "Acompanhamento da atuação e dos dados do Fundo Amazônia, principal mecanismo de captação de doações para projetos de redução do desmatamento e desenvolvimento sustentável na Amazônia.",
-      "aplicabilidade": "Essencial para identificar editais e linhas de financiamento para projetos de meio ambiente, empreendedorismo verde e inclusão produtiva em comunidades ribeirinhas e rurais na Região Norte.",
-      "link": "https://www.fundoamazonia.gov.br"
+      "categoria": "Legislação",
+      "icone": "🏛️",
+      "cor": "#1E88E5",
+      "orgao": "SBPC (Sociedade Brasileira para o Progresso da Ciência)",
+      "titulo": "SBPC Alerta para Lacuna em Ciência e Meio Ambiente no Debate Eleitoral",
+      "resumo": "SBPC destaca a ausência de temas cruciais como ciência, tecnologia, impactos climáticos e transição energética no debate eleitoral, propondo o Observatório das Eleições para pautar políticas públicas.",
+      "aplicabilidade": "A AME-AMAZÔNIA pode engajar-se com o Observatório das Eleições da SBPC para defender políticas públicas que apoiem o desenvolvimento científico e tecnológico na Amazônia, alinhado aos focos de meio ambiente e tecnologia.",
+      "link": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-09/ciencia-ainda-nao-foi-lembrada-na-campanha-eleitoral-diz-sbpc"
     },
     {
       "categoria": "Parcerias",
-      "icone": "🗺️",
+      "icone": "🌳",
       "cor": "#68BB8A",
       "orgao": "Fundo Amazônia",
-      "titulo": "Análise dos Eixos de Atuação do Fundo Amazônia",
-      "resumo": "Detalhamento dos eixos prioritários de investimento do Fundo Amazônia, que incluem gestão florestal, monitoramento ambiental, ordenamento territorial e atividades produtivas sustentáveis.",
-      "aplicabilidade": "Permite à AME-AMAZÔNIA adaptar e desenvolver projetos que se encaixem perfeitamente nas diretrizes do Fundo, aumentando as chances de captação de recursos para iniciativas na Amazônia.",
+      "titulo": "Fundo Amazônia: Oportunidades de Financiamento para Projetos Sustentáveis",
+      "resumo": "Análise dos eixos de atuação, projetos em destaque e dados do Fundo Amazônia revela prioridades de investimento em meio ambiente e desenvolvimento sustentável na região amazônica.",
+      "aplicabilidade": "A AME-AMAZÔNIA deve estudar os eixos e projetos do Fundo Amazônia para alinhar suas propostas de multiempreendedorismo, empreendedorismo verde e inclusão produtiva, buscando financiamento e parcerias estratégicas.",
       "link": "https://www.fundoamazonia.gov.br"
+    },
+    {
+      "categoria": "Tecnologia",
+      "icone": "💡",
+      "cor": "#FFB300",
+      "orgao": "CIEE",
+      "titulo": "Geração Z: Insights para Programas de Empreendedorismo Jovem",
+      "resumo": "Pesquisa do CIEE sobre hábitos de consumo da Geração Z aponta prioridade em preço e autenticidade, oferecendo dados valiosos para o desenvolvimento de programas de capacitação e empreendedorismo jovem.",
+      "aplicabilidade": "Utilizar esses insights para criar e adaptar programas de multiempreendedorismo e jovem aprendiz, focando em negócios sustentáveis e autênticos que atraiam e engajem os jovens da região.",
+      "link": "https://portal.ciee.org.br/universo-ciee/habitos-consumo-geracao-z-brasil/"
     },
     {
       "categoria": "Parcerias",
       "icone": "🤝",
-      "cor": "#2E7D22",
+      "cor": "#68BB8A",
       "orgao": "Sebrae AM",
-      "titulo": "Serviços de Consultoria do Sebrae AM para Empreendedores",
-      "resumo": "O Sebrae Amazonas oferece uma gama de serviços de consultoria e capacitação para micro e pequenos empreendedores, visando o desenvolvimento e a sustentabilidade dos negócios.",
-      "aplicabilidade": "A AME-AMAZÔNIA pode estabelecer parcerias com o Sebrae AM para oferecer suporte técnico e capacitação em multiempreendedorismo e empreendedorismo rural para seu público-alvo, fortalecendo a inclusão produtiva.",
+      "titulo": "Sebrae AM Oferece Consultoria para Empreendedores na Amazônia",
+      "resumo": "O Sebrae Amazonas disponibiliza serviços de consultoria que podem fortalecer iniciativas de multiempreendedorismo e apoiar empreendedores rurais e em vulnerabilidade na região.",
+      "aplicabilidade": "A AME-AMAZÔNIA pode formalizar ou intensificar a parceria com o Sebrae AM para oferecer consultoria especializada aos seus beneficiários, impulsionando o desenvolvimento de novos negócios e a inclusão produtiva.",
       "link": "https://am.loja.sebrae.com.br/"
     },
     {
-      "categoria": "Tecnologia",
-      "icone": "🔬",
-      "cor": "#2E7D22",
-      "orgao": "FIEAM (SENAI/UFAM)",
-      "titulo": "Parceria SENAI/UFAM em Microeletrônica para Educação e Tecnologia",
-      "resumo": "O Instituto SENAI de Inovação em Microeletrônica e a UFAM fortalecem parceria em Itacoatiara, promovendo pesquisa e desenvolvimento tecnológico na região.",
-      "aplicabilidade": "A AME-AMAZÔNIA pode explorar a criação de programas de capacitação e Jovem Aprendiz em tecnologia e microeletrônica, conectando jovens da região a essas oportunidades de alta qualificação.",
-      "link": "https://fieam.org.br/instituto-senai-de-inovacao-em-microeletronica-reforca-parceria-com-ufam-em-itacoatiara/"
-    },
-    {
-      "categoria": "Educação",
+      "categoria": "Parcerias",
       "icone": "🎓",
-      "cor": "#2E7D22",
-      "orgao": "IEL AM",
-      "titulo": "Oportunidades de Cursos e Capacitação Profissional pelo IEL AM",
-      "resumo": "O Instituto Euvaldo Lodi (IEL) no Amazonas oferece diversos cursos e programas para o desenvolvimento de carreiras e inserção no mercado de trabalho.",
-      "aplicabilidade": "A AME-AMAZÔNIA pode firmar convênios com o IEL AM para direcionar jovens em vulnerabilidade e jovens aprendizes para cursos e programas que aumentem sua empregabilidade e promovam a inclusão produtiva.",
+      "cor": "#68BB8A",
+      "orgao": "IEL AM (Instituto Euvaldo Lodi - Amazonas)",
+      "titulo": "IEL AM: Cursos para Desenvolvimento de Carreira e Inclusão Produtiva",
+      "resumo": "O IEL AM oferece cursos e programas de capacitação profissional, essenciais para o desenvolvimento de jovens aprendizes e a inclusão produtiva de indivíduos no mercado de trabalho.",
+      "aplicabilidade": "Estabelecer parceria com o IEL AM para integrar seus cursos e programas de qualificação profissional nas iniciativas de Educação (Jovem Aprendiz) e Inclusão Produtiva da AME-AMAZÔNIA.",
       "link": "https://www.iel-am.org.br/"
     },
     {
       "categoria": "Parcerias",
-      "icone": "🌿",
-      "cor": "#2E7D22",
+      "icone": "🌍",
+      "cor": "#68BB8A",
       "orgao": "Fundação Amazônia Sustentável (FAS)",
-      "titulo": "Alinhamento Estratégico com a Fundação Amazônia Sustentável (FAS)",
-      "resumo": "A FAS atua em eixos como conservação, desenvolvimento sustentável e inclusão social na Amazônia, sendo um parceiro potencial para projetos de empreendedorismo verde e comunidades ribeirinhas.",
-      "aplicabilidade": "A AME-AMAZÔNIA deve buscar contato para explorar parcerias em projetos de desenvolvimento sustentável, empreendedorismo verde e inclusão produtiva para comunidades ribeirinhas e indivíduos em vulnerabilidade.",
+      "titulo": "FAS Amazônia: Oportunidades de Colaboração para Desenvolvimento Sustentável",
+      "resumo": "A Fundação Amazônia Sustentável (FAS) apresenta seus números, missão e eixos de atuação, indicando um forte alinhamento com projetos de meio ambiente, empreendedorismo verde e comunidades ribeirinhas.",
+      "aplicabilidade": "A AME-AMAZÔNIA deve explorar ativamente parcerias com a FAS para co-desenvolver e implementar projetos de impacto nas áreas de meio ambiente, empreendedorismo verde e inclusão produtiva para comunidades vulneráveis.",
       "link": "https://fas-amazonia.org/"
     },
     {
       "categoria": "Editais",
-      "icone": "💰",
+      "icone": "🚀",
       "cor": "#2E7D22",
-      "orgao": "Fundação Banco do Brasil",
-      "titulo": "Oportunidades em Tecnologias Sociais e Editais da Fundação BB",
-      "resumo": "A Fundação Banco do Brasil é uma importante fonte de financiamento para projetos sociais, com foco em tecnologias sociais que promovem o desenvolvimento comunitário e a inclusão.",
-      "aplicabilidade": "Monitorar os editais da FBB e desenvolver projetos que se encaixem nos critérios de tecnologias sociais, inclusão produtiva e assistência social, beneficiando comunidades em vulnerabilidade.",
+      "orgao": "Fundação Banco do Brasil (FBB)",
+      "titulo": "FBB: Fomento a Tecnologias Sociais para Inclusão Produtiva",
+      "resumo": "A Fundação BB destaca seu foco em tecnologias sociais, uma área estratégica para a AME-AMAZÔNIA visando a inclusão produtiva e assistência social de populações em vulnerabilidade.",
+      "aplicabilidade": "Monitorar e preparar propostas para editais da FBB que apoiem o desenvolvimento e aplicação de tecnologias sociais para comunidades ribeirinhas e jovens, alinhando com os focos de tecnologia e assistência social.",
       "link": "https://fbb.org.br/"
     },
     {
       "categoria": "Editais",
-      "icone": "🔍",
+      "icone": "📄",
       "cor": "#2E7D22",
       "orgao": "Prosas Editais",
-      "titulo": "Plataforma Prosas: Central de Editais para Organizações Sociais",
-      "resumo": "O Prosas é uma plataforma que agrega editais e oportunidades de financiamento para organizações da sociedade civil, facilitando a busca por recursos.",
-      "aplicabilidade": "Utilizar a plataforma Prosas como ferramenta estratégica para identificar e monitorar editais de financiamento que se alinhem com os projetos da AME-AMAZÔNIA, otimizando a captação de recursos.",
+      "titulo": "Plataforma Prosas: Monitoramento Contínuo de Editais e Oportunidades",
+      "resumo": "A plataforma Prosas é uma fonte centralizada para identificar editais e oportunidades de financiamento em diversas áreas, incluindo social, ambiental e empreendedorismo.",
+      "aplicabilidade": "Implementar um monitoramento regular da plataforma Prosas para identificar rapidamente editais alinhados aos focos da AME-AMAZÔNIA, otimizando a captação de recursos.",
       "link": "https://produtos.prosas.com.br/editais"
     },
     {
       "categoria": "Editais",
-      "icone": "🌐",
+      "icone": "🗺️",
       "cor": "#2E7D22",
-      "orgao": "Mapa OSC IPEA",
-      "titulo": "Portal Mapa OSC IPEA: Fonte de Editais e Dados para OSCs",
-      "resumo": "O Mapa OSC do IPEA é um portal que disponibiliza informações sobre organizações da sociedade civil e editais públicos, sendo uma ferramenta valiosa para captação de recursos.",
-      "aplicabilidade": "Consultar o portal Mapa OSC IPEA regularmente para identificar editais de órgãos governamentais e outras instituições que possam financiar projetos da AME-AMAZÔNIA nas áreas de assistência social, educação e meio ambiente.",
+      "orgao": "IPEA (Mapa das OSC)",
+      "titulo": "Mapa OSC IPEA: Fonte de Editais para Organizações da Sociedade Civil",
+      "resumo": "O portal Mapa OSC do IPEA disponibiliza uma seção dedicada a editais, sendo um recurso valioso para organizações que buscam financiamento e parcerias para projetos sociais e ambientais.",
+      "aplicabilidade": "Integrar o monitoramento do Mapa OSC IPEA na rotina de captação de recursos da AME-AMAZÔNIA, buscando editais que se encaixem nos pilares de atuação da organização.",
       "link": "https://mapaosc.ipea.gov.br/editais"
     },
     {
-      "categoria": "Editais",
-      "icone": "🌱",
-      "cor": "#2E7D22",
+      "categoria": "Tecnologia",
+      "icone": "📚",
+      "cor": "#FFB300",
       "orgao": "Capta Oportunidades",
-      "titulo": "Guia e Editais para Projetos Socioambientais Comunitários",
-      "resumo": "A plataforma Capta oferece um guia para elaboração de projetos socioambientais e lista oportunidades e editais abertos, com foco em organizações de base comunitária.",
-      "aplicabilidade": "Utilizar o guia da Capta para aprimorar a elaboração de projetos e monitorar os editais abertos, especialmente aqueles voltados para comunidades ribeirinhas e empreendedorismo verde na Região Norte.",
+      "titulo": "Guia para Elaboração de Projetos Socioambientais Comunitários",
+      "resumo": "Guia prático para organizações de base comunitária elaborarem pequenos projetos socioambientais, ferramenta essencial para capacitação e desenvolvimento de iniciativas locais.",
+      "aplicabilidade": "Utilizar o guia para capacitar equipes e parceiros locais na elaboração de projetos socioambientais, fortalecendo a capacidade de comunidades ribeirinhas e empreendedores rurais acessarem recursos.",
       "link": "https://capta.org.br/fontes-de-financiamento/oportunidades/"
+    },
+    {
+      "categoria": "Editais",
+      "icone": "🍺",
+      "cor": "#2E7D22",
+      "orgao": "AMBEV (via Capta Oportunidades)",
+      "titulo": "Edital AMBEV Brasilidades 2026: Apoio a Iniciativas Locais",
+      "resumo": "O Edital AMBEV Brasilidades 2026 busca apoiar projetos que valorizem a cultura e o desenvolvimento local, podendo incluir iniciativas de multiempreendedorismo e empreendedorismo verde.",
+      "aplicabilidade": "Analisar os termos do edital para identificar oportunidades de submissão de projetos que promovam o multiempreendedorismo, empreendedorismo verde ou inclusão produtiva em comunidades da Amazônia.",
+      "link": "https://capta.org.br/oportunidades/edital-ambev-brasilidades-2026/"
     }
   ],
   "gestao": {
     "prioridades": {
       "alta": [
-        "Desenvolver programas de educação digital e cibersegurança para comunidades vulneráveis.",
-        "Mapear editais e linhas de financiamento do Fundo Amazônia, FBB, Prosas, Mapa OSC e Capta.",
-        "Iniciar contato com FAS e Sebrae AM para parcerias estratégicas."
+        "Monitoramento ativo de editais e fundos (Fundo Amazônia, FBB, Prosas, Mapa OSC, Capta)",
+        "Análise aprofundada dos eixos de atuação de grandes parceiros (Fundo Amazônia, FAS)",
+        "Exploração de parcerias estratégicas (Sebrae, IEL)"
       ],
       "media": [
-        "Explorar parcerias com SENAI/UFAM e IEL AM para programas de Jovem Aprendiz em tecnologia e capacitação.",
-        "Analisar eixos de atuação do Fundo Amazônia para alinhamento de projetos."
+        "Engajamento em advocacy para políticas públicas (SBPC)",
+        "Utilização de insights de pesquisa para design de programas (CIEE Gen Z)",
+        "Capacitação interna e de parceiros (Guia Capta)"
       ],
-      "baixa": [
-        "Monitorar discussões FIEAM/Suframa sobre desenvolvimento industrial para futuras conexões."
-      ]
+      "baixa": []
     },
     "acoes": [
       {
-        "acao": "Elaborar proposta de projeto de educação digital e cibersegurança para jovens e comunidades ribeirinhas.",
-        "responsavel": "Diretor(a) de Comunicação",
-        "prazo": "15 dias"
-      },
-      {
-        "acao": "Designar equipe para monitoramento contínuo de editais nas plataformas Fundo Amazônia, FBB, Prosas, Mapa OSC IPEA e Capta.",
+        "acao": "Criar rotina de monitoramento diário/semanal de editais e oportunidades nas plataformas Prosas, Mapa OSC IPEA e Capta Oportunidades.",
         "responsavel": "Diretor(a) de RIG",
         "prazo": "5 dias"
       },
       {
-        "acao": "Agendar reunião com representantes da FAS e Sebrae AM para discutir potenciais parcerias e alinhamento de projetos.",
-        "responsavel": "Diretor(a) Presidente",
+        "acao": "Analisar detalhadamente os eixos de atuação e projetos em destaque do Fundo Amazônia e da FAS para identificar alinhamentos e potenciais sinergias.",
+        "responsavel": "Diretor(a) Executivo(a)",
         "prazo": "10 dias"
       },
       {
-        "acao": "Realizar análise aprofundada dos eixos de atuação do Fundo Amazônia e identificar pontos de convergência com os objetivos da AME-AMAZÔNIA.",
+        "acao": "Agendar reunião com Sebrae AM e IEL AM para explorar formalização ou fortalecimento de parcerias para programas de capacitação e consultoria.",
+        "responsavel": "Diretor(a) Executivo(a)",
+        "prazo": "15 dias"
+      },
+      {
+        "acao": "Investigar os termos do Edital AMBEV Brasilidades 2026 e editais da Fundação BB (foco em tecnologias sociais) para avaliar a aplicabilidade de projetos da AME-AMAZÔNIA.",
         "responsavel": "Diretor(a) de RIG",
         "prazo": "7 dias"
       },
       {
-        "acao": "Contatar SENAI/UFAM e IEL AM para explorar oportunidades de programas de Jovem Aprendiz e capacitação em tecnologia.",
+        "acao": "Avaliar a possibilidade de engajamento com o Observatório das Eleições da SBPC para pautar temas de ciência, tecnologia e meio ambiente na agenda política regional.",
+        "responsavel": "Diretor(a) de Comunicação",
+        "prazo": "20 dias"
+      },
+      {
+        "acao": "Disseminar o 'Guia para Elaboração de Projetos Socioambientais Comunitários' internamente e com parceiros para fortalecer a capacidade de escrita de projetos.",
         "responsavel": "Diretor(a) Executivo(a)",
         "prazo": "10 dias"
       }
