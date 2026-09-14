@@ -1,4 +1,4 @@
-# Versão: v.4.9.0 (29062026-1219)
+# Versão: v.4.9.1 (15092026-1200) - CORREÇÃO: Falhas silenciosas agora abortam o script
 # Arquivo: coleta_noticias.py
 
 import os
@@ -840,8 +840,7 @@ def main():
     try:
         dados = buscar_dados()
         if not dados:
-            logging.warning("Fim: Nenhuma notícia capturada no momento.")
-            return
+            raise SystemExit("ERRO: Nenhuma notícia capturada das 24 fontes.")
 
         resultado_ia = processar_com_gemini(dados)
         
@@ -868,6 +867,7 @@ def main():
     except Exception as e:
         logging.error(f"Erro fatal não tratado: {e}")
         logging.error(traceback.format_exc())
+        raise SystemExit(1)
 
 if __name__ == "__main__":
     main()
