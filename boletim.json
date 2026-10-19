@@ -1,168 +1,168 @@
 {
-  "data": "12/10/2026 - 16:41",
+  "data": "19/10/2026 - 14:04",
   "cards": [
     {
-      "categoria": "Tecnologia",
-      "icone": "✈️",
+      "categoria": "Editais",
+      "icone": "📚",
       "cor": "#2E7D22",
-      "orgao": "Força Aérea Brasileira (FAB)",
-      "titulo": "FAB utiliza aviões avançados no combate a incêndios no Amazonas",
-      "resumo": "Aeronaves KC-390 Millennium da FAB, equipadas com sistema de combate a incêndios, reforçam ações no Amazonas, lançando 12 mil litros de água por voo para controlar focos e mitigar poluição do ar em Manaus e região.",
-      "aplicabilidade": "Monitorar situação ambiental, buscar parcerias em prevenção/recuperação, informar comunidades ribeirinhas e empreendedores rurais sobre esforços de combate.",
-      "link": "https://agenciabrasil.ebc.com.br/meio-ambiente/noticia/2026-10/avioes-militares-iniciam-combate-focos-de-incendio-no-amazonas"
+      "orgao": "Ministério da Educação (MEC)",
+      "titulo": "Programa Pé-de-Meia: Incentivo à Frequência Escolar para Jovens",
+      "resumo": "Pagamento da 7ª parcela do Pé-de-Meia para estudantes do ensino médio e EJA com frequência mínima. Programa visa permanência escolar e conclusão de estudos para jovens em vulnerabilidade.",
+      "aplicabilidade": "Divulgar o programa para jovens beneficiários da AME-AMAZÔNIA, auxiliar na atualização do CadÚnico e integrar informações em programas de apoio educacional.",
+      "link": "https://agenciabrasil.ebc.com.br/educacao/noticia/2026-10/pe-de-meia-pagamento-da-setima-parcela-comeca-nesta-segunda"
     },
     {
       "categoria": "Parcerias",
       "icone": "🌳",
-      "cor": "#2E7D22",
+      "cor": "#68BB8A",
       "orgao": "Fundo Amazônia",
-      "titulo": "Fundo Amazônia: Dados, Eixos e Projetos para Desenvolvimento Sustentável",
-      "resumo": "Informações cruciais sobre o Fundo Amazônia, incluindo números, eixos temáticos e projetos em destaque. Essencial para entender as oportunidades de financiamento para conservação e desenvolvimento sustentável na região.",
-      "aplicabilidade": "Monitorar editais e chamadas, mapear projetos para alinhamento com os eixos do Fundo, e analisar projetos de sucesso para captação de recursos em multiempreendedorismo e empreendedorismo verde.",
+      "titulo": "Fundo Amazônia: Oportunidades para Projetos de Meio Ambiente e Desenvolvimento Sustentável",
+      "resumo": "Fonte essencial de financiamento para iniciativas de combate ao desmatamento, conservação e desenvolvimento sustentável na Amazônia. Monitorar eixos de atuação e projetos em destaque.",
+      "aplicabilidade": "Desenvolver projetos alinhados aos eixos do Fundo Amazônia (Meio Ambiente, Empreendedorismo Verde) e buscar parcerias para financiamento de ações na Região Norte.",
       "link": "https://www.fundoamazonia.gov.br"
     },
     {
       "categoria": "Parcerias",
-      "icone": "🤝",
-      "cor": "#68BB8A",
-      "orgao": "Sebrae AM",
-      "titulo": "Sebrae AM oferece consultorias para multiempreendedores e rurais",
-      "resumo": "O Sebrae Amazonas disponibiliza consultorias especializadas para micro e pequenos empreendedores, abrangendo gestão e desenvolvimento de negócios, com foco no crescimento sustentável na região.",
-      "aplicabilidade": "Estabelecer parcerias para oferecer capacitação em multiempreendedorismo e empreendedorismo verde para o público-alvo, incluindo comunidades ribeirinhas e jovens.",
+      "icone": "💡",
+      "cor": "#2E7D22",
+      "orgao": "Sebrae Amazonas",
+      "titulo": "Serviços de Consultoria e Apoio ao Empreendedorismo do Sebrae AM",
+      "resumo": "Sebrae oferece consultorias e capacitações para micro e pequenos empreendedores, ideal para impulsionar o multiempreendedorismo e empreendedorismo rural na região.",
+      "aplicabilidade": "Encaminhar beneficiários da AME-AMAZÔNIA para consultorias do Sebrae e explorar parcerias para programas de capacitação em empreendedorismo.",
       "link": "https://am.loja.sebrae.com.br/"
     },
     {
       "categoria": "Parcerias",
-      "icone": "🎓",
+      "icone": "🚀",
       "cor": "#68BB8A",
-      "orgao": "IEL AM",
-      "titulo": "IEL AM: Cursos e capacitações para jovens e inclusão produtiva",
-      "resumo": "O Instituto Euvaldo Lodi (IEL) no Amazonas oferece cursos e programas de capacitação focados no desenvolvimento de carreira e inserção no mercado de trabalho para jovens e profissionais da região.",
-      "aplicabilidade": "Buscar parcerias para desenvolver programas de jovem aprendiz e capacitação profissional, alinhados às necessidades de inclusão produtiva de jovens em vulnerabilidade.",
+      "orgao": "Instituto Euvaldo Lodi (IEL AM)",
+      "titulo": "Cursos e Desenvolvimento de Carreira para Jovens e Profissionais",
+      "resumo": "O IEL AM oferece cursos e programas para desenvolvimento de carreira, alinhados à inclusão produtiva e educação de jovens para o mercado de trabalho.",
+      "aplicabilidade": "Estabelecer contato para parcerias em programas de educação e qualificação profissional, direcionando jovens e empreendedores da AME-AMAZÔNIA.",
       "link": "https://www.iel-am.org.br/"
     },
     {
       "categoria": "Parcerias",
       "icone": "🌿",
       "cor": "#2E7D22",
-      "orgao": "FAS Amazônia",
-      "titulo": "FAS Amazônia: Foco em conservação e desenvolvimento com comunidades locais",
-      "resumo": "A Fundação Amazônia Sustentável (FAS) atua em diversas frentes para conservação ambiental e desenvolvimento sustentável, com forte engajamento com comunidades locais, alinhada aos objetivos da AME-AMAZÔNIA.",
-      "aplicabilidade": "Explorar parcerias estratégicas em projetos de empreendedorismo verde, inclusão produtiva e assistência social para comunidades ribeirinhas e em vulnerabilidade na Região Norte.",
+      "orgao": "Fundação Amazônia Sustentável (FAS)",
+      "titulo": "Parcerias para Conservação Ambiental e Desenvolvimento Comunitário na Amazônia",
+      "resumo": "FAS atua na conservação ambiental e apoio a comunidades, com foco em desenvolvimento sustentável. Grande potencial para projetos com comunidades ribeirinhas e empreendedorismo verde.",
+      "aplicabilidade": "Buscar colaboração em projetos de sustentabilidade, empreendedorismo verde e apoio a comunidades vulneráveis e ribeirinhas na Região Norte.",
       "link": "https://fas-amazonia.org/"
     },
     {
-      "categoria": "Parcerias",
-      "icone": "💡",
+      "categoria": "Editais",
+      "icone": "💰",
       "cor": "#68BB8A",
-      "orgao": "Fundação Banco do Brasil",
-      "titulo": "Fundação BB: Oportunidades para projetos de tecnologias sociais",
-      "resumo": "A Fundação Banco do Brasil é uma importante financiadora de projetos sociais, com foco em tecnologias sociais, desenvolvimento sustentável e inclusão, oferecendo oportunidades para organizações alinhadas.",
-      "aplicabilidade": "Monitorar editais e chamadas da Fundação BB, especialmente para tecnologias sociais aplicadas ao multiempreendedorismo, meio ambiente e assistência social para comunidades vulneráveis.",
+      "orgao": "Fundação Banco do Brasil (FBB)",
+      "titulo": "Oportunidades de Financiamento para Projetos Sociais e Tecnologias Sociais",
+      "resumo": "A FBB é uma importante financiadora de projetos sociais e ambientais, com foco em tecnologias sociais, inclusão produtiva e assistência social.",
+      "aplicabilidade": "Monitorar editais da FBB para submissão de projetos em multiempreendedorismo, tecnologia e assistência social que beneficiem o público-alvo da AME-AMAZÔNIA.",
       "link": "https://fbb.org.br/"
     },
     {
       "categoria": "Parcerias",
-      "icone": "🚀",
-      "cor": "#68BB8A",
+      "icone": "🤝",
+      "cor": "#2E7D22",
       "orgao": "Instituto Localiza",
-      "titulo": "Instituto Localiza: Programas de desenvolvimento e inclusão para jovens",
-      "resumo": "O Instituto Localiza foca no desenvolvimento e inclusão de jovens, promovendo conexões e oportunidades para sua inserção no mercado de trabalho e crescimento pessoal, alinhado à educação e inclusão produtiva.",
-      "aplicabilidade": "Buscar parcerias em programas de jovem aprendiz, capacitação e mentoria para jovens em vulnerabilidade e empreendedores rurais na Região Norte.",
+      "titulo": "Apoio e Conexões para o Desenvolvimento da Juventude",
+      "resumo": "O Instituto Localiza foca no desenvolvimento e empoderamento de jovens, criando conexões para seu futuro. Alinhamento com educação e inclusão produtiva de jovens.",
+      "aplicabilidade": "Explorar parcerias para programas de capacitação, mentoria e inclusão produtiva voltados para jovens em vulnerabilidade atendidos pela AME-AMAZÔNIA.",
       "link": "https://www.institutolocaliza.org/"
     },
     {
       "categoria": "Parcerias",
-      "icone": "🧑‍🎓",
+      "icone": "👷",
       "cor": "#68BB8A",
       "orgao": "Instituto MRV",
-      "titulo": "Instituto MRV: Projeto +Aprendizagem para jovens aprendizes",
-      "resumo": "O Instituto MRV, através do Projeto +Aprendizagem, investe no desenvolvimento de jovens aprendizes, oferecendo qualificação e oportunidades de inserção no mercado de trabalho, com foco em educação e inclusão.",
-      "aplicabilidade": "Explorar parcerias para expandir programas de jovem aprendiz na Região Norte, adaptando-os às realidades locais e às necessidades de jovens em vulnerabilidade.",
+      "titulo": "Projeto +Aprendizagem: Desenvolvimento para Jovens Aprendizes",
+      "resumo": "Programa focado no desenvolvimento de jovens aprendizes. Excelente oportunidade para a AME-AMAZÔNIA conectar jovens ao mercado de trabalho e educação profissional.",
+      "aplicabilidade": "Contatar o Instituto MRV para parcerias no programa Jovem Aprendiz, oferecendo suporte ou encaminhando jovens da AME-AMAZÔNIA para as oportunidades.",
       "link": "https://institutomrv.com.br/"
     },
     {
       "categoria": "Editais",
-      "icone": "📢",
-      "cor": "#68BB8A",
-      "orgao": "Prosas Editais",
-      "titulo": "Prosas: Plataforma de editais e oportunidades de financiamento",
-      "resumo": "O Prosas é uma plataforma que centraliza editais e oportunidades de financiamento para projetos sociais e ambientais, sendo um recurso valioso para a captação de recursos e divulgação de iniciativas.",
-      "aplicabilidade": "Monitorar regularmente a plataforma para identificar editais de fundações, empresas e governos alinhados com os focos da AME-AMAZÔNIA.",
+      "icone": "🔍",
+      "cor": "#2E7D22",
+      "orgao": "Prosas",
+      "titulo": "Plataforma de Monitoramento de Editais e Oportunidades de Financiamento",
+      "resumo": "Central de editais que reúne diversas oportunidades de financiamento para organizações sociais. Essencial para identificar novas chamadas e ampliar o alcance.",
+      "aplicabilidade": "Monitorar ativamente a plataforma Prosas para identificar editais de interesse em todas as áreas de atuação da AME-AMAZÔNIA.",
       "link": "https://produtos.prosas.com.br/editais"
     },
     {
       "categoria": "Editais",
-      "icone": "📊",
+      "icone": "🗺️",
       "cor": "#68BB8A",
-      "orgao": "IPEA (Mapa das OSC)",
-      "titulo": "Mapa das OSC (IPEA): Editais para organizações da sociedade civil",
-      "resumo": "O Mapa das OSC do IPEA oferece um portal para consulta de dados e editais direcionados a organizações da sociedade civil, sendo uma ferramenta importante para identificar oportunidades de financiamento e parcerias.",
-      "aplicabilidade": "Utilizar o Mapa das OSC para pesquisar editais e chamadas públicas de órgãos governamentais e outras instituições, buscando financiamento para projetos.",
+      "orgao": "IPEA",
+      "titulo": "Mapa das OSC: Portal de Editais e Informações para Organizações da Sociedade Civil",
+      "resumo": "Portal do IPEA que agrega informações sobre OSCs e divulga editais. Recurso valioso para buscar financiamento e conhecer potenciais parceiros.",
+      "aplicabilidade": "Acompanhar o portal para identificar editais relevantes e oportunidades de colaboração com outras OSCs que atuam na Região Norte.",
       "link": "https://mapaosc.ipea.gov.br/editais"
     },
     {
       "categoria": "Editais",
-      "icone": "📚",
-      "cor": "#68BB8A",
-      "orgao": "Capta Oportunidades",
-      "titulo": "Capta: Guia para projetos socioambientais e editais abertos",
-      "resumo": "A Capta oferece um guia prático para elaboração de projetos socioambientais comunitários e lista editais e fontes de financiamento abertas, ideal para organizações de base e comunidades.",
-      "aplicabilidade": "Utilizar o guia para capacitar equipes e comunidades na elaboração de projetos e monitorar a plataforma para identificar novos editais de financiamento para todos os eixos de atuação.",
+      "icone": "📝",
+      "cor": "#2E7D22",
+      "orgao": "Capta",
+      "titulo": "Guia para Elaboração de Projetos Socioambientais e Editais Abertos",
+      "resumo": "Oferece um guia prático para projetos socioambientais comunitários e lista editais abertos. Recurso estratégico para desenvolvimento de propostas e captação.",
+      "aplicabilidade": "Utilizar o guia para aprimorar a elaboração de projetos e monitorar a plataforma para editais de inclusão produtiva, meio ambiente e assistência social.",
       "link": "https://capta.org.br/fontes-de-financiamento/oportunidades/"
-    },
-    {
-      "categoria": "Parcerias",
-      "icone": "👩🏾‍🦱",
-      "cor": "#68BB8A",
-      "orgao": "Capta Oportunidades",
-      "titulo": "Programa de Aceleração de Lideranças Femininas Negras Marielle Franco",
-      "resumo": "Programa focado no desenvolvimento e aceleração de lideranças femininas negras, promovendo inclusão e empoderamento, de interesse para ações de assistência social e inclusão produtiva.",
-      "aplicabilidade": "Identificar e apoiar a participação de mulheres do público-alvo da AME-AMAZÔNIA neste programa, fortalecendo a liderança feminina e a inclusão produtiva na região.",
-      "link": "https://capta.org.br/oportunidades/programa-de-aceleracao-do-desenvolvimento-de-liderancas-femininas-negras-marielle-franco-2/"
     }
   ],
   "gestao": {
     "prioridades": {
       "alta": [
-        "Monitorar ativamente editais do Fundo Amazônia, Prosas e Mapa OSC IPEA",
-        "Iniciar contato com Sebrae AM, IEL AM, FAS Amazônia, Fundação BB, Instituto Localiza e Instituto MRV para explorar parcerias",
-        "Analisar o guia da Capta para projetos socioambientais e aplicar em capacitações internas/comunitárias",
-        "Acompanhar a situação dos incêndios no Amazonas e as ações da FAB"
+        "Análise e submissão de projetos para editais abertos (Capta, FBB, Prosas, Mapa OSC)",
+        "Contato com Instituto MRV para programa Jovem Aprendiz"
       ],
       "media": [
-        "Mapear projetos internos da AME-AMAZÔNIA para alinhamento com eixos de financiadores (Fundo Amazônia, Fundação BB)",
-        "Identificar potenciais participantes para o Programa Marielle Franco"
+        "Explorar parcerias com Sebrae AM e IEL AM para capacitação",
+        "Mapear eixos de atuação do Fundo Amazônia e FAS para alinhamento estratégico",
+        "Divulgar programa Pé-de-Meia para a base de jovens"
       ],
       "baixa": [
-        "Desenvolver plano de comunicação para informar comunidades sobre esforços de combate a incêndios (quando relevante e seguro)"
+        "Estudar o guia da Capta para aprimoramento de projetos",
+        "Acompanhar iniciativas do Instituto Localiza para futuras colaborações"
       ]
     },
     "acoes": [
       {
-        "acao": "Pesquisar editais abertos no Fundo Amazônia, Prosas e Mapa OSC IPEA.",
+        "acao": "Analisar o 'Edital de Incentivo – Acelere o Relógio da Igualdade' da Capta e verificar aplicabilidade.",
         "responsavel": "Diretor(a) de RIG",
         "prazo": "3 dias"
       },
       {
-        "acao": "Elaborar e enviar e-mails de prospecção para Sebrae AM, IEL AM, FAS Amazônia, Fundação BB, Instituto Localiza e Instituto MRV.",
+        "acao": "Contatar Instituto MRV para discutir parceria no 'Projeto +Aprendizagem' e encaminhamento de jovens.",
+        "responsavel": "Diretor(a) Executivo(a)",
+        "prazo": "5 dias"
+      },
+      {
+        "acao": "Mapear editais relevantes nas plataformas Prosas e Mapa OSC IPEA, filtrando por foco da AME-AMAZÔNIA.",
+        "responsavel": "Diretor(a) de RIG",
+        "prazo": "7 dias"
+      },
+      {
+        "acao": "Elaborar plano de comunicação para divulgação do programa Pé-de-Meia para jovens da AME-AMAZÔNIA.",
         "responsavel": "Diretor(a) de Comunicação",
         "prazo": "5 dias"
       },
       {
-        "acao": "Analisar o 'Guia para Elaboração de Projetos Socioambientais Comunitários' da Capta e propor plano de uso.",
-        "responsavel": "Diretor(a) Executivo(a)",
-        "prazo": "7 dias"
-      },
-      {
-        "acao": "Mapear projetos internos da AME-AMAZÔNIA e identificar alinhamentos com os eixos de atuação do Fundo Amazônia e Fundação BB.",
+        "acao": "Agendar reuniões com Sebrae AM e IEL AM para explorar parcerias em programas de capacitação e inclusão produtiva.",
         "responsavel": "Diretor(a) Executivo(a)",
         "prazo": "10 dias"
       },
       {
-        "acao": "Identificar mulheres do público-alvo com potencial para o Programa Marielle Franco e iniciar contato.",
-        "responsavel": "Diretor(a) Executivo(a)",
+        "acao": "Estudar os eixos de atuação do Fundo Amazônia e FAS para identificar sinergias e potenciais projetos.",
+        "responsavel": "Diretor(a) Presidente",
         "prazo": "15 dias"
+      },
+      {
+        "acao": "Baixar e revisar o 'Guia para Elaboração de Projetos Socioambientais' da Capta para uso interno.",
+        "responsavel": "Diretor(a) de RIG",
+        "prazo": "7 dias"
       }
     ]
   }
